@@ -10,7 +10,25 @@ By ignoring AI attribute matching, you are silently bleeding high-intent, hyper-
 
 **The Solution:** The `kirby-local-seo` skill enforces the strict 4+1 Local Content Classification Engine and Google Ask Maps review engineering protocols. It forces your AI coding agent to generate local content and schema that guarantees your business entity passes the LLM attribute-matching phase.
 
-## Installation & Usage
-This is a standard AI agent skill (compatible with Antigravity, Cursor, Windsurf).
-1. Copy the `SKILL.md` and `references/` folder into your agent's skills directory.
-2. Trigger the skill by asking your agent to perform "Local SEO", "Google Ask Maps optimization", or "Geogrid review acquisition".
+## 🪄 The Magic Prompt
+
+Copy and paste this directly to your AI (Cursor, Windsurf, Claude Code, Antigravity):
+
+```markdown
+@agent Please install the kirby-local-seo skill into this workspace.
+1. Read the `SKILL.md` file and `references/` directory from this repository: https://github.com/markkirby125/kirby-local-seo
+2. Identify the correct rules system for our current environment (e.g., `.cursor/rules/` for Cursor, `.windsurfrules` for Windsurf, `.clinerules` for Cline, or `~/.agents/skills/` for Antigravity).
+3. Save the contents appropriately. If our environment supports multi-file dispatcher skills, clone the directory structure exactly.
+4. Confirm when the installation is complete.
+```
+
+## Manual Installation
+
+- **Cursor**: Save `SKILL.md` to `.cursor/rules/kirby-local-seo.mdc` and copy `references/`
+- **Windsurf**: Save `SKILL.md` to `.windsurfrules` and copy `references/`
+- **Antigravity**: Clone this repository directly into `~/.agents/skills/kirby-local-seo`
+
+## Tech Stack
+
+- **Format**: Markdown / YAML
+- **Compatibility**: Antigravity, Claude Code, Cursor, Windsurf, Cline
