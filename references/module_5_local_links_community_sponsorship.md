@@ -1,6 +1,6 @@
 # Module 5: Local Link Building via Community Sponsorship
 
-*Source: Zip Sprout / The Edward Show E1109*
+*Source: Ellen Sartin & Garrett French (ZipSprout) / The Edward Show, Episode 1109*
 
 ### **5.1 The Local Link Imperative**
 Traditional digital PR and generic guest posting have diminishing returns for local businesses. In local SEO, relevance beats raw Domain Authority. AI search engines and Google Maps algorithms heavily reward hyper-local entity corroboration. The most effective lever for this is wrapping link building around genuine community sponsorship.

@@ -650,7 +650,7 @@ Identify discrepancies where client claims are missing from on-page copy, and re
 
 ### **3.13 The Ask Maps Shift & Extreme Review Velocity**
 
-*Source: Google Maps Ask Maps Updates & Official Documentation (2026)*
+*Source: Google Maps "Ask Maps" Generative Discovery Updates (Darren Shaw, Whitespark & Edward Sturm)*
 
 Google Maps is undergoing a fundamental algorithmic shift from proximity-based ranking to AI-mediated evaluation (via the "Ask Maps" capability). AI now parses the *sentiment* of reviews to recommend businesses for highly specific generative queries (e.g., *"quiet coffee shop with fast wifi"*, rather than just *"coffee shop near me"*). 
 
