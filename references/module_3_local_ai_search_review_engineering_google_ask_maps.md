@@ -647,3 +647,23 @@ Identify discrepancies where client claims are missing from on-page copy, and re
 - [ ] Patch WordPress form software (Gravity Forms) across all portfolio assets.
 
 ---
+
+### **3.13 The Ask Maps Shift & Extreme Review Velocity**
+
+*Source: Google Maps Ask Maps Updates & Official Documentation (2026)*
+
+Google Maps is undergoing a fundamental algorithmic shift from proximity-based ranking to AI-mediated evaluation (via the "Ask Maps" capability). AI now parses the *sentiment* of reviews to recommend businesses for highly specific generative queries (e.g., *"quiet coffee shop with fast wifi"*, rather than just *"coffee shop near me"*). 
+
+#### A. The Recommendation Imperative
+* **Ranking vs. Recommendation:** Historically, a complete GBP profile and geographic proximity guaranteed visibility. Under "Ask Maps", AI actively reads your reviews to answer user queries. You must shift your strategy from merely *ranking* to getting explicitly *recommended* by the AI.
+* **Review Sentiment is the New Content:** Google treats customer reviews as the primary content layer for local search. If a service is not mentioned explicitly in positive reviews, the AI will not recommend the business for that service.
+
+#### B. Extreme Review Velocity
+* The AI weighting system heavily penalizes stale profiles. Earning 50 reviews three years ago will lose to a competitor earning 2 reviews every week. 
+* **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups) to ensure a constant, high-velocity stream of inbound reviews.
+
+*Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 (Hyper-Localized Neighborhood Content)**.*
+
+**Ask Maps Optimization Checklist**
+- [ ] Implement point-of-sale or immediate post-service SMS review requests to maintain high review velocity.
+- [ ] Audit recent reviews to ensure customers are naturally mentioning specific services and neighborhoods.
