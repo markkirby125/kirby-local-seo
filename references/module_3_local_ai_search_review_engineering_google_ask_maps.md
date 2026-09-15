@@ -140,7 +140,7 @@ Treat the Google Business Profile (GBP) as the primary conversion asset, not the
 - [ ] Confirm all extracted landmarks resolve correctly in Google Places API.
 - [ ] Validate content informational additivity (zero boilerplate / average content).
 - [ ] Integrate authentic local data from an approved structural or demographic source.
-- [ ] Confirm this URL is more specific than existing same-spec siblings on the domain (§2.8); do not add a 30th clone.
+- [ ] Confirm this URL is more specific than existing same-spec siblings on the domain (`kirby-aiseo-skill` §2.8; observed pattern, not a published Google threshold); do not add another same-spec clone.
 - [ ] If rewriting an indexed-then-pulled geo URL, use §3.6.2 C on the same URL (no slug reset).
 - [ ] Implement Supporting Content Hub routing if >10 geo-pages exist.
 - [ ] Verify two-way internal link return architecture is active on every geo-page.
@@ -294,18 +294,21 @@ Google's semantic neural models frequently test a page for high-intent modifier 
 A Core 30 build where 15 pages remain unindexed delivers zero entity support to the GBP.
 * **Audit Routine:** Monitor GSC **Pages $\rightarrow$ Why pages aren't indexed**. Split `Crawled - currently not indexed` from `Discovered - currently not indexed` before acting (`kirby-aiseo-skill` §1.16).
 * **Remediation for `Crawled - currently not indexed`:**
-  1. **Router first:** If this URL was previously indexed and then pulled, with sibling same-spec pages still live, this is a keep-verdict. Rewrite words on the **same URL** using §3.6.2 execution order. Do not slug-reset, do not cosmetic-`noindex`, do not “add 5 links and Request Indexing.”
+  1. **Router first:** If this URL was previously indexed and then pulled, with sibling same-spec pages still live, this is a keep-verdict. Rewrite words on the **same URL** using §3.6.2 C. Do not slug-reset, do not cosmetic-`noindex`, do not “add 5 links and Request Indexing.”
   2. If the URL **never indexed** and meets all four Canon Law criteria, then apply slug reset (`kirby-aiseo-skill` §1.8).
-  3. Confirm two-way internal linking between the parent category page and the sub-service URL (§3.6) only when the status is **`Discovered`** (crawl demand), not as a fix for a keep-verdict.
-  4. Six or more fails from the same generator: stop that template; measure fail-rate slope (`kirby-seo-telemetry` Module 8); improve the generator or 410 the batch.
+  3. Six or more fails from the same generator: stop that template; measure fail-rate slope (`kirby-seo-telemetry` Module 8); improve the generator or 410 the batch.
+* **Remediation for `Discovered - currently not indexed`:**
+  1. Crawl demand, not copy. Confirm two-way internal linking between the parent category page and the sub-service URL (§3.6). Follow `kirby-aiseo-skill` §10.8 and §1.15.
+  2. Do not rewrite body copy, slug-reset, or `noindex` as the first move.
 
 **Core 30 GSC Audit Checklist**
 - [ ] Export 90-day paired `[Page]` + `[Query]` data via `Search Analytics for Sheets` or GSC API.
 - [ ] Audit every Core 30 URL for query-intent misalignment and algorithmic hedging.
 - [ ] Filter paired export for high-impression material, system type, and urgency modifiers missing from the DOM.
 - [ ] Surgically weave missing modifier terms into existing paragraphs without changing layout.
-- [ ] Verify that 100% of Core 30 URLs are indexed in GSC; split Crawled vs Discovered before remediating (§1.16).
-- [ ] For indexed-then-pulled location/Core 30 URLs, rewrite via §3.6.2 on the same URL; do not slug-reset first.
+- [ ] Verify that 100% of Core 30 URLs are indexed in GSC; split Crawled vs Discovered before remediating (`kirby-aiseo-skill` §1.16).
+- [ ] Crawled + indexed-then-pulled: rewrite via §3.6.2 C on the same URL; do not slug-reset first.
+- [ ] Discovered: two-way links / §10.8 / §1.15; do not rewrite copy first.
 
 ---
 
@@ -348,7 +351,9 @@ Before generating an outline or writing a single sentence for any Core 30 servic
                     └───────────────────────────┘
 ```
 
-1. **US Census Bureau & Municipal Housing Data:** Extracts average property age, housing construction density, heating/infrastructure types, and socio-economic realities for the target postal sector. Data source — not the first move on an indexed-then-pulled rewrite (see execution order below).
+These five items are **ingestion sources, not execution order**. For every Core 30 draft (new page or rewrite), start with first-party Google surfaces when they exist, then spoken calls, then neighborhood Reddit, then the through-line. Census / housing **feeds** the draft; it is not step 1. New URLs have no GSC-this-URL history — still start with GBP Insights, calls, and neighborhood Reddit, not Census.
+
+1. **US Census Bureau & Municipal Housing Data:** Extracts average property age, housing construction density, heating/infrastructure types, and socio-economic realities for the target postal sector. Feeds the draft; never the first move.
 2. **Hyper-Local Reddit & Community Discussions:** That **neighborhood / area**, not the service topic in general. What residents complain about and warn each other about on that patch of the city.
 3. **First-Party Google surfaces:** (a) GSC queries **this URL already surfaces for**, including weekly impressions and position ~95 — do not argue for keywords you wish it ranked for; (b) GBP Performance Insights for queries Google already associates with the profile.
 4. **Client CRM, Intake Forms & Dispatch Call Logs:** Spoken language from recorded calls and dispatch notes, which differs from typed search queries. Neighborhood call-outs, parts replaced, friction points.
@@ -369,11 +374,11 @@ For an indexed-then-pulled location or geo URL (`kirby-aiseo-skill` §1.16), run
 4. Reddit / community threads for **that neighborhood**, not the trade topic.
 5. A through-line: why someone in that part of the city ends up calling this business (commit the angle to the Story History Register before writing).
 
-Census / housing data still feeds the draft, but it is not step 1. Intra-domain same-spec volume limits: `kirby-aiseo-skill` §2.8. Pre-publish acid test: §2.32B.
+Census / housing data still feeds the draft, but it is not step 1. Intra-domain same-spec volume limits: `kirby-aiseo-skill` §2.8. Pre-publish acid test: `kirby-aiseo-skill` §2.32B.
 
 **Core 30 Agent Pipeline Checklist**
 - [ ] For indexed-then-pulled location URLs, follow execution order §3.6.2 C (GSC-this-URL → GBP Insights → spoken calls → neighborhood Reddit → through-line) on the same URL.
-- [ ] Connect agent workflow to US Census housing metrics and local forum discussions before generating drafts.
+- [ ] Census / housing feeds the draft; do not start with Census when GBP Insights, calls, or neighborhood Reddit exist.
 - [ ] Ingest first-party GSC query logs **for this URL** (including position ~95) plus GBP Performance Insights; do not substitute wished-for keywords.
 - [ ] Incorporate primary CRM job records and call transcripts (spoken language, neighborhood postcodes).
 - [ ] Restrict Reddit intake to that neighborhood / area, not the service topic in general.
@@ -439,7 +444,7 @@ Rather than guessing local search intent, reverse-engineer the exact GBP taxonom
   * *Correct (High-Intent Consumer):* `IT Support Ascot & Berkshire | £0 Call-Out Emergency IT Help | Berkshire IT Services`
 
 #### D. The 1-Backlink Per Core 30 Hub Standard
-Launching 30 internal pages with zero external validation risks indexation stagnation (`Crawled - currently not indexed`).
+Launching 30 internal pages with zero external validation risks crawl-demand stagnation (`Discovered - currently not indexed`). Keep-verdicts on already-fetched URLs are `kirby-aiseo-skill` §1.16, not a backlink gap.
 * Ensure that each Core 30 secondary category hub is anchored by **at least 1 verified external backlink**—such as a local Chamber of Commerce directory listing (§4.3.1), a municipal festival sponsorship, or an official manufacturer accreditation link.
 
 **Super Citations & Core 30 Audit Checklist**
