@@ -238,7 +238,7 @@ While the SEO Colony Engine effectively manufactures internal PageRank when tigh
 **Mandatory Colony Guardrails:**
 1. **The Strict 15-URL Hard Cap:** A single domain must never host more than **10 to 15 total colony micro-pages** across all service categories combined.
 2. **Mandatory Consolidation Rule:** If a PAA question does not strictly satisfy the Zero-Competition qualification (Section 3.9B), it must be integrated as an on-page `<h2>`/`<h3>` FAQ accordion on the primary service page rather than deployed as an isolated URL.
-3. **Proprietary Data Injection:** Every colony micro-page must pass Lily Ray's Pre-Publishing Acid Test (§2.32B) by including at least one proprietary local metric (local labor turnaround, municipal requirement, or neighborhood pricing floor).
+3. **Proprietary Data Injection:** Every colony micro-page must pass Lily Ray's Pre-Publishing Acid Test (`kirby-aiseo-skill` §2.32B) by including at least one proprietary local metric (local labor turnaround, municipal requirement, or neighborhood pricing floor).
 
 **SEO Colony Execution Checklist**
 - [ ] Run primary service entities through `alsoask.com` to extract 20–30 PAA question nodes.
@@ -308,7 +308,7 @@ A Core 30 build where 15 pages remain unindexed delivers zero entity support to 
 - [ ] Surgically weave missing modifier terms into existing paragraphs without changing layout.
 - [ ] Verify that 100% of Core 30 URLs are indexed in GSC; split Crawled vs Discovered before remediating (`kirby-aiseo-skill` §1.16).
 - [ ] Crawled + indexed-then-pulled: rewrite via §3.6.2 C on the same URL; do not slug-reset first.
-- [ ] Discovered: two-way links / §10.8 / §1.15; do not rewrite copy first.
+- [ ] Discovered: two-way links / `kirby-aiseo-skill` §10.8 / §1.15; do not rewrite copy first.
 
 ---
 
