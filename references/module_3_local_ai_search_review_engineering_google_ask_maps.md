@@ -566,18 +566,14 @@ Service Area Businesses (SABs) that operate without a public physical storefront
 * **The "Net New Local Data Test" (50% Differentiation Rule):** Publishing 20 templated pages with programmatically swapped city names triggers Google's Scaled Content Abuse classifiers, resulting in sitewide de-indexing.
   * Every location page must demonstrate **at least 50% unique copy**.
   * If you cannot write genuinely unique, non-duplicable details about serving that specific town—local infrastructure nuances, estate names, authentic job references—**do not publish the page**.
-* **Anatomy of a Fast-Ranking Neighborhood Landing Page:**
-  1. **Exact-Match `<h1>`:** Format strictly as `[Service] in [Neighborhood]` (e.g., `<h1>Emergency Computer Repair in Sunningdale</h1>`).
-  2. **The "Instant Yes" First Paragraph (BLUF):** Answer the searcher's core question—*"Do you serve my area and how quickly can you arrive?"*—within the first two sentences. State exact call-out SLAs and diagnostic pricing immediately to eliminate bounce rate.
-  3. **Hyper-Local Context & Pain Points:** Address the immediate technical or trade emergency while embedding natural references to local landmarks, housing density, or wiring/plumbing standards.
-  4. **Localized FAQ Block:** 3 to 5 structured questions addressing neighborhood-specific travel fees, turnaround times, and local logistics.
+* **Neighborhood landing-page copy:** Do not specify H1, Instant-Yes/BLUF openings, or localized FAQ blocks here. Those rules live in **Module 4 §4.3**.
 
 **Secondary-City & Edge Architecture Checklist**
 - [ ] Identify secondary and tertiary regional cities with high commercial demand and fragmented competition.
 - [ ] Deploy the Star Method: rank the central secondary hub before launching radial satellite pages.
 - [ ] Implement Hierarchical Pyramid URLs (`/service/city/`) for all Service Area Business satellite pages.
 - [ ] Enforce the Net New Local Data Test: verify $\ge 50\%$ unique copy and genuine local proof before publishing.
-- [ ] Structure neighborhood pages with an Exact-Match `<h1>` and "Instant Yes" first paragraph.
+- [ ] Structure neighborhood pages per Module 4 §4.3 (exact-match H1 and Instant-Yes opening live there).
 - [ ] Build static flat HTML sites deployed on Cloudflare Pages for sub-50ms TTFB and perfect Core Web Vitals.
 - [ ] Enforce complete domain isolation: strictly zero inter-domain linking between regional properties.
 
@@ -662,7 +658,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 * The AI weighting system heavily penalizes stale profiles. Earning 50 reviews three years ago will lose to a competitor earning 2 reviews every week. 
 * **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups) to ensure a constant, high-velocity stream of inbound reviews.
 
-*Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 (Hyper-Localized Neighborhood Content)**.*
+*Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 §4.3**.*
 
 **Ask Maps Optimization Checklist**
 - [ ] Implement point-of-sale or immediate post-service SMS review requests to maintain high review velocity.

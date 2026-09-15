@@ -22,7 +22,7 @@ Generic "Tips for Homeowners" articles fail to rank or convert. Content must ref
 
 ### **4.4 Technical Foundation & Internal Link Loops**
 If the site's foundations are broken, no amount of content or GBP optimization will stick.
-* **The Baseline Audit:** Delegate a full Screaming Frog technical audit to the `seo-technical` skill before touching keywords. Fix all broken links, duplicate titles/descriptions, missing H1s, redirect chains, and canonical tag issues.
+* **The Baseline Audit:** Delegate a full Screaming Frog technical audit to `kirby-aiseo-skill` Module 1 (crawler accessibility and crawl depth) before touching keywords. Fix all broken links, duplicate titles/descriptions, missing H1s, redirect chains, and canonical tag issues.
 * **The Authority Loop:** Restructure internal linking to flow naturally and build topical authority:
   * Homepage links out to core services.
   * Service pages link to relevant local blogs.
