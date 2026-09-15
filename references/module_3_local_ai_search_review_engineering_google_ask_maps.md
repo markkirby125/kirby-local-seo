@@ -126,7 +126,7 @@ Treat the Google Business Profile (GBP) as the primary conversion asset, not the
 
 * **Trigger Condition:** Deploy this pipeline strictly after the Topical Relevance Threshold (Module 5.9) has been met. Identify specific geo-grid coordinates registering positions 4, 5, or 6 for the target service entity — these designate priority geo-expansion zones.
 * **Landmark Selection via Google Places API:** Query the Google Places API (`places/v1/places:searchNearby` or legacy `findplacefromtext`) to extract verified regional landmarks (lakes, parks, civic centres, colleges, major highway junctions, notable estates) surrounding each rank deficit zone. Utilising landmarks explicitly recognised within Google's Knowledge Graph eliminates the risk of referencing locations Google cannot algorithmically resolve.
-* **Content Informational Additivity Requirement:** Google's 2025 de-indexing actions specifically targeted geo-content representing *"the average of what already exists."* Geo-pages must introduce genuinely new, non-redundant information detailing why executing the target service entity in that specific micro-area differs from adjacent locales.
+* **Content Informational Additivity Requirement:** Google's 2025 de-indexing actions specifically targeted geo-content representing *"the average of what already exists."* Geo-pages must introduce genuinely new, non-redundant information detailing why executing the target service entity in that specific micro-area differs from adjacent locales. Intra-domain same-spec volume: `kirby-aiseo-skill` §2.8. Indexed-then-pulled geo URLs: rewrite via §3.6.2 C; do not slug-reset first (`kirby-aiseo-skill` §1.16).
 * **Approved Data Sources for Authentic Localisation:**
   * US Census Bureau (housing stock age, building density, demographic profile)
   * Rightmove / Zoopla (UK equivalent: local property age, estate type)
@@ -140,6 +140,8 @@ Treat the Google Business Profile (GBP) as the primary conversion asset, not the
 - [ ] Confirm all extracted landmarks resolve correctly in Google Places API.
 - [ ] Validate content informational additivity (zero boilerplate / average content).
 - [ ] Integrate authentic local data from an approved structural or demographic source.
+- [ ] Confirm this URL is more specific than existing same-spec siblings on the domain (§2.8); do not add a 30th clone.
+- [ ] If rewriting an indexed-then-pulled geo URL, use §3.6.2 C on the same URL (no slug reset).
 - [ ] Implement Supporting Content Hub routing if >10 geo-pages exist.
 - [ ] Verify two-way internal link return architecture is active on every geo-page.
 
@@ -290,20 +292,20 @@ Google's semantic neural models frequently test a page for high-intent modifier 
 
 #### D. Core 30 Indexation Governance
 A Core 30 build where 15 pages remain unindexed delivers zero entity support to the GBP.
-* **Audit Routine:** Monitor GSC **Pages $\rightarrow$ Why pages aren't indexed**.
+* **Audit Routine:** Monitor GSC **Pages $\rightarrow$ Why pages aren't indexed**. Split `Crawled - currently not indexed` from `Discovered - currently not indexed` before acting (`kirby-aiseo-skill` §1.16).
 * **Remediation for `Crawled - currently not indexed`:**
-  1. Confirm two-way internal linking between the parent category page and the sub-service URL (§3.6).
-  2. Audit the page's `<title>` tag. Ensure it is not just the generic exact-match keyword. Apply the differentiation formula: `[Keyword] | [Benefit/Goal] | [Brand Name]` to signal distinct value to Googlebot.
-  3. Add at least 1 outbound reference link to an official trade authority or standard body (e.g., Gas Safe Register, British Gypsum, Checkatrade).
-  4. Submit for re-crawl in GSC URL Inspection. If the page remains deindexed after 14 days, apply the **Canon Law Slug Reset Protocol** (§1.8) or utilize verified paid indexation (Index Me Now) to force ingestion.
+  1. **Router first:** If this URL was previously indexed and then pulled, with sibling same-spec pages still live, this is a keep-verdict. Rewrite words on the **same URL** using §3.6.2 execution order. Do not slug-reset, do not cosmetic-`noindex`, do not “add 5 links and Request Indexing.”
+  2. If the URL **never indexed** and meets all four Canon Law criteria, then apply slug reset (`kirby-aiseo-skill` §1.8).
+  3. Confirm two-way internal linking between the parent category page and the sub-service URL (§3.6) only when the status is **`Discovered`** (crawl demand), not as a fix for a keep-verdict.
+  4. Six or more fails from the same generator: stop that template; measure fail-rate slope (`kirby-seo-telemetry` Module 8); improve the generator or 410 the batch.
 
 **Core 30 GSC Audit Checklist**
 - [ ] Export 90-day paired `[Page]` + `[Query]` data via `Search Analytics for Sheets` or GSC API.
 - [ ] Audit every Core 30 URL for query-intent misalignment and algorithmic hedging.
 - [ ] Filter paired export for high-impression material, system type, and urgency modifiers missing from the DOM.
 - [ ] Surgically weave missing modifier terms into existing paragraphs without changing layout.
-- [ ] Verify that 100% of Core 30 URLs are indexed in GSC; remediate any crawled-not-indexed pages.
-- [ ] Identify any pages in `Crawled - currently not indexed` and rewrite their `<title>` tags to include a unique benefit/searcher goal rather than just the generic exact-match keyword.
+- [ ] Verify that 100% of Core 30 URLs are indexed in GSC; split Crawled vs Discovered before remediating (§1.16).
+- [ ] For indexed-then-pulled location/Core 30 URLs, rewrite via §3.6.2 on the same URL; do not slug-reset first.
 
 ---
 
@@ -346,10 +348,10 @@ Before generating an outline or writing a single sentence for any Core 30 servic
                     └───────────────────────────┘
 ```
 
-1. **US Census Bureau & Municipal Housing Data:** Extracts average property age, housing construction density, heating/infrastructure types, and socio-economic realities for the target postal sector.
-2. **Hyper-Local Reddit & Community Discussions:** Scrapes uncensored forum discussions where real local homeowners discuss specific recurring trade failures, soil issues, and local contractor experiences in that municipality.
-3. **First-Party Google Search Console Query Data:** Ingests actual search queries from the client's own Search Console property, anchoring the content strictly to terms Google has already associated with the domain (§3.6.1).
-4. **Client CRM, Intake Forms & Dispatch Call Logs:** Extracts authentic customer problem descriptions, real neighborhood call-outs, parts replaced, and specific technical friction points encountered on recent jobs.
+1. **US Census Bureau & Municipal Housing Data:** Extracts average property age, housing construction density, heating/infrastructure types, and socio-economic realities for the target postal sector. Data source — not the first move on an indexed-then-pulled rewrite (see execution order below).
+2. **Hyper-Local Reddit & Community Discussions:** That **neighborhood / area**, not the service topic in general. What residents complain about and warn each other about on that patch of the city.
+3. **First-Party Google surfaces:** (a) GSC queries **this URL already surfaces for**, including weekly impressions and position ~95 — do not argue for keywords you wish it ranked for; (b) GBP Performance Insights for queries Google already associates with the profile.
+4. **Client CRM, Intake Forms & Dispatch Call Logs:** Spoken language from recorded calls and dispatch notes, which differs from typed search queries. Neighborhood call-outs, parts replaced, friction points.
 5. **Client Differentiation & Equipment Matrix:** Maps specific machinery owned, certifications held, manufacturer warranties offered, and operational guarantees that competing operators in that market cannot claim.
 
 #### B. The Domain Story History Engine (Anti-Repetition Memory)
@@ -358,10 +360,23 @@ Google's spam filters detect programmatic scaling not only by syntax, but by nar
 * **Cross-Page Narrative Memory:** The agent maintains a persistent **Domain Story History Register** recording the core conflict, historical context, and technical angle deployed on every previously generated URL.
 * **The Non-Repetition Rule:** When drafting subsequent pages (e.g., moving from Water Heater Installation to Sump Pump Replacement), the agent cross-references the Story History Register. It is strictly barred from reusing the same story archetype, structural progression, or local case narrative. Each Core 30 page presents an entirely distinct narrative perspective grounded in verified local telemetry.
 
+#### C. Location-Page Rewrite Execution Order
+For an indexed-then-pulled location or geo URL (`kirby-aiseo-skill` §1.16), run the five streams in this order. Same URL, same template chrome, **words only**.
+
+1. GSC queries **this URL** already ranks or impresses for (even weekly / position 95). Add onto Google’s hypothesis; do not replace it.
+2. GBP Performance Insights for the same entity.
+3. Call transcripts — spoken phrasing, not typed keywords.
+4. Reddit / community threads for **that neighborhood**, not the trade topic.
+5. A through-line: why someone in that part of the city ends up calling this business (commit the angle to the Story History Register before writing).
+
+Census / housing data still feeds the draft, but it is not step 1. Intra-domain same-spec volume limits: `kirby-aiseo-skill` §2.8. Pre-publish acid test: §2.32B.
+
 **Core 30 Agent Pipeline Checklist**
+- [ ] For indexed-then-pulled location URLs, follow execution order §3.6.2 C (GSC-this-URL → GBP Insights → spoken calls → neighborhood Reddit → through-line) on the same URL.
 - [ ] Connect agent workflow to US Census housing metrics and local forum discussions before generating drafts.
-- [ ] Ingest first-party GSC query logs to ground entity headings in verified user demand.
-- [ ] Incorporate primary CRM job records (actual failure mechanisms, job parts, and neighborhood postcodes).
+- [ ] Ingest first-party GSC query logs **for this URL** (including position ~95) plus GBP Performance Insights; do not substitute wished-for keywords.
+- [ ] Incorporate primary CRM job records and call transcripts (spoken language, neighborhood postcodes).
+- [ ] Restrict Reddit intake to that neighborhood / area, not the service topic in general.
 - [ ] Query the Domain Story History Register to verify the proposed narrative angle has not been deployed on existing URLs.
 - [ ] Commit the approved story angle and structural fingerprint to the register upon publishing.
 
