@@ -374,7 +374,9 @@ For an indexed-then-pulled location or geo URL (`kirby-aiseo-skill` §1.16), run
 4. Reddit / community threads for **that neighborhood**, not the trade topic.
 5. A through-line: why someone in that part of the city ends up calling this business (commit the angle to the Story History Register before writing).
 
-Census / housing data still feeds the draft, but it is not step 1. Intra-domain same-spec volume limits: `kirby-aiseo-skill` §2.8. Pre-publish acid test: `kirby-aiseo-skill` §2.32B.
+**Effort & recovery benchmarks:** Case-study scope is ~3.5 hours per page. Expect re-indexation within ~1 week of the rewrite (observed: 3/3 re-indexed in a week). If no movement after ~2 weeks, re-check the template fail-rate slope in `kirby-seo-telemetry` Module 8 rather than re-rewriting the page.
+
+Census / housing data still feeds the draft, but it is not step 1. Intra-domain same-spec volume limits: `kirby-aiseo-skill` §2.8. Pre-publish acid test: `kirby-aiseo-skill` §2.32B — the GSC/GBP/calls/Reddit/through-line evidence is what makes the answer NO.
 
 **Core 30 Agent Pipeline Checklist**
 - [ ] For indexed-then-pulled location URLs, follow execution order §3.6.2 C (GSC-this-URL → GBP Insights → spoken calls → neighborhood Reddit → through-line) on the same URL.
