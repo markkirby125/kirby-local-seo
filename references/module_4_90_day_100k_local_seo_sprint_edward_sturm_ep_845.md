@@ -9,10 +9,18 @@ Most businesses treat the Google Business Profile (GBP) as an afterthought. It m
 * **The 10-Review Launch Sequence:** Immediately email past clients to secure 10+ reviews in the first week. This establishes the initial trust threshold required to appear in the map pack.
 * **Freshness & Completeness:** Upload real, authentic images (zero stock photography), fill out all categories and hours, and commit to weekly profile updates. Google algorithms heavily reward fresh data.
 
-### **4.2 The Single "Money-Printing" Page**
-Instead of relying on a generic homepage or vague "Our Services" hub, launch with one surgical landing page built exclusively to rank and convert for the highest-margin service in the primary city.
-* **Zero Fluff:** Remove generic corporate welcomes. State exactly what you do, where you do it, and why the customer should care.
-* **Laser-Targeted Intent:** Examples include *"Same-Day Drain Cleaning in Denver"* or *"Top-Rated AC Repair in Phoenix – Book Now"*. 
+### **4.2 The Five-Page Lean Site Architecture (The Kylie Murphy Blueprint - Ep. 845 & Ep. 1169)**
+
+Instead of burning resources building bloated 50-article blog networks or complicated content silos, local service businesses thrive by launching a disciplined **Five-Page Site Architecture** built exclusively to rank and convert for high-intent, brand-agnostic commercial keywords.
+
+* **The Empirical Benchmark (Kylie Murphy Case Study - Ep. 1169):** A 5-page local website deployed with strict on-page SEO and **zero link building** scaled to **~10,000 organic clicks and 200+ Google reviews** within 12 months, generating consistent inbound phone leads without ongoing agency retainer costs.
+* **The 5-Page Canonical Architecture:**
+  1. **Homepage (Entity Anchor):** Brand Name + Primary City + Primary Service Category entity declaration. Features GBP map embed, business licensing, and trust badges.
+  2. **Service Page 1 (Primary "Money-Printing" Page):** Laser-targeted on the highest-margin service. Exact match across the 4 spots (`<title>`, URL slug, `<h1>`, first sentence hook; e.g., `domain.com/emergency-plumber-denver/`). Answers the 4 transactional pillars (Price floor, SLA, Scope, Credentials) above the fold with a single primary CTA.
+  3. **Service Page 2 (Secondary High-Intent Page):** Targets the second highest-margin commercial service or distinct emergency sub-specialty (e.g., `domain.com/drain-cleaning-denver/`).
+  4. **About / E-E-A-T Trust Hub:** Verified founder/team photography (zero stock art), physical address, trade association credentials, insurance certificates, and local community sponsorship badges (`kirby-local-seo` Module 5).
+  5. **Contact / Instant Booking Runway:** Frictionless booking calendar, click-to-call phone buttons, and emergency dispatch request form.
+* **The Prohibition of Premature Blog Churn:** Local service businesses must strictly ban the mass-production of generic informational blog posts (*"10 Tips to Clean Your Gutter"*) until the core 5 pages have been validated, indexed, and paired with active review velocity (Module 3 §3.13). High-intent searchers call from service landing pages, not top-of-funnel blogs. 
 
 ### **4.3 Hyper-Localized "Neighborhood" Content**
 Generic "Tips for Homeowners" articles fail to rank or convert. Content must reflect ground-level local reality.
