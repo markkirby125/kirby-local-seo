@@ -20,3 +20,4 @@ This skill handles Local AI Search & Review Engineering.
 - You are executing a rapid 90-day local SEO sprint focusing on money pages and technical audits.
 - You are planning local link acquisition via non-profits, schools, or community sponsorships.
 - You are rewriting indexed-then-pulled location / geo / Core 30 pages (`Crawled - currently not indexed`). Router: `kirby-aiseo-skill` §1.16. Execution order: Module 3 §3.6.2 C.
+- You are integrating a post-review Google Preferred Source opt-in loop into a local customer retention workflow: route to `kirby-preferred-sources` Module 2.
