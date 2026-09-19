@@ -196,4 +196,4 @@ To cement the connection between on-page `LocalBusiness` structured data and the
 }
 ```
 
-This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3). For complete `LocalBusiness` JSON-LD schema syntax, nested entity nodes, and validation protocols, see `../../kirby-aiseo-skill/SKILL.md` §2.14.
+This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3) while binding on-page entity data directly to the Google Knowledge Graph.
