@@ -240,6 +240,13 @@ While the SEO Colony Engine effectively manufactures internal PageRank when tigh
 2. **Mandatory Consolidation Rule:** If a PAA question does not strictly satisfy the Zero-Competition qualification (Section 3.9B), it must be integrated as an on-page `<h2>`/`<h3>` FAQ accordion on the primary service page rather than deployed as an isolated URL.
 3. **Proprietary Data Injection:** Every colony micro-page must pass Lily Ray's Pre-Publishing Acid Test (`kirby-aiseo-skill` §2.32B) by including at least one proprietary local metric (local labor turnaround, municipal requirement, or neighborhood pricing floor).
 
+#### F. The BM25 Algorithmic Floor & Zero Semantic Elasticity in Local Search
+*Source: Edward Sturm × James Dooley (Ep. 1,171, "Query Augmentation: How One Page Ranks for Thousands of Keywords"). September 2026.*
+
+* **Algorithmic Cost Reality:** In local search and low-volume geo-queries, Google routes searches through cheaper lexical algorithms (BM25 / TF-IDF) rather than running expensive neural query augmentation models (`kirby-aiseo-skill` §2.36C).
+* **Zero Semantic Elasticity:** Unlike high-authority global brands that can rank for unmentioned terms, local service businesses possess near-zero authority elasticity. Exact-match term presence across the 4 anchor points (`<title>`, URL slug, `<h1>`, first sentence hook per `kirby-aiseo-skill` §2.31 / §2.35) is non-negotiable. If the specific service term is not in the text, the local page will not rank.
+* **Reconciliation with `kirby-aiseo-skill` §2.37:** Reconcile §3.9E Mandatory Consolidation Rule with §2.37. The SERP-overlap test (§2.37A) is the semantic ground truth for intent; §3.9B Zero-Competition qualification is the local efficiency filter. An efficiency filter may only *downgrade* a candidate split into an on-page `<h2>` accordion, never force a premature split that creates keyword cannibalization. The reciprocal clause is §2.37D.
+
 **SEO Colony Execution Checklist**
 - [ ] Run primary service entities through `alsoask.com` to extract 20–30 PAA question nodes.
 - [ ] Validate zero-competition qualification (no competitors match slug, title, or H1).
