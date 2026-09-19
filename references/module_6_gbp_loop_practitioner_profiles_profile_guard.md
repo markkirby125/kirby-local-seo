@@ -9,7 +9,7 @@ This module codifies the operational local SEO systems developed by Mike Martin 
 ### **6.1 The Proximity Expansion Mechanism & The 53-Mile Radius Reality**
 
 * **The Proximity Paradox:** Conventional local SEO dogma asserts that geographic proximity to the searcher is an impassable algorithmic ceiling, confining Google Map Pack visibility to a 2-to-5-mile radius around the verified business pin.
-* **The Empirical Counter-Proof:** A single Google Business Profile can achieve and hold rank #1 for high-competition commercial head terms (e.g., `"business coaching"`, `"emergency locksmith"`) across an entire 25-mile radius (50-mile diameter) and up to 53 miles away without holding physical addresses in distant towns.
+* **The Empirical Counter-Proof:** A single Google Business Profile can achieve and hold rank #1 for high-competition commercial head terms (e.g., `"business coaching"`, `"emergency locksmith"`) across a 25-mile radius (50-mile diameter), expanding up to 53 miles in specific search corridors without holding physical addresses in distant towns.
 * **The Expansion Mechanism:** Proximity functions as the dominant tiebreaker **only** when competing profiles exhibit identical levels of incomplete data, stagnant activity, and low review velocity. When an entity executes the **GBP Loop** with uninterrupted monthly consistency, Google's neural matching and semantic trust algorithms expand the geographic boundary within which the profile is served to searchers.
 
 ---
@@ -18,7 +18,7 @@ This module codifies the operational local SEO systems developed by Mike Martin 
 
 The fatal mistake of 90% of local businesses and agencies is treating GBP optimization as a static, one-time project (fill out fields, upload a batch of photos, obtain 10 reviews, and abandon). Stagnant profiles suffer gradual algorithmic decay. The GBP Loop transforms local optimization into a perpetual, compounding operational engine:
 
-$$\text{Local Visibility} = (\text{Profile Completeness/Mirroring} + \text{Pictures} + \text{Posts} + \text{Praise}) \times \text{Consistency}$$
+**Local Visibility = (Profile Completeness/Mirroring + Pictures + Posts + Praise) × Consistency**
 
 ```
   ┌─────────────────────────────────────────────────────────────┐
@@ -51,7 +51,7 @@ Leave dense keyword optimization to the associated website; the Google Business 
 1. **The Mirroring Mandate:** Every field in the GBP must mirror the website, and the website must mirror the GBP:
    * **Business Name:** Must match legal trading name exactly. Strictly ban keyword stuffing (e.g., *"Denver Locksmith Pros - Best Emergency Lockout"*); keyword stuffing violates Google TOS and exposes the listing to competitor reporting.
    * **Categories:** Primary category must align with the primary commercial service; secondary categories must match dedicated service pages on the website.
-   * **Operating Hours:** Must match website footer, contact page, and schema 1:1. Working hours dynamically dictate live map rankings (§6.8).
+   * **Operating Hours:** Must match website footer, contact page, and schema 1:1. Working hours dynamically dictate live map rankings (§6.9.2).
    * **Products, Services & Pricing:** Mirror menu items, service definitions, and price floors published on the website.
 2. **The Darren Shaw Sitewide Crawl Trigger:** Crawl log analysis reveals that modifying an attribute on a GBP immediately triggers Googlebot to crawl **literally every page of the connected website** to verify the consistency of the change against on-page text and schema. Inconsistent site data delays or rejects the update.
 3. **The External Citation Inconsistency Penalty (The Radius Killer):** External directory listings (Yelp, Yell, YellowPages, Chamber directories) that publish conflicting working hours or phone numbers introduce entity hesitation in Google's Knowledge Graph. Conflicting citations do not always cause suspensions—instead, Google algorithmically suppresses the profile's geographic radius, restricting visibility to searchers immediately adjacent to the pin.
@@ -126,7 +126,7 @@ For professional services organizations (law firms, medical clinics, dental prac
    * Partner B Profile: Targets `Criminal Defense Attorney`.
    * Partner C Profile: Targets `Estate Planning Attorney`.
    Each practitioner links their listing to their dedicated biography page on the firm website (`firm.com/attorney-name`), anchoring category relevance.
-4. **Asset Portability & Commercial Equity:** Practitioner profiles legally and functionally belong to the individual professional. If a partner transitions to a different firm or launches their own practice, the profile and its entire history of accumulated 5-star reviews can be moved to the new physical address. It functions as a portable commercial asset.
+4. **Asset Portability & Commercial Equity:** Practitioner profiles legally and functionally belong to the individual professional. If a partner transitions to a different firm or launches their own practice, the *existing listing* and its entire accumulated review history can be updated to the new physical address and re-verified. (Creating a new listing does not transfer reviews; the existing entity listing must be updated). It functions as a portable commercial asset.
 5. **Agency Expansion Seam:** Retainer pricing scales linearly: agencies can manage the parent firm listing alongside 5–15 individual practitioner profiles, charging an incremental monthly management fee per profile while generating massive inbound lead volume.
 
 ---
@@ -147,6 +147,7 @@ For professional services organizations (law firms, medical clinics, dental prac
         * Equipment and specialized tool inventory in the van.
         * Official printed invoice books matching the legal entity name and website.
      4. This establishes a fully compliant, verified satellite lead generation node without commercial lease overhead.
+     * **Compliance Guardrails:** Each technician listing must represent genuine staff residing at the stated service location; the business name must remain strictly the legal company name (zero city modifiers like 'Apex Locksmiths Liverpool', which triggers immediate suspension); and service areas must not overlap excessively to trigger duplicate entity suppression.
 
 ---
 
@@ -155,11 +156,11 @@ For professional services organizations (law firms, medical clinics, dental prac
 Competitor sabotage on Google Business Profiles is trivial to execute and frequently devastating if unmonitored.
 
 1. **The "Suggest an Edit" Vulnerability:** Any Google user or competitor can click *"Suggest an edit"* to alter phone numbers, business hours, categories, or physical pins. If the profile administrator fails to reject the proposed edit within Google's notification window, Google auto-accepts the crowdsourced data.
-2. **Hour-Based Dynamic Map Pack Ranking:** Google dynamically adjusts Map Pack rankings in real-time based on whether a business is open at the moment of search. If a competitor maliciously submits an edit reducing hours (e.g., from 24/7 to 9–5, or changing Monday to "Closed"), the profile’s visibility drops to zero during all altered hours.
+2. **Hour-Based Dynamic Map Pack Ranking:** Google dynamically adjusts Map Pack rankings in real-time based on whether a business is open at the moment of search. If a competitor maliciously submits an edit reducing hours (e.g., from 24/7 to 9–5, or changing Monday to "Closed"), the profile’s ranking plummets to rank #20+ or becomes completely unranked (effectively zero visibility) during all altered hours.
 3. **Defense Protocol:**
-   * **Dedicated Alert Monitoring:** Direct all GBP management notifications to an actively monitored inbox with automated alert routing (see `../../kirby-seo-telemetry/SKILL.md` Module 10).
+   * **Dedicated Alert Monitoring:** Direct all GBP management notifications to an actively monitored administrative inbox with automated alert routing (see `../../kirby-seo-telemetry/SKILL.md` Module 10).
    * **Daily Ground-Truth Audit:** Automate a daily API check comparing live GBP attributes against the ground-truth website schema.
-   * **Rapid 1-Click Reversion:** Maintain a snapshot of canonical profile state to revert malicious edits immediately before Google's changes propagate.
+   * **Two-Tier Reversion Protocol:** (a) *Pre-commit rejection:* actively review administrative alert emails to reject proposed crowd-sourced edits before Google auto-commits them; (b) *Post-commit reversion:* maintain an automated canonical JSON snapshot to immediately revert live unauthorized changes via the GBP API or dashboard if the notification window was missed.
 4. **Expired Domain Hijacking Defense:** If a business fails to renew its domain name, malicious actors can purchase the lapsed domain, configure matching administrator email addresses (`info@domain.com`), and trigger ownership claims to seize top-ranking GBP assets. Enforce registrar auto-renew, registry lock, and domain holding protocols (`../../kirby-seo-deployment/SKILL.md` Module 17).
 
 ---
@@ -195,4 +196,4 @@ To cement the connection between on-page `LocalBusiness` structured data and the
 }
 ```
 
-This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3).
+This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3). For complete `LocalBusiness` JSON-LD schema syntax, nested entity nodes, and validation protocols, see `../../kirby-aiseo-skill/SKILL.md` §2.14.
