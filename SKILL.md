@@ -1,8 +1,8 @@
 ---
 name: kirby-local-seo
-description: "Use when executing Local SEO strategies, Google Business Profile (GBP) hygiene, Geogrid tracking, Review acquisition, local link acquisition, Local Ask Maps optimization, or rewriting indexed-then-pulled location pages."
+description: "Use when executing Local SEO strategies, GBP Loop (4P x C) monthly maintenance, Practitioner Profile architecture, SAB multi-city scaling, Profile Guard defense, Geogrid tracking, Review acquisition, or Ask Maps optimization."
 category: technique
-triggers: [local-seo, gbp, google-maps, geogrid, reviews, 90-day-sprint, local-links, sponsorships, review-velocity, ask-maps, five-page-site]
+triggers: [local-seo, gbp, google-maps, gbp-loop, practitioner-profiles, profile-guard, sab-expansion, geogrid, reviews, 90-day-sprint, local-links, sponsorships, review-velocity, ask-maps, five-page-site]
 ---
 
 # Kirby Local SEO
