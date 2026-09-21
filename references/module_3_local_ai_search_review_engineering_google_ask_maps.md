@@ -245,7 +245,7 @@ While the SEO Colony Engine effectively manufactures internal PageRank when tigh
 
 * **Algorithmic Cost Reality:** In local search and low-volume geo-queries, Google routes searches through cheaper lexical algorithms (BM25 / TF-IDF) rather than running expensive neural query augmentation models (`kirby-aiseo-skill` §2.36C).
 * **Zero Semantic Elasticity:** Unlike high-authority global brands that can rank for unmentioned terms, local service businesses possess near-zero authority elasticity. Exact-match term presence across the 4 anchor points (`<title>`, URL slug, `<h1>`, first sentence hook per `kirby-aiseo-skill` §2.31 / §2.35) is non-negotiable. If the specific service term is not in the text, the local page will not rank.
-* **Reconciliation with `kirby-aiseo-skill` §2.37:** Reconcile §3.9E Mandatory Consolidation Rule with §2.37. The SERP-overlap test (§2.37A) is the semantic ground truth for intent; §3.9B Zero-Competition qualification is the local efficiency filter. An efficiency filter may only *downgrade* a candidate split into an on-page `<h2>` accordion, never force a premature split that creates keyword cannibalization. The reciprocal clause is §2.37D.
+* **Reconciliation with `kirby-aiseo-skill` §2.37:** Reconcile §3.9E Mandatory Consolidation Rule with §2.37. The SERP-overlap test (§2.37A) is the semantic ground truth for intent; §3.9B Zero-Competition qualification is the local efficiency filter. An efficiency filter may only *downgrade* a candidate split into an on-page `<h2>` accordion, never force a premature split that creates keyword cannibalization. The reciprocal clause is §2.37E.
 
 **SEO Colony Execution Checklist**
 - [ ] Run primary service entities through `alsoask.com` to extract 20–30 PAA question nodes.

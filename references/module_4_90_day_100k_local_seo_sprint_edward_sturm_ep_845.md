@@ -31,8 +31,8 @@ Generic "Tips for Homeowners" articles fail to rank or convert. Content must ref
 ### **4.4 Technical Foundation & Internal Link Loops**
 If the site's foundations are broken, no amount of content or GBP optimization will stick.
 * **The Baseline Audit:** Delegate a full Screaming Frog technical audit to `kirby-aiseo-skill` Module 1 (crawler accessibility and crawl depth) before touching keywords. Fix all broken links, duplicate titles/descriptions, missing H1s, redirect chains, and canonical tag issues.
-* **The Authority Loop:** Restructure internal linking to flow naturally and build topical authority:
-  * Homepage links out to core services.
-  * Service pages link to relevant local blogs.
-  * Local blogs use keyword-rich natural anchors to link *back* to the service pages. 
-  * Every page links to the homepage, relevant service pages, and top resources.
+* **The Authority Loop & Natural Anchor Harvest (Ep. 1173):** Restructure internal linking to flow naturally and concentrate topical authority:
+  * **Operator Discovery:** Run `site:yourdomain.com "service + city"` (`../../kirby-aiseo-skill/SKILL.md` §10.11A) across existing indexed pages to discover pre-existing topical relevance and candidate link donors.
+  * **Natural Variant Anchors:** Local blogs must use contextual, natural anchor text to link *back* to core service pages. Avoid forcing exact-match anchor text everywhere (e.g., link `"24/7 plumbing help in Austin"` to the `"emergency plumber Austin"` target page). Unnatural anchors depress click-through, and clicked links carry the highest authority (`../../kirby-aiseo-skill/SKILL.md` §10.6).
+  * **Service Page Link Protection:** Service pages exist strictly to capture inbound phone calls and bookings; enforce near-zero in-content link leakage (`../../kirby-aiseo-skill/SKILL.md` §10.11F). Never clutter high-intent service landing pages with outbound links that distract from the primary phone/booking CTA.
+  * **Anti-City-Swap Guardrail:** Hub pre-staging (`../../kirby-aiseo-skill/SKILL.md` §10.11G) is reserved for genuine service capability expansions and must **never** be used to pre-stage programmatic city-swapped local pages (strictly prohibited under `../../kirby-aiseo-skill/SKILL.md` §2.8 anti-template rules).
