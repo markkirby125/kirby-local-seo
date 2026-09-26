@@ -450,6 +450,8 @@ For existing multi-location domains operating on the shared service page anti-pa
 | **Tier 2 (30-Day)** | Markets with active GBP listings generating $\ge 10$ monthly calls but local pack positions 8+ | Silo root + top 5 highest-volume category pages |
 | **Tier 3 (90-Day)** | Markets with GBP listings but minimal organic call volume | Silo root + primary category page; expand on demand |
 
+* **The 301 Decommission Mandate:** When retrofitting shared service URLs to independent silo architectures, explicitly 301 redirect the old shared service URLs to the corresponding new siloed URLs for the highest-value market to eliminate entity confusion.
+
 **Multi-Location Silo Architecture Audit Checklist**
 - [ ] Identify all location GBP landing pages currently routing to shared, generic service URLs.
 - [ ] Verify that no two location silos share a child service page URL.
