@@ -396,6 +396,164 @@ Census / housing data still feeds the draft, but it is not step 1. Intra-domain 
 
 ---
 
+### **3.6.3 The Multi-Location Core 30 Silo Architecture**
+
+*Source: Caleb Ulku ("How To Stop Being Invisible On Google" — live Pest Control Houston map pack teardown). September 2026.*
+
+Multi-location businesses and franchises (e.g., Aptive with 4,000 pages, Bulwark with 1,700 pages) build deep sitewide topical relevance through sheer URL volume but commit a fatal architectural error: routing location-specific GBP landing pages (`/locations/[market]/`) to shared, generic service pages that serve every market identically. This severs the entity relationship between each GBP and the geographic service context it claims to represent, killing geographic entity relevance across the entire local portfolio.
+
+#### A. The Fatal Franchise Pattern
+
+* **The Shared Service Page Anti-Pattern:** When `/locations/houston/` and `/locations/dallas/` both link to the same generic `/services/pest-control/` page, Google cannot resolve which geographic entity the service page supports. The algorithmic result is entity confusion and hedging — identical to the query-intent misalignment described in §3.6.1 B, but replicated across every location simultaneously.
+* **The Domain Authority Illusion:** Franchise domains accumulate high aggregate domain authority and backlink profiles, creating the illusion of competitive strength. However, because no individual location page functions as an independent topical silo, the geographic entity signal per market is diluted to near-zero. A single-location competitor with a properly structured Core 30 build (§3.6) will consistently outrank a 4,000-page franchise domain in local pack results for that specific metro.
+* **The Diagnostic Signal:** If a multi-location domain ranks well for branded navigational queries (*"Aptive pest control Houston"*) but fails to appear in the local 3-pack for unbranded commercial queries (*"pest control Houston"*), the shared service page architecture is the root cause.
+
+#### B. The Independent Silo Root Mandate
+
+Every GBP location page must function as an **independent silo root** with its own dedicated child Core 30 pages for each service category and granular sub-service. The location page is not a thin doorway — it is the complete local entity hub.
+
+```
+[GBP: Pest Control Houston]
+           │
+           ▼
+/locations/houston/                          ◄── Silo Root (Primary GBP Landing Page)
+    ├── /locations/houston/termite-control/   ◄── Dedicated Child: Category Page
+    ├── /locations/houston/mosquito-control/  ◄── Dedicated Child: Category Page
+    ├── /locations/houston/rodent-control/    ◄── Dedicated Child: Category Page
+    ├── /locations/houston/bed-bug-treatment/ ◄── Dedicated Child: Sub-Service Page
+    └── /locations/houston/wildlife-removal/  ◄── Dedicated Child: Sub-Service Page
+
+[GBP: Pest Control Dallas]
+           │
+           ▼
+/locations/dallas/                           ◄── Independent Silo Root
+    ├── /locations/dallas/termite-control/    ◄── Dedicated Child (NOT shared with Houston)
+    ├── /locations/dallas/mosquito-control/
+    └── ...
+```
+
+* **Zero Shared Service URLs:** No two location silos may share a child service page. `/locations/houston/termite-control/` and `/locations/dallas/termite-control/` are entirely separate URLs with entirely separate copy.
+* **Copy Differentiation Requirement:** Each location's child service pages must satisfy the 50% unique copy threshold (§3.11 E) and pass the Pre-Publishing Acid Test (`kirby-aiseo-skill` §2.32B). The four-pillar geographical differentiation standard (§3.6.4) provides the structural framework for achieving this.
+* **Internal Link Containment:** Each silo's internal links flow vertically: silo root ↔ child category pages ↔ child sub-service pages. Cross-silo horizontal links between location silos (e.g., Houston termite page linking to Dallas termite page) are prohibited — they bleed geographic entity signal and trigger cross-market cannibalization.
+
+#### C. The Authority Compounding Exception
+
+Per §3.6 and §3.8, domains with 4–5+ active physical locations accumulate sufficient topical relevance that new locations may achieve acceptable local pack placement without requiring the full Core 30 build-out. However, this compounding effect **only activates when existing locations are properly siloed**. A 4,000-page domain with shared service pages has zero compounding benefit — each new location starts from entity-confusion baseline.
+
+#### D. Multi-Location Retrofit Priority Matrix
+
+For existing multi-location domains operating on the shared service page anti-pattern, full simultaneous retrofit is operationally impractical. Prioritize markets by commercial value:
+
+| Priority Tier | Criteria | Action |
+| :--- | :--- | :--- |
+| **Tier 1 (Immediate)** | Markets where the domain ranks positions 4–7 for primary unbranded commercial keywords | Full Core 30 silo build with dedicated child pages per §3.6 |
+| **Tier 2 (30-Day)** | Markets with active GBP listings generating $\ge 10$ monthly calls but local pack positions 8+ | Silo root + top 5 highest-volume category pages |
+| **Tier 3 (90-Day)** | Markets with GBP listings but minimal organic call volume | Silo root + primary category page; expand on demand |
+
+**Multi-Location Silo Architecture Audit Checklist**
+- [ ] Identify all location GBP landing pages currently routing to shared, generic service URLs.
+- [ ] Verify that no two location silos share a child service page URL.
+- [ ] Confirm each location silo root functions as an independent entity hub with dedicated child pages.
+- [ ] Validate internal link containment: vertical flow only within each silo; zero cross-silo horizontal links.
+- [ ] Apply the authority compounding exception (§3.8) only to domains where existing locations are properly siloed.
+- [ ] Prioritize retrofit by the commercial value matrix (Tier 1 → Tier 2 → Tier 3).
+- [ ] Ensure every new child service page passes the 50% unique copy threshold (§3.11 E) and Pre-Publishing Acid Test (`kirby-aiseo-skill` §2.32B).
+
+---
+
+### **3.6.4 The Hyper-Local Geographical Relevance Protocol**
+
+*Source: Caleb Ulku ("How To Stop Being Invisible On Google" — live Pest Control Houston map pack teardown). September 2026.*
+
+Publishing a location page and appending a comma-separated list of surrounding cities, neighborhoods, or ZIP codes is not a geographical relevance strategy — it is a ranking shortcut that Google's semantic models and spam classifiers actively penalize. This section formalizes the operational standard for establishing genuine hyper-local geographical relevance that cannot be replicated by competitors running template-swapped city pages.
+
+#### A. The Comma-Separated City List Ban
+
+* **The Ban:** Inserting lists of city names, neighborhoods, or postal codes as bulk text blocks (e.g., *"Serving Houston, Katy, Sugar Land, The Woodlands, Cypress, Spring, Humble, Pearland, Pasadena, League City..."*) is **strictly prohibited** on all location pages, service pages, and GBP descriptions.
+* **Why It Fails:** Comma-separated city lists provide zero Information Gain. Every competitor in the market deploys an identical list scraped from the same ZIP code databases. Google's Scaled Content Abuse classifiers (cross-reference `kirby-aiseo-skill` §2.32) recognize this pattern as low-effort geographic padding that adds no user utility.
+* **The Replacement Standard:** Every geographic reference on a location page must be embedded within a substantive operational sentence demonstrating authentic local knowledge. City names appear as natural byproducts of describing real service conditions, not as standalone keyword targets.
+
+#### B. The Four-Pillar Geographical Differentiation Standard
+
+Hyper-local geographical relevance is established by demonstrating four distinct categories of locally-specific knowledge that cannot be fabricated from Census data alone or template-swapped across markets:
+
+```
+┌──────────────────────────────────────────────────────────────────────────────┐
+│              The Four-Pillar Geographical Differentiation Standard           │
+└─────────────────────────────────┬────────────────────────────────────────────┘
+                                  │
+      ┌───────────────┬───────────┼───────────┬───────────────┐
+      ▼               ▼           ▼           ▼               │
+┌───────────┐  ┌────────────┐ ┌─────────┐ ┌───────────┐      │
+│  Pillar 1 │  │  Pillar 2  │ │Pillar 3 │ │ Pillar 4  │      │
+│Microclimate│  │Pest / Env  │ │ Housing │ │Operational│      │
+│& Seasonal │  │  Profile   │ │  Stock  │ │ Lived-In  │      │
+│ Variance  │  │ Per Market │ │Divergence│ │  Proof   │      │
+└─────┬─────┘  └─────┬──────┘ └────┬────┘ └─────┬─────┘      │
+      │              │             │             │             │
+      └──────────────┴─────────────┴─────────────┘             │
+                              │                                │
+                              ▼                                │
+                ┌───────────────────────────┐                  │
+                │  Un-Replicable Location   │ ◄────────────────┘
+                │     Page Content          │
+                └───────────────────────────┘
+```
+
+##### Pillar 1: Microclimates & Seasonal Environmental Variance
+
+Document how weather patterns, humidity levels, soil moisture, and seasonal temperature cycles **differ across postal sectors within the same metro area** and how those differences materially affect service delivery.
+
+* **Example (Pest Control Houston):** The bayou-adjacent wards of Houston (e.g., Fifth Ward near Buffalo Bayou) experience persistent high humidity and standing water that accelerates mosquito breeding cycles 3–4 weeks ahead of inland suburban developments in Katy or Cypress. Termite swarm seasons in Galveston-facing coastal zones begin in late February; inland zones around The Woodlands do not see peak swarm activity until mid-April.
+* **The Differentiation Test:** If the microclimate description could be copy-pasted to a different city without modification, it fails. Every microclimate reference must name specific local waterways, elevation changes, or weather station data that anchors it to that exact sub-market.
+
+##### Pillar 2: Pest / Soil / Environmental Profiles Unique to Each Sub-Market
+
+Identify and document the specific pest species, soil compositions, water table characteristics, or environmental hazards that create materially different service requirements between adjacent sub-markets.
+
+* **Example (Pest Control Houston):** The clay-heavy Beaumont Formation soils in northwest Houston (Jersey Village, Willowbrook) create foundation settlement conditions that open subterranean termite entry points along slab cracks. The sandy loam soils east of I-45 (Pasadena, La Porte) produce different pest pressures — fire ant colonies thrive in the looser substrate, requiring granular bait protocols rather than liquid barrier treatments.
+* **Cross-Reference:** This pillar directly feeds the Census / Housing data stream in the Core 30 Agent Pipeline (§3.6.2 A, Stream 1) and the Google Places API landmark extraction requirement (§3.7).
+
+##### Pillar 3: Neighborhood Housing Stock Architectural Divergence
+
+Map the physical construction characteristics of residential and commercial building stock that create divergent service requirements across neighborhoods within the same metro.
+
+* **Example (Pest Control Houston):**
+  * **River Oaks:** 1920s–1950s luxury estates with pier-and-beam foundations, original hardwood subfloors, and mature live oak canopies creating persistent moisture trapping. Termite treatment requires crawlspace fumigation protocols unavailable to slab-on-grade competitors.
+  * **Montrose:** 1940s–1960s bungalows and renovated townhomes with mixed foundation types. Rodent exclusion requires sealing original balloon-frame wall cavities that modern tract homes do not possess.
+  * **Katy / Cinco Ranch:** 2000s–2020s master-planned developments with uniform slab-on-grade construction, engineered drainage, and HOA-mandated landscaping. Pest pressure concentrates on imported fire ants and seasonal mosquitoes from retention pond systems.
+* **The Housing Stock Test:** If the neighborhood description does not reference specific construction eras, foundation types, or architectural features that affect service delivery, it is generic filler and must be rewritten.
+
+##### Pillar 4: Operational Lived-In Local Proof
+
+Write location page copy as if the technician who performs the work **lives and operates in that specific area daily**. This pillar converts abstract geographic targeting into authentic operational credibility that Google's E-E-A-T frameworks and AI retrieval systems (Ask Maps / Gemini — §3.1, §3.4, §3.13) verify against review corpus data.
+
+* **Proof Signals:**
+  * Reference specific local transit routes, school zones, or commercial districts by their colloquial names (not official municipal designations).
+  * Describe seasonal service patterns observed from working that area repeatedly (e.g., *"Every spring after the Addicks Reservoir releases, we see a 40% spike in rodent calls from homes backing onto the Barker Cypress corridor"*).
+  * Include dispatch logistics that only a locally-operating technician would know (e.g., *"Response times to the Energy Corridor average 25 minutes from our Katy depot via I-10 westbound; Memorial-area calls route through Dairy Ashford to avoid the Beltway 8 interchange"*).
+* **The Lived-In Test:** If the operational detail could have been written by someone who has never physically visited the area, it fails. Every Pillar 4 statement must describe something observable only through repeated local service delivery.
+
+#### C. Algorithmic Horizon: Why Four-Pillar Depth Becomes Mandatory
+
+The migration from proximity-based local ranking to AI-mediated evaluation (§3.1 Unstructured Review Token Acquisition, §3.4 Local Friction Injection, §3.13 Ask Maps Shift) means that Google's conversational models will increasingly parse location page content for verifiable geographic specificity — not just city-name presence. As Ask Maps and Gemini-powered local recommendations mature:
+
+* **Review Corpus Cross-Validation:** AI models will cross-reference location page claims against the geographic and service tokens present in the business's review corpus (§3.1). A location page claiming expertise in River Oaks pier-and-beam termite treatment will be algorithmically validated against reviews mentioning River Oaks, pier-and-beam, and termite work.
+* **The Template Detection Escalation:** As more multi-location operators adopt AI content generation, the baseline quality of template-swapped location pages will rise — but remain syntactically and informationally identical. The four-pillar standard creates content that template generators cannot produce because the source data is operationally unique per sub-market.
+* **Entity Disambiguation Depth:** Four-pillar content provides the semantic density required for Google to disambiguate a business's geographic service capabilities at the sub-market level, directly supporting the 1:1 Entity Mirror Architecture (§3.6) and the Multi-Location Silo Architecture (§3.6.3).
+
+**Hyper-Local Geographical Relevance Checklist**
+- [ ] Audit all location and geo-pages for comma-separated city/neighborhood list padding; remove and replace with substantive operational sentences.
+- [ ] For each target sub-market, document Pillar 1 microclimate and seasonal variance data specific to that postal sector.
+- [ ] For each target sub-market, document Pillar 2 pest/soil/environmental profiles that create materially different service requirements.
+- [ ] For each target sub-market, map Pillar 3 housing stock architectural features (construction era, foundation type, building materials) affecting service delivery.
+- [ ] For each target sub-market, write Pillar 4 operational lived-in proof referencing colloquial local landmarks, dispatch logistics, and seasonal service patterns.
+- [ ] Apply the differentiation test to every pillar: if the content could be copy-pasted to a different sub-market without modification, rewrite it.
+- [ ] Cross-reference location page claims against the review corpus (§3.1) to ensure Ask Maps / Gemini cross-validation readiness.
+- [ ] Verify each location page meets the 50% unique copy threshold (§3.11 E) using four-pillar content as the differentiation engine.
+
+---
+
 ### **3.10 The "Super Citations" Verification Protocol & Core 30 Competitive Scraping Pipeline**
 
 *Source: Caleb Ulku agency framework ("OWN Your City in a MONTH with This SEO Guide"). September 2026.*
