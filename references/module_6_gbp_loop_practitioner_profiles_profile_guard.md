@@ -66,6 +66,10 @@ Leave dense keyword optimization to the associated website; the Google Business 
   2. Composite the screenshot onto a standard 1920×1080 canvas over an authentic photograph of the actual office, work vehicle, or operational facility.
   3. Overlay clear, legible promotional copy with a distinct CTA. This produces a 100% unique graphic anchored to real-world business assets.
 * **Photo Velocity:** Maintain a steady intake of authentic mobile photos (2–3 per week) captured by staff in the field: completed installations, service vehicles on-site, equipment unpacks, and office personnel. Consistent photo flow signals operational vitality.
+* **The Geotagging EXIF Ingestion Paradox:** Google strips EXIF metadata from public downloads, but its upload pipeline extracts and processes embedded GPS coordinates (lat/long) before rendering sanitized public assets. Agency split tests confirm measurable geogrid radius expansion from properly geotagged field photos. Mandate that all field photos be captured with location services enabled, or post-processed with GPS metadata injection tools (e.g., ExifTool, GeoSetter). Additionally, enforce an aspect ratio formatting standard: warn against automated bulk uploaders that mangle photo dimensions, causing Google Maps to stretch images into unprofessional, spammy visual footprints.
+* **The GBP Card CTR Pre-Condition Gate:** The Google SERP UI has changed; the click-to-call button is no longer visible on the 3-pack preview snippet. Users must click into the GBP card first. This establishes photo quality, cover image selection, and the review snippet preview as mandatory first-stage funnel prerequisites before any goal completion can occur. (Cross-reference §6.5 Posts That Convert and §6.6 Praise Architecture as supporting card CTR optimizations).
+
+*Source: Caleb Ulku ("How To Stop Being Invisible On Google"). September 2026.*
 
 ---
 
