@@ -58,14 +58,15 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 * **Q&A Module Seeding:** Pre-populate the GBP Q&A module with conversational sub-queries aligned to emergency SLAs, call-out policies, and service scope exclusions.
 * **Opening Date & "Years in Business" Trust Badge:** Populate the official business opening/start date in profile settings without exception. Google extracts this temporal attribute directly into local 3-pack search snippets as a prominent trust badge (e.g., *"10+ years in business"* or *"45 years in business"*). Listings displaying verified longevity capture substantially higher organic click-through rates (CTR) and inbound call volume than non-badged competitors.
 * **Business Title Keyword Strategy & Legal DBA Workaround:** While commercial keyword presence within the GBP business title is an acknowledged high-weight local ranking factor, arbitrary keyword stuffing risks automated name reversions or catastrophic profile suspension.
-  * **The Compliant Entity Workaround:** If incorporating target commercial keywords or core trade specializations is commercially vital (e.g., *"[Brand] Plumbers & Heating"* or *"[Brand] IT Services & Computer Repair"*), register an official legal **DBA ("Doing Business As")** or certified Trading Name with the appropriate state or corporate registrar.
+  * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US), **Registered Business Name (RBN)** (IE/AU), or adopt an unregistered trading name (UK) matching that exact string. Use this verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties.
+  * **The Compliant Entity Workaround:** If incorporating target commercial keywords without an EMD (e.g., *"[Brand] Plumbers & Heating"*), ensure the DBA/RBN is registered before altering the GBP name.
   * **Proof Documentation:** Maintain official corporate registration certificates and utility bills under the DBA name to survive human manual reviews or automated entity verification sweeps. Never alter the profile name without corresponding legal documentation.
 * **Rolling 60–90 Day Holiday Hours Maintenance:** Google restricts holiday hour pre-scheduling to only the next 2–3 upcoming holidays. Profiles failing to proactively update these fields display a *"Hours may differ"* warning during holiday periods, suppressing click-through on high-value commercial dates. Enforce a calendar-triggered review every 60–90 days.
 
 **Operational Checklist:**
 - [ ] Audit GBP category payload and maximise to 10 legitimate categories where applicable.
 - [ ] Input verified business opening date to trigger the "Years in Business" SERP trust badge.
-- [ ] If deploying target keywords in business name, ensure verified legal DBA documentation is active.
+- [ ] If deploying target keywords in business name via EMD-to-DBA, ensure verified legal DBA/RBN documentation is active before altering the GBP name.
 - [ ] Scrub existing GBP service menus of all redundant keyword permutations.
 - [ ] Seed Q&A module with SLA, call-out, and procedural exclusion data.
 - [ ] Schedule a recurring calendar-triggered workflow every 60–90 days to pre-load the next available holiday operating hours window.
@@ -161,7 +162,9 @@ GBP URL routing must follow strict preservation laws to avoid NavBoost demotion.
 
 * **Rank Map Prerequisite:** Always execute and review the local rank map **before** performing any GBP URL migration. Failure to establish baseline metrics invalidates all post-migration performance data.
 * **Multilocation Authority Compounding:** Domains with 4+ active physical locations accumulate significant topical relevance. New locations on these domains achieve acceptable ranking within weeks of deploying a standalone GBP Landing Page — without requiring the full Core 30 build-out. Monitor when new GBP landing pages reach $\frac{\text{Keywords in Top 3}}{\text{Total Tracked Keywords}} \ge 0.40$ (40%+ Top 3) on the local rank map within 30 days of launch with zero supporting content to confirm the compounding threshold has activated.
-* **Subfolder vs. Subdomain Architecture:** Subdirectory structures (`domain.com/locations/city-name/`) outperform subdomain structures for link equity consolidation. Avoid creating location-specific subdomains unless the foundational platform architecture rigidly requires it.
+* **Subfolder vs. Subdomain Architecture:** Subdirectory structures (`domain.com/locations/city-name/`) outperform subdomain structures for link equity consolidation. Subdomains are frequently *excommunicated* from the parent document's name and struggle to share authority.
+  * **Rule:** Avoid creating location-specific or service-specific subdomains. Always use subfolders to ensure modifiers inherit the root domain's authority.
+  * **Exceptions:** Reserve subdomains exclusively for educational hubs (e.g., YouTube channels), competitor comparison sites, or standalone functional satellite applications (e.g., `amex.point.me`).
 
 ---
 
