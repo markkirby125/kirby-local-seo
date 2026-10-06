@@ -206,7 +206,7 @@ This provides Google with an unambiguous semantic bridge between the web documen
 
 ### **6.11 The 2026 Satellite Office Strategy ($400–$1,000/mo) & Physical Storefront Compliance**
 
-*Source: The David Quarry SEO Show, Ep. 8 (Jake Hanley × David Quarry)*
+*Source: The David Quaid SEO Show, Ep. 8, "Local SEO News: How has it changed in 2026?" (Jake Hanley × David Quaid). Agency practitioner opinion, not Google documentation.*
 
 * **The Semantic Intent Advantage:** Google's local pack ranking algorithms favor physical storefront map pins over Service Area Businesses (SABs) for high-intent search queries containing `"near me"` or `"[service] in [city]"`. When comparing a verified physical map pin against an SAB listing with hidden address, Google's intent-matching models consistently prioritize the physical location centroid.
 * **The Radius Ceiling Expansion:** While the monthly GBP Loop (§6.2) expands baseline map visibility up to 25–53 miles around a primary pin, capturing dominant top-3 positions across distant municipal centroids requires physical entity nodes:
@@ -216,23 +216,23 @@ This provides Google with an unambiguous semantic bridge between the web documen
 
 ---
 
-### **6.12 Yelp Automated Recommendation Software Safeguards**
+### **6.12 Yelp Solicitation Filter Safeguards**
 
-*Source: The David Quarry SEO Show, Ep. 8 (Jake Hanley × David Quarry)*
+*Source: The David Quaid SEO Show, Ep. 8 (Jake Hanley × David Quaid). Speaker-reported behaviour; Yelp does not publish the filter mechanics.*
 
-* **The Yelp Filter Architecture:** Unlike Google or Trustpilot, Yelp strictly prohibits review solicitation. Yelp's automated recommendation software continuously evaluates reviewer account age, activity patterns, and solicitation signals.
-* **Algorithmic Filter Suppression:** Reviews identified as solicited or originating from inactive accounts are automatically moved to the hidden, unrecommended reviews section at the bottom of the Yelp listing, stripped from star rating calculations, and excluded from trust scoring.
-* **Operational Rule:** Direct all automated review drip campaigns (SMS/Email) exclusively to Google Business Profiles or open platforms (§6.6). Keep Yelp profile growth 100% organic and unsolicited to pass automated recommendation filters.
+* **Solicitation Ban:** Yelp prohibits soliciting reviews, including simply asking customers to leave one.
+* **Reported Filter Behaviour:** The speaker describes Yelp asking the reviewer at the end of the submission flow whether they were asked to leave the review. If they answer "yes", the review is reported to be hidden at the bottom of the listing and excluded from the star rating. Treat this as a practitioner observation. Yelp's recommendation software also filters on other signals such as reviewer account activity.
+* **Operational Rule:** Direct all automated review drip campaigns (SMS/Email) exclusively to Google Business Profiles or open platforms (§6.6). Keep Yelp review growth organic and unsolicited.
 
 ---
 
 ### **6.13 Branded Search Momentum, Domain Matching & PPC Protection**
 
-*Source: The David Quarry SEO Show, Ep. 8 (Jake Hanley × David Quarry)*
+*Source: The David Quaid SEO Show, Ep. 8 (Jake Hanley × David Quaid). Practitioner observations, not Google documentation.*
 
-* **Branded Search Momentum:** Total branded search volume operates as a primary ranking signal for Google Maps authority. As search volume for a brand name grows, Google inflates the entity's baseline authority across generic non-branded local pack queries.
-* **Exact Match (EMD) & Partial Match Domains (PMD):** Utilizing EMDs (e.g., `[service][city].com`) or PMDs (e.g., `[brand][service].com`) improves PPC Quality Scores, lowers CPC costs, and provides an organic relevance foundation.
-* **Strict Business Name Rule:** Modifying a Google Business Profile name to include unregistered location keywords (e.g., adding *"Locksmith Denver"* to a legal name *"Apex Locksmiths"*) strictly violates Google TOS and triggers immediate listing suspension (§6.3, §6.8). Any keyword-infused trading name **MUST** be officially registered with municipal/state authorities before updating the GBP legal name.
-* **Branded PPC Defense:** In competitive verticals, competitors routinely bid on high-ranking local brand names. Operating branded Search Ads and Local Services Ads (LSA) ensures complete SERP ownership and captures up to 95% of high-intent brand conversions.
+* **Branded Search Momentum:** The speakers report a growing share of conversions arriving via brand-name searches, and that branded searches also show up in Google Maps behaviour. Treat branded search as a conversion and visibility signal to track; it is not a confirmed ranking factor.
+* **Exact Match (EMD) & Partial Match Domains (PMD):** The speakers report PMDs on a branded domain working well in Google local results, and that EMDs can lower CPC through better Quality Score. These are observations from their own accounts.
+* **Strict Business Name Rule:** Modifying a Google Business Profile name to include unregistered location keywords (e.g., adding *"Locksmith Denver"* to a legal name *"Apex Locksmiths"*) violates Google's guidelines and risks listing suspension (§6.3, §6.8). The speaker's own keyword addition was accepted only after he showed a registered, real-world differentiator. Any keyword-infused name must match the registered trading name.
+* **Branded PPC Defense:** One speaker reports seeing ad campaigns where 95% of leads were branded, with little attribution going to generic keywords. That is an attribution warning, not a capture rate. Run at least some branded search advertising, and Local Services Ads where your vertical is eligible, so competitors cannot bid on your brand unopposed.
 
 
