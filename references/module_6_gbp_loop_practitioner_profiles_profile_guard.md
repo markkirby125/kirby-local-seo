@@ -204,11 +204,10 @@ This provides Google with an unambiguous semantic bridge between the web documen
 
 ---
 
-### **6.11 The 2026 Satellite Office Strategy ($400–$1,000/mo) & Physical Storefront Compliance**
+### **6.11 The 2026 Satellite Office Strategy ($400–$1,000/mo)**
 
 *Source: The David Quaid SEO Show, Ep. 8, "Local SEO News: How has it changed in 2026?" (Jake Hanley × David Quaid). Agency practitioner opinion, not Google documentation.*
 
-* **The Semantic Intent Advantage (speaker opinion):** The speakers argue that for queries like `"near me"` or `"[service] in [city]"`, Google has to guess whether the searcher wants a place to visit or a business to come to them, and will tend to favour a visible physical location near the searcher over a hidden-address SAB. This is an inference, not documented Google behaviour.
 * **The Satellite Office Option:** The speakers recommend opening an office to rank higher within roughly 30 miles of it, at $400–$1,000/month in rent plus a signed lease. §6.1 shows one profile can also hold rankings out to 25–53 miles via the GBP Loop (§6.2), so treat a leased office as an option for specific high-value corridors, not a default. The legitimate no-lease alternative is the technician-based SAB model in §6.8.
   1. **Eligibility:** A satellite location must be a real, staffed, customer-facing premises during its listed hours, as in the Storefront definition in §6.8. Check Google's current Business Profile guidelines before signing a lease.
   2. **Virtual Office Ban:** Unstaffed virtual offices, co-working mailboxes, and shared PO boxes risk video re-verification failure and suspension (§6.8).
@@ -221,7 +220,7 @@ This provides Google with an unambiguous semantic bridge between the web documen
 *Source: The David Quaid SEO Show, Ep. 8 (Jake Hanley × David Quaid). Speaker-reported behaviour; Yelp does not publish the filter mechanics.*
 
 * **Solicitation Ban (per speaker):** The speaker states that Yelp's rules prohibit soliciting reviews, including simply asking customers for one. Confirm against Yelp's current content guidelines.
-* **Reported Filter Behaviour:** The speaker describes Yelp asking the reviewer at the end of the submission flow whether they were asked to leave the review. If they answer "yes", the review is reported to be hidden at the bottom of the listing and excluded from the star rating. Treat this as a practitioner observation. Yelp's recommendation software also filters on other signals such as reviewer account activity.
+* **Reported Filter Behaviour:** The speaker describes Yelp asking the reviewer at the end of the submission flow whether they were asked to leave the review. If they answer "yes", the review is reported to be hidden at the bottom of the listing and excluded from the star rating. Treat this as a practitioner observation.
 * **Operational Rule:** Direct all automated review drip campaigns (SMS/Email) exclusively to Google Business Profiles or open platforms (§6.6). Keep Yelp review growth organic and unsolicited.
 
 ---
@@ -232,5 +231,5 @@ This provides Google with an unambiguous semantic bridge between the web documen
 
 * **Branded Search Momentum:** The speakers report a growing share of conversions arriving via brand-name searches, and that branded searches also show up in Google Maps behaviour. Treat branded search as a conversion and visibility signal to track; it is not a confirmed ranking factor.
 * **Exact Match (EMD) & Partial Match Domains (PMD):** The speakers report PMDs on a branded domain working well in Google local results, and that EMDs can lower CPC through better Quality Score. These are observations from their own accounts. Domain keywords do not change the GBP name rule below.
-* **Business Name Rule (unchanged from §6.3 and §6.8):** The GBP name must match the legal trading name exactly. Do not add service or city keywords to it, whatever the domain looks like. The speaker's own "SEO" addition was accepted only because he proved a real-world differentiator, so do not use it as a template.
+* **Business Name Rule (unchanged from §6.3 and §6.8):** The GBP name must match the legal trading name exactly. Do not add service or city keywords to it, whatever the domain looks like. David Quaid's own "SEO" addition was a rare exception accepted only because he proved a real-world differentiator; do not use it as a template.
 * **Branded PPC Defense:** One speaker reports seeing ad campaigns where 95% of leads were branded, with little attribution going to generic keywords. That is an attribution warning, not a capture rate. Run at least some branded search advertising, and Local Services Ads where your vertical is eligible, so competitors cannot bid on your brand unopposed.
