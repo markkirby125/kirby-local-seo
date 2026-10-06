@@ -201,3 +201,30 @@ To cement the connection between on-page `LocalBusiness` structured data and the
 ```
 
 This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3) while binding on-page entity data directly to the Google Knowledge Graph.
+
+---
+
+### **6.11 The 2026 Satellite Office Strategy ($400–$1,000/mo) vs. SAB Radius Ceiling**
+
+* **The Semantic Intent Advantage:** Google's 2026 local pack ranking algorithm heavily favors physical storefront map pins over Service Area Businesses (SABs) for high-intent search queries containing `"near me"` or `"[service] in [city]"`. When comparing a physical map pin against an SAB listing with hidden address, Google's intent-matching models consistently rank the physical address entity higher in the target municipal centroid.
+* **The 30-Mile Dominance Seam:** To expand commercial dominance beyond a 30-mile radius from the main headquarters without risking SAB suppression or virtual office suspension:
+  1. Secure a physical satellite office lease ($400–$1,000/month rent) in the target expansion city with an official signed commercial lease agreement.
+  2. Install physical exterior signage and register the location as a verified physical storefront profile.
+  3. Renting legitimate physical satellite offices provides an unbeatable ROI by capturing top 3-pack rankings across high-ticket service corridors that SAB listings cannot reach.
+
+---
+
+### **6.12 Yelp Review Solicitation Filter Safeguards**
+
+* **The Yelp Solicitation Filter Trap:** Unlike Google or Trustpilot, Yelp strictly prohibits review solicitation. In 2026, Yelp's review submission workflow presents customers with a mandatory prompt upon review submission: *"Were you asked to leave a review for this business?"*
+* **Algorithmic Filter Reaction:** If the reviewer clicks *"Yes"*, Yelp's algorithm automatically strips the review from the business's star rating calculation and pushes the text to the hidden, unrecommended reviews section at the bottom of the page.
+* **Operational Rule:** Never trigger automated review solicitation campaigns targeting Yelp profiles. Direct all automated drip campaigns (SMS/Email) exclusively to Google Business Profiles or open platform endpoints, while keeping Yelp review growth 100% organic and unsolicited.
+
+---
+
+### **6.13 Branded Search Volume Dominance & PMD Protection**
+
+* **Branded Search Momentum:** In 2026 local SEO, total branded search volume is a primary ranking factor for Google Maps authority. As users query a business by brand name, Google inflates the entity's baseline authority across generic non-branded local pack searches.
+* **Partial Match Domains (PMDs):** Utilizing Partial Match Domains (e.g., `[service][city].com`) or keyword-infused registered trading names boosts quality scores, reduces PPC ad costs, and strengthens organic local pack relevance.
+* **Branded PPC Defense:** Competitors routinely bid on high-ranking local brand names. Operating branded Local Services Ads (LSA) and Google Search Ads is mandatory to capture up to 95% of high-intent brand conversions and prevent competitors from siphoning direct traffic.
+

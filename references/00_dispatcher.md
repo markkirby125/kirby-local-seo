@@ -14,6 +14,9 @@ This skill handles Local AI Search & Review Engineering.
 - You are classifying Storefront vs. Service Area Businesses (SAB) or executing the Distributed Technician Van-Verification multi-city expansion model (Module 6 §6.8).
 - You are defending a GBP against "Suggest an edit" sabotage, dynamic hour-based ranking collapse, or expired domain hijacking (Module 6 §6.9; measurement and diff alerts are in `../../kirby-seo-telemetry/SKILL.md` Module 10).
 - You are integrating Google Maps CID disambiguation into `LocalBusiness` JSON-LD schema (Module 6 §6.10).
+- You are executing a 2026 Satellite Office Strategy ($400–$1,000/mo physical leases) to overcome SAB proximity ceilings (Module 6 §6.11).
+- You are configuring review acquisition while safeguarding against Yelp solicitation filters (Module 6 §6.12).
+- You are leveraging Partial Match Domains (PMDs) and branded PPC defense against local lead siphoning (Module 6 §6.13).
 - You are planning review acquisition or tracking Geogrids.
 - You are optimizing for Google Ask Maps or local AI search (Module 3).
 - You are deploying the Five-Page Lean Site Architecture (Homepage, Money Page 1, Money Page 2, About/Trust, Contact) for local lead generation (Module 4 §4.2).
