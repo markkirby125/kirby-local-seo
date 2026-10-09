@@ -51,6 +51,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 ### **3.3.1 GBP Configuration Hygiene & Rolling Maintenance Protocol**
 
 * **Secondary Categories Maximisation:** Google allows up to 10 total categories (1 primary + up to 9 secondary). The theory that adding secondary categories dilutes primary category ranking power is demonstrably false. Empirical agency testing consistently proves neutral-to-positive ranking outcomes when maximising legitimate secondary classifications. Populate all valid secondary categories without hesitation.
+* **Primary Category Niche-Down Multiplier (One-Way Door):** Switching the *primary* category from broad to specific (e.g., *Restaurant* → *Sushi Restaurant*) improved rankings by an average **+3.4 positions** in one split test; a separate revert test (specific back to broad) lost **30 positions** — far beyond the gain, i.e., documented hysteresis rather than a symmetric swap (source: 9,249 validated case-study meta-analysis, Edward Sturm Ep. 1191). Treat niche-down as effectively irreversible on a live profile: research the specific category matching the core revenue service before committing, keep the displaced broad category among the nine secondaries (Secondary Categories Maximisation bullet — this preserves broad query coverage), and never A/B test reverting on a production GBP.
 * **Entity-Level Service Taxonomy:** Google Maps and Search operate exclusively on semantic entity recognition, not keyword permutation matching.
   * Do not deploy repetitive keyword-stuffed service name variants (e.g., *"car accident lawyer"*, *"car wreck attorney"*, *"auto accident attorney"*).
   * Redundant service naming provides zero additional entity signal and risks automated keyword-stuffing classification.
@@ -61,12 +62,16 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
   * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US) or **Registered Business Name (RBN)** (IE/AU) matching that exact string. Use this legally verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties.
   * **The Compliant Entity Workaround:** If incorporating target commercial keywords without an EMD (e.g., *"[Brand] Plumbers & Heating"*), ensure the DBA/RBN is registered before altering the GBP name.
   * **Proof Documentation:** Maintain official corporate registration certificates and utility bills under the DBA name to survive human manual reviews or automated entity verification sweeps. Never alter the profile name without corresponding legal documentation.
+  * **Video-Verification Readiness:** Google's video verification inspections match the registered name against the physical premises. Keep ready in the same name as the filing: commercial lease, utility bills, office signage, and vehicle signage (for SAB/van models). A keyword-rich DBA that cannot be shown physically on signage invites suspension despite valid paperwork.
+  * **Guideline Caution:** Even with a registered DBA, a keyword-heavy trading name can still be judged to violate Google's business-name representation guidelines in manual review outcomes — the DBA makes the name *legal*, not automatically *policy-compliant*. This does not override the EMD-to-DBA pipeline above: match the registered string exactly, and simply avoid stacking *additional* city/keyword tokens beyond what is filed. Filings carry ongoing state renewal costs; factor them into the arbitrage.
 * **Rolling 60–90 Day Holiday Hours Maintenance:** Google restricts holiday hour pre-scheduling to only the next 2–3 upcoming holidays. Profiles failing to proactively update these fields display a *"Hours may differ"* warning during holiday periods, suppressing click-through on high-value commercial dates. Enforce a calendar-triggered review every 60–90 days.
 
 **Operational Checklist:**
 - [ ] Audit GBP category payload and maximise to 10 legitimate categories where applicable.
+- [ ] Before any primary-category niche-down, confirm the specific category matches core revenue and keep the displaced broad category as a secondary (one-way door — §3.3.1 Primary Category Niche-Down Multiplier).
 - [ ] Input verified business opening date to trigger the "Years in Business" SERP trust badge.
 - [ ] If deploying target keywords in business name (via EMD-to-DBA or standard entity workaround), ensure verified legal DBA/RBN documentation is active before altering the GBP name.
+- [ ] Assemble DBA video-verification evidence in the filed name: lease, utility bills, office signage, vehicle signage.
 - [ ] Scrub existing GBP service menus of all redundant keyword permutations.
 - [ ] Seed Q&A module with SLA, call-out, and procedural exclusion data.
 - [ ] Schedule a recurring calendar-triggered workflow every 60–90 days to pre-load the next available holiday operating hours window.
@@ -855,3 +860,46 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 **Ask Maps Optimization Checklist**
 - [ ] Implement point-of-sale or immediate post-service SMS review requests to maintain high review velocity.
 - [ ] Audit recent reviews to ensure customers are naturally mentioning specific services and neighborhoods.
+
+---
+
+### **3.14 Star Rating Math & The Negative-Review Removal Protocol (Matt Hammerton, Ep. 1135)**
+
+* **Star Rating Over Volume:** Average star rating matters far more than total review count for map-pack visibility. Extends the §3.1.1 4.8 composite-rating cliff.
+* **The Freezing Threshold:** A branch with thousands of positive reviews can remain stuck in map rankings because a small block of 1-star reviews dragged its average to 4.8. Rating, not volume, gates the position.
+* **The Rating-Offset Ratio (baseline-dependent):** The number of five-star reviews needed to offset one 1-star is `x = (a−1)/(5−a)` where `a` is the baseline mean — total review count cancels out. Worked values: **7:1 at 4.5 · 12:1 at 4.7 · 19:1 at 4.8 · 39:1 at 4.9 · 79:1 at 4.95**. The source's "40–50 five-star reviews per 1-star" figure (Hammerton, Ep. 1135) describes a ~4.9 baseline. Operational consequence: removing illegitimate negatives is 12–79x more efficient than offsetting them with volume. Do NOT chase the ratio with bulk solicitation — review-velocity spikes trip Google's review-spam filters (§3.1.1 velocity doctrine).
+* **Negative-Review Removal SOP:**
+  1. Triage every 1–3 star review against platform grounds: spam, conflict of interest (competitor, ex-employee), not-a-customer, policy-violating content.
+  2. For reviews failing platform self-service removal, escalate via a specialist legal-removal service (Removify-class) — benchmark: removing as few as **4 illegitimate 1-star reviews** unfroze a stuck map-pack position for an established multi-location firm. Vet any removal vendor for lawful-basis practice (defamation, fake-review grounds), not volume promises.
+  3. Baseline map-pack/geogrid position before the first removal batch (§3.2), then re-measure after each batch rather than after each acquisition campaign.
+* **Compliance guardrail:** Removal targets *illegitimate* reviews only. Suppressing or litigating away genuine customer criticism is unethical, risks unlawful-removal exposure, and destroys the internal quality signal that negative reviews exist to provide.
+
+### **3.15 The GBP "Super-Link" Effect (Verified GBP → City Landing Page) — *Matt Hammerton, Ep. 1135 (practitioner claim)*
+
+* **The Effect:** Connecting a verified Google Business Profile to a website's city landing page functions as a direct, highly authoritative link from Google itself (practitioner-reported; treat the authority mechanism as directional) — an immediate ranking boost to that page.
+* **The Review Injection Amplifier:** Adding **5–15 legitimate reviews** to a newly attached GBP routinely moves the target city landing page from positions 40–50 directly into the top 10, with no additional backlinks or internal links built.
+* **Execution (gated by §3.8):** The §3.8 GBP landing-page routing decision tree governs *whether* to move an established profile's website link. If the profile already links to the homepage and the domain ranks for its primary category keyword, §3.8 forbids the migration (NavBoost demotion risk, 3–6 month recovery). The super-link play applies to: (a) newly created/unattached GBPs, and (b) profiles already routing to a sub-page where §3.8's tree permits city-page attachment. Record a §3.8 rank-map baseline before any change.
+* **Caution:** The 5–15 reviews must arrive through the normal §3.1.1 solicitation cadence — compressing them into a few days is a velocity-spike footprint. The effect presumes a verified GBP and an indexed landing page.
+
+---
+
+### **3.16 Review Gating & Staff Accountability (Compliance-Restricted)**
+
+> **⚠️ Compliance warning — ship and obey:** Review gating (funneling customers through an internal pre-survey to intercept dissatisfied customers before they reach public review platforms) **violates Google's review policies** (selective solicitation) and the FTC's Rule on Consumer Reviews and Testimonials (16 CFR Part 465, which carries civil penalties — exposure is regulatory, not just platform-level). Detection risks review removal or profile suspension. This section documents the doctrine for risk awareness and staff-management purposes only. There is no compliant way to operate a gating funnel — use the alternative below instead.
+
+* **The Staffing Doctrine (the lawful core):** Pareto applies — 80% of local results come from reviews. Field technicians and intake staff who attract recurring negative reviews, or who fail to solicit positive reviews at job completion, must be reassigned away from customer-facing roles. **Gate:** staff accountability applies only to reviews confirmed as *legitimate customer feedback* by the §3.14 triage — a technician targeted by review-bombing or competitor sabotage is a victim, not a performance case. Review performance is a staffing metric, not just an SEO metric.
+* **Feedback-Interception Alternative (policy-safe):** An *internal* quality survey sent to every customer — publishing nothing, gating nothing, soliciting public reviews unconditionally for all customers equally — captures dissatisfaction for operational fix without the selective-solicitation violation. This achieves the operational goal lawfully.
+
+---
+
+### **3.17 Standalone Brand Review Summary Sites (Canonical Twin Block) — *Matt Hammerton, Ep. 1135*
+
+> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Module 4 (twin target: skill creation pending, Phase 9 release train). Update both twins in the same change.
+
+* **The Architecture:** Build a dedicated standalone review-summary domain — `[BrandName]Reviews.com` or `[BrandName]Testimonials.com` (brand-based domain; unrelated to the keyword-EMD pattern defined in §3.3.1) — with distinct pages grouping Google reviews, Facebook reviews, and Yelp reviews per platform.
+* **The Problem It Solves:** LLM engines fail to accurately count reviews on secondary social platforms (latency/miscount). A structured, crawlable summary site gives AI engines clean, explicit proof of customer sentiment volume and distribution — feeding the "why you're brilliant" third-party-corroboration slot (entity trinity, `../../kirby-aiseo-skill/SKILL.md` §2.42).
+* **Sourcing Rule:** Aggregate only **genuine, verifiable reviews that already exist on-platform**. Summarize with attribution and link back to originals rather than republishing full text where platform ToS restrict reproduction (Google Maps/Yelp content terms). Fabricating or padding summary content classifies the whole domain as astroturfing and jeopardizes the linked platforms' trust.
+* **Copy Rule:** Any paraphrased review text must satisfy the §3.11E unique-copy standard (≥50% unique copy per page); do not mirror review text verbatim at scale.
+* **Caution:** Domain + maintenance overhead per brand; keep the site technically minimal (static HTML) and refresh counts on the Module 6 recurring maintenance loop.
+
+---
