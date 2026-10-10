@@ -23,6 +23,7 @@ This skill handles Local AI Search & Review Engineering.
 - You are evaluating review gating (Module 3 §3.16 — compliance-restricted; read the warning first) or making review performance a staffing metric.
 - You are building a standalone `[Brand]Reviews.com` summary site for LLM review corroboration (Module 3 §3.17). Buyer-persona segmentation and decision-stage applications live in `kirby-decision-engine-optimization` Module 4.
 - You are choosing or changing a GBP primary category (niche-down one-way door) or assembling DBA name-verification evidence for Google's review sweeps (Module 3 §3.3.1; distinct from the Module 6 §6.8 distributed-van verification model).
+- You are digitizing an established (30–40-year) business's offline awards/testimonials/contracts into GBP/Yelp/Trustpilot/Clutch proof nodes (Module 3 §3.18 — customer-verification and GBP re-verification guardrails apply).
 - You are optimizing for Google Ask Maps or local AI search (Module 3).
 - You are deploying the Five-Page Lean Site Architecture (Homepage, Money Page 1, Money Page 2, About/Trust, Contact) for local lead generation (Module 4 §4.2).
 - You are executing a rapid 90-day local SEO sprint focusing on money pages and technical audits (Module 4).

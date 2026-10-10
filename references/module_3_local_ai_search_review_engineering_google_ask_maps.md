@@ -903,3 +903,15 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 * **Caution:** Domain + maintenance overhead per brand; keep the site technically minimal (static HTML) and refresh counts on the Module 6 recurring maintenance loop.
 
 ---
+
+### **3.18 Offline-Asset Digitization for Established Businesses (V6-F — Dooley/Floate, 2026)**
+
+* **The Play:** established **30–40-year-old** service businesses (plumbing, commercial contracting) possess immense offline authority — decades of trade awards, local-government contracts, hundreds of client testimonials on paper or in PDF quotes — and near-zero digital footprint. Digitizing these assets into verified review/proof nodes (**GBP, Yelp, Trustpilot, Clutch** + award schema) dominates local AI search at a fraction of new-authority cost.
+* **SOP:**
+  1. **Inventory** offline proof: awards, certificates, government contracts, paper/PDF testimonials, trade-association memberships.
+  2. **Verify every asset before digitization:** testimonials with the original customer (dated consent); awards against the awarding body's public record; contracts for confidentiality and client consent. Unverifiable items stay internal — fabrication guardrails per §3.17's Sourcing Rule apply to all asset classes.
+  3. **Digitize by node:** reviews → GBP/Yelp/Trustpilot/Clutch via normal solicitation flows (§3.1.1 cadence — do not bulk-upload); awards/contracts → award `schema.org` markup + About/Trust pages (§2.38 doctrine in `kirby-aiseo-skill`); credentials → Module 6 GBP attribute updates (caution: adding new categories/services to established GBPs can trigger re-verification — stage changes).
+  4. **Measure:** map-pack/geogrid baseline (§3.2) before digitization; re-measure per node batch.
+* **Caution:** updating an established GBP with new categories/services can trip re-verification — keep matching paperwork ready (§3.3.1 video-verification readiness). The PE/acquisition framing (buying equity in such businesses) is a business strategy outside this skill's scope; this section covers the digitization playbook for businesses you already operate.
+
+---
