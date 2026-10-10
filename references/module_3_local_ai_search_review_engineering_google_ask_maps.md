@@ -894,7 +894,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 
 ### **3.17 Standalone Brand Review Summary Sites (Canonical Twin Block) — *Matt Hammerton, Ep. 1135*
 
-> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Module 4 (twin target: skill creation pending, Phase 9 release train). Update both twins in the same change.
+> **Canonical twin block.** This section is the canonical copy; `kirby-decision-engine-optimization` replicates it verbatim in its Module 4 (twin shipped in the Phase 9 release train). Update both twins in the same change.
 
 * **The Architecture:** Build a dedicated standalone review-summary domain — `[BrandName]Reviews.com` or `[BrandName]Testimonials.com` (brand-based domain; unrelated to the keyword-EMD pattern defined in §3.3.1) — with distinct pages grouping Google reviews, Facebook reviews, and Yelp reviews per platform.
 * **The Problem It Solves:** LLM engines fail to accurately count reviews on secondary social platforms (latency/miscount). A structured, crawlable summary site gives AI engines clean, explicit proof of customer sentiment volume and distribution — feeding the "why you're brilliant" third-party-corroboration slot (entity trinity, `kirby-aiseo-skill` Module 2 §2.42 doctrine).
