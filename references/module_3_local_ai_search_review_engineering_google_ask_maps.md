@@ -219,7 +219,7 @@ Publish 15–30 Micro-Pages (~120 Words Direct Answer)
 ```
 
 1. **Extraction via `alsoask.com`:** Input primary business service seeds (e.g., `plastering repairs`, `business IT support`, `cloud backup`) to extract raw People Also Ask (PAA) semantic relationship trees directly from Google's database.
-2. **Subfolder Directory Enclosure:** Isolate all colony micro-pages within a dedicated hierarchical subfolder (e.g., `domain.com/plastering-faq/` or `domain.com/it-support-faq/`). Never deploy colony pages directly off the root domain (§7.1B).
+2. **Subfolder Directory Enclosure:** Isolate all colony micro-pages within a dedicated hierarchical subfolder (e.g., `domain.com/plastering-faq/` or `domain.com/it-support-faq/`). Never deploy colony pages directly off the root domain (§7.8B).
 3. **The 120-Word Direct Intent Resolution Standard:**
    * **URL Slug:** Exact question string (e.g., `/how-long-does-bonding-plaster-take-to-dry/`).
    * **`<h1>`:** Exact question string.
@@ -887,7 +887,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 
 > **⚠️ Compliance warning — ship and obey:** Review gating (funneling customers through an internal pre-survey to intercept dissatisfied customers before they reach public review platforms) **violates Google's review policies** (selective solicitation) and the FTC's Rule on Consumer Reviews and Testimonials (16 CFR Part 465, which carries civil penalties — exposure is regulatory, not just platform-level). Detection risks review removal or profile suspension. This section documents the doctrine for risk awareness and staff-management purposes only. There is no compliant way to operate a gating funnel — use the alternative below instead.
 
-* **The Staffing Doctrine (the lawful core):** Pareto applies — 80% of local results come from reviews. Field technicians and intake staff who attract recurring negative reviews, or who fail to solicit positive reviews at job completion, must be reassigned away from customer-facing roles. **Gate:** staff accountability applies only to reviews confirmed as *legitimate customer feedback* by the §3.14 triage — a technician targeted by review-bombing or competitor sabotage is a victim, not a performance case. Review performance is a staffing metric, not just an SEO metric.
+* **The Staffing Doctrine (the lawful core):** Pareto applies — 80% of local results come from reviews. Field technicians and intake staff who attract recurring negative reviews, or who fail to solicit positive reviews at job completion, must be reassigned away from customer-facing roles. The solicitation itself remains unconditional — every customer is asked, every time; the metric governs process adherence and review outcomes (post-§3.14 triage), never who gets asked. **Gate:** staff accountability applies only to reviews confirmed as *legitimate customer feedback* by the §3.14 triage — a technician targeted by review-bombing or competitor sabotage is a victim, not a performance case. Review performance is a staffing metric, not just an SEO metric.
 * **Feedback-Interception Alternative (policy-safe):** An *internal* quality survey sent to every customer — publishing nothing, gating nothing, soliciting public reviews unconditionally for all customers equally — captures dissatisfaction for operational fix without the selective-solicitation violation. This achieves the operational goal lawfully.
 
 ---
