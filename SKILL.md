@@ -2,7 +2,7 @@
 name: kirby-local-seo
 description: "Use when executing Local SEO strategies, GBP Loop (4P x C) monthly maintenance, Practitioner Profile architecture, SAB multi-city scaling, Satellite Office strategy, Profile Guard defense, Geogrid tracking, Review acquisition, Yelp safeguards, or Ask Maps optimization."
 category: technique
-triggers: [local-seo, gbp, google-maps, gbp-loop, practitioner-profiles, profile-guard, sab-expansion, satellite-office, yelp-reviews, pmd, branded-search, geogrid, reviews, 90-day-sprint, local-links, sponsorships, review-velocity, ask-maps, five-page-site]
+triggers: [local-seo, gbp, google-maps, gbp-loop, practitioner-profiles, profile-guard, sab-expansion, satellite-office, yelp-reviews, pmd, branded-search, geogrid, reviews, 90-day-sprint, local-links, sponsorships, review-velocity, ask-maps, five-page-site, location-pages, doorway-defense, swap-test]
 risk: unverified
 author: william-fitzpatrick
 tags: [kirby, ai-agent, workflow]
