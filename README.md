@@ -18,6 +18,11 @@ By ignoring AI attribute matching, you are silently bleeding high-intent, hyper-
 - **§3.17** Standalone brand review summary sites (`[Brand]Reviews.com`) for LLM review corroboration (canonical twin shipped in `kirby-decision-engine-optimization` Module 4)
 - **§3.3.1** Primary-category niche-down one-way door (+3.4/−30) and DBA video-verification readiness
 
+## 🆕 October 2026 — Location-Page Differentiation (Sept 24 Spam Update)
+
+- **Module 7** Gate 0 Doorway Defense (service-area truth test for dispatch and non-dispatch professions alike) + the 10-Rule Differentiation Checklist: 50% Substance Variance with the Swap Test, per-page Service JSON-LD (`areaServed`/canonical `@id`), geo-photographs with honest alt text, polygon map embeds, transit-time commitments, landmark weaving, hyperlocal neighbor linking, suburb+job review harvesting, on-site short-video proof, and GSC indexation hygiene
+- Cross-routes: 7-phase spam-update audit in `kirby-seo-telemetry` Module 11; metadata fact-check + SRA boundaries in `kirby-aiseo-skill` Module 15; pre-deploy Swap-Test lint gate in `kirby-seo-deployment` Module 19; Astro templates in `kirby-scrappy-local-launch` Module 1
+
 ## 🪄 The Magic Prompt
 
 Copy and paste this directly to your AI (Cursor, Windsurf, Claude Code, Antigravity):
