@@ -8,6 +8,7 @@ This skill handles Local AI Search & Review Engineering.
 - **Module 5: Local Link Building via Community Sponsorship** -> Read `./module_5_local_links_community_sponsorship.md`
 - **Module 6: The GBP Loop, Practitioner Profiles, Profile Guard & Proximity Expansion (Mike Martin & Edward Sturm Ep. 1172)** -> Read `./module_6_gbp_loop_practitioner_profiles_profile_guard.md`
 - **Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework (Sept 24, 2026 Spam Update)** -> Read `./module_7_location_page_differentiation_gate0_10_rules.md`
+- **Module 8: SAB Invisible Address Domination & Entity Mirroring (Caleb Ulku)** -> Read `./module_8_sab_invisible_address_domination_and_entity_mirroring.md`
 
 ## When to Use
 - You are optimizing a Google Business Profile (GBP) or establishing a monthly recurring operating loop `(4P × C)` to expand ranking radius up to 25–53 miles (Module 6 §6.1–§6.6).
@@ -36,3 +37,5 @@ This skill handles Local AI Search & Review Engineering.
 - You are integrating a post-review Google Preferred Source opt-in loop into a local customer retention workflow: route to `../../kirby-preferred-sources/SKILL.md` Module 2.
 - You are validating local search intent with paid search before committing to the organic build-out, or running Google Ads in a low-volume small-town market (<50 searches/month): route to `../../kirby-paid-acquisition/SKILL.md` Module 3 — Presence-only location targeting (never the default "Presence or interest"), Target Impression Share bidding with a Max CPC cap, and exact/phrase intent isolation. Paid execution lives there; this skill stays organic.
 - You are deploying branded PPC against local lead siphoning (Module 6 §6.13): monitor whether the brand campaign is cannibalizing organic #1 clicks via `../../kirby-seo-telemetry/SKILL.md` Module 13 before treating the spend as incremental.
+
+- You are ranking a Service Area Business (SAB) with a hidden address against physical storefronts, deploying Caleb Ulku's 7 Pillars of SAB Domination, enforcing the "Mirror Image" Entity Law between GBP categories and site landing pages, or structuring transparent on-page pricing tables to capture local AI Overviews / Google Ask Maps (Module 8).
