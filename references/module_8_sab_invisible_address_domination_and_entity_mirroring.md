@@ -39,10 +39,10 @@ This module codifies the exact 7 pillars used to overcome the invisible address 
 5. **Live Google Review Embeds**:
    - Embed Google's live review widget directly on the homepage above the fold. Do not rely on copy-pasted static text testimonials, which carry near-zero trust with prospective buyers and AI algorithms.
 6. **Transparent Base Pricing & Cost Drivers (Crucial for AI Overviews)**:
-   - Feature clear base price tiers on the homepage alongside modular upgrade costs (custom paint, extra windows, premium shingles).
-   - **Why Pricing Captures AI Overviews**: When searchers ask conversational local queries (*"How much does it cost to build a shed in Cleveland?"*), Google knows user geolocation and pulls direct answers from the only local website featuring transparent pricing data, citing the business directly in the AI Overview answer.
+   - Publish base price tiers and upgrade cost drivers on-page per [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §17.
+   - **Why Pricing Captures Local AI Overviews**: When searchers ask conversational local queries (*"How much does it cost to build a shed in Cleveland?"*), Google pulls direct answers from the only local website featuring explicit pricing tables, citing the business directly in AI Overviews and Google Ask Maps.
 7. **Linear 4-Step Customer Process**:
-   - Replace self-centered corporate platitudes (*"We pride ourselves on excellence"*) with a clear 4-step workflow: *Step 1: Consultation ➔ Step 2: 3D Online Design ➔ Step 3: Site Prep ➔ Step 4: Installation*.
+   - Replace corporate platitudes with the 4-step linear customer journey defined in [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §1.6.
 
 ---
 
@@ -82,10 +82,8 @@ This module codifies the exact 7 pillars used to overcome the invisible address 
 
 Studying businesses ranking at #4–#10 reveals the common failure patterns that drag down local rankings:
 
-1. **The Gated Pricing Barrier**:
-   - Forcing users to fill out multi-field forms with mandatory comment textareas just to view a pricing guide drives immediate bounces. Users will leave and call the transparent competitor.
-2. **Rotating Hero Image Sliders**:
-   - Split-tests demonstrate that auto-rotating image carousels disorient searchers, elevate mobile bounce rates, and destroy conversion velocity. Hero viewports must use static, high-contrast imagery.
+1. **The Gated Pricing Barrier & Rotating Hero Sliders**:
+   - Violating [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §17 (gating pricing behind multi-field forms) and §1.5 (auto-rotating hero carousels) spikes pogo-sticking and degrades behavioral ranking signals.
 3. **Closing Hour Ranking Suppression**:
    - Businesses listing hours as closing at 5:00 PM are dynamically suppressed by Google's real-time ranking algorithm during evening search queries (e.g., at 8:00 PM), in favor of 24/7 or open operators.
 4. **Diluted Internal Link Equity (Navbar Bloat)**:
