@@ -915,3 +915,23 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 * **Caution:** updating an established GBP with new categories/services can trip re-verification — keep matching paperwork ready (§3.3.1 video-verification readiness). The PE/acquisition framing (buying equity in such businesses) is a business strategy outside this skill's scope; this section covers the digitization playbook for businesses you already operate.
 
 ---
+
+### **3.19 Ask Maps SAB Address Leakage, GBP Product Links & The 1.8M GBP Study (Darren Shaw / Edward Sturm, 2026)**
+
+*Source: Edward Sturm E1137 ("How to Get Recommended by Google Maps AI with Darren Shaw"), Whitespark E46 ("1.8M GBP Study") & E44 ("Links Are Back in GBP Products"). October 2026.*
+
+1. **The Ask Maps SAB Address Revelation Anomaly**:
+   * Although a Service Area Business (SAB) hides its physical street address from the public Maps interface, Google's conversational Gemini integration (**Ask Maps**) retains access to the underlying verification address in its entity weights.
+   * Prompting Ask Maps conversationally (*"What is the physical address of [SAB Business Name] in [City]?"*) frequently causes the LLM to output the hidden verification address directly.
+   * **Operational Implication**: Never verify an SAB at a fake or out-of-market residential address expecting the hidden-address toggle to conceal the location from Google's AI ranking models—Ask Maps explicitly weights the underlying coordinate centroid when generating local recommendations.
+2. **Whitespark 1.8 Million Google Business Profile Study Correlations**:
+   * Empirical analysis of **1.8 million profiles** confirms the statistical hierarchy of local pack ranking drivers:
+     * **#1 Keyword Presence in Business Title**: Remains the strongest individual ranking correlation (must be legally anchored via DBA/trading name registration per §3.3.1 and Module 9).
+     * **#2 Primary Category Precision**: Carries more ranking weight than all secondary categories combined.
+     * **#3 Review Volume & Velocity**: Top-3 Local Pack profiles maintain **2.4x higher total review volume** and **3x faster monthly review velocity** than profiles ranked #4–#10.
+     * **#4 The 50+ Authentic Photo Threshold**: Profiles exceeding 50 authentic in-situ operational photographs consistently outrank profiles with <10 images.
+     * **#5 Linked Website Authority**: Domain authority and 1:1 topical alignment (Module 11 Core 30) function as the decisive tiebreaker in saturated markets.
+3. **Clickable Links Restored in GBP "Products" Module (Whitespark E44)**:
+   * Google restored clickable landing-page URL fields inside the GBP **Products** catalog (even for service-area businesses where the Products tab is enabled). Populate packaged service tiers as GBP Products with direct deep-links to their corresponding Core 30 service pages (Module 11) to capture high-intent card conversions.
+
+---

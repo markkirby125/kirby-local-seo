@@ -74,7 +74,9 @@ This module codifies the exact 7 pillars used to overcome the invisible address 
    - For every primary and secondary category selected on the GBP dashboard, the website **MUST** feature a dedicated landing page or content section.
    - If a business selects `Garage Builder` as a secondary category on GBP but never mentions garage building on its website, Google cannot establish semantic trust between the service entity and the business entity.
 2. **Structural Linking Parity**:
-   - Link internal service pages together in the exact same parent-child hierarchy established within the GBP service menu.
+   - Link internal service pages together in the exact same parent-child hierarchy established within the GBP service menu. (For the full 30-page commercial sitemap architecture, see Module 11).
+3. **The 10.8% Topic Entity Visibility Lift (Aimee Jurenka / Whitespark E28 Case Study)**:
+   - Empirical field testing demonstrates that restructuring on-page entity taxonomy to mirror GBP service categories 1:1 increased local AI search and organic visibility by **10.8%** within 30 days without building a single additional backlink.
 
 ---
 
