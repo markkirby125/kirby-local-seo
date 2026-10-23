@@ -59,3 +59,16 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 3.  Layer schema, photos, maps, and proof vectors onto surviving pages.
 4.  Execute fixes only after the rollout is marked complete on status.search.google.com; mid-rollout changes cannot be evaluated.
 5.  Re-request indexing via GSC URL Inspection only after Rules 1–7 pass on the revised page.
+
+---
+
+### **7.9 Seasonal & Promotional Slug Architecture (Anti-Cannibalization Guardrail)**
+
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra).*
+
+* **The Multi-Location Slug Hazard:** Service Area Businesses (SABs) and regional multi-location operators frequently deploy temporary holiday landing pages using geo-modified promotional slugs (e.g., `/locations/austin-black-friday-deals` or `/dallas-holiday-specials`). These ephemeral URLs trigger severe keyword cannibalization against established core city pages (`/locations/austin`), fracturing internal link equity and diluting Google Maps 3-pack relevance signals.
+* **The Canonical Separation Standard:**
+  1. **Permanent Local Hierarchy Invariant:** Core city and service landing pages (`/locations/[city]`) must remain evergreen, stable, and permanent. Never append temporary seasonal modifiers or promotional campaigns to core local URL slugs.
+  2. **Dedicated Offer Silo Isolation:** House all promotional discounts and seasonal campaigns under a dedicated `/deals/` or `/offers/` directory structure (e.g., `/deals/black-friday/` or `/offers/winter-furnace-tuneup/`). Never inject calendar years into live promotional slugs (`../../kirby-seo-deployment/SKILL.md` Module 7 §7.18).
+  3. **Internal Linking & Canonical Discipline:** Point strict self-referential canonical tags to each specific promotional URL — never canonicalize promo child landers into the parent deals directory or core city pages. Feature contextual promotional banners on core city pages directing local visitors to the centralized deal page, rather than publishing duplicate local promo pages.
+  4. **Post-Event Archiving & Redirect Policy:** When seasonal promotions conclude, retire temporary deal URLs cleanly or maintain the directory as an evergreen seasonal hub with the January canonical archival handoff per `../../kirby-seo-deployment/SKILL.md` Module 7 §7.18, preventing dead 404 links while preserving accumulated external link equity.

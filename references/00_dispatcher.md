@@ -6,8 +6,8 @@ This skill handles Local AI Search & Review Engineering.
 - **Module 3: Local AI Search & Review Engineering (Google Ask Maps)** -> Read `./module_3_local_ai_search_review_engineering_google_ask_maps.md`
 - **Module 4: The 90-Day $100K Local SEO Sprint Execution (Edward Sturm Ep. 845 & Ep. 1169)** -> Read `./module_4_90_day_100k_local_seo_sprint_edward_sturm_ep_845.md`
 - **Module 5: Local Link Building via Community Sponsorship** -> Read `./module_5_local_links_community_sponsorship.md`
-- **Module 6: The GBP Loop, Practitioner Profiles, Profile Guard & Proximity Expansion (Mike Martin & Edward Sturm Ep. 1172)** -> Read `./module_6_gbp_loop_practitioner_profiles_profile_guard.md`
-- **Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework (Sept 24, 2026 Spam Update)** -> Read `./module_7_location_page_differentiation_gate0_10_rules.md`
+- **Module 6: The GBP Loop, Practitioner Profiles, Profile Guard & Proximity Expansion (Mike Martin & Edward Sturm Ep. 1172, incl. §6.14 Holiday Catalog Sync)** -> Read `./module_6_gbp_loop_practitioner_profiles_profile_guard.md`
+- **Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework (Sept 24, 2026 Spam Update, incl. §7.9 Seasonal Slug Architecture)** -> Read `./module_7_location_page_differentiation_gate0_10_rules.md`
 - **Module 8: SAB Invisible Address Domination & Entity Mirroring (Caleb Ulku)** -> Read `./module_8_sab_invisible_address_domination_and_entity_mirroring.md`
 - **Module 9: The Whitespark Zero-Risk GBP Rebranding & Name Change Protocol (Darren Shaw)** -> Read `./module_9_zero_risk_gbp_rebranding_protocol.md`
 - **Module 10: The "Report Owner Response" Button & Review Disappearance Defense (Caleb Ulku & Whitespark)** -> Read `./module_10_report_owner_response_compliance_and_review_defense.md`
@@ -48,3 +48,5 @@ This skill handles Local AI Search & Review Engineering.
 - You are scaling beyond the greenfield 5-Page Lean Site Architecture (Module 4 §4.2) into Caleb Ulku's 30-to-38-page **Core 30 Website Architecture** for multi-service city domination (Module 11).
 - You are executing the 3-Phase Continuous-Take Video Verification script (street sign -> key fob vehicle unlock -> tools & legal invoices), pre-checking an address change for ghost listings, defending an SAB map pin centroid against URL parameter manipulation, or complying with Google's "Misuse of Support Channels" single-dossier policy (Module 12).
 - You are auditing Ask Maps SAB verification-address disclosure, deploying clickable links in GBP Products, or benchmarking against Whitespark's 1.8 Million GBP Study ranking correlations (Module 3 §3.19).
+- You are synchronizing seasonal promotional packages, holiday gift bundles, or local in-store product cards in Google Business Profile with deep-linked Discount Transparency Block URLs (Module 6 §6.14).
+- You are architecting promotional or holiday landing pages for a multi-location or SAB brand and must isolate campaigns into `/deals/` or `/offers/` silos to prevent keyword cannibalization against permanent core city pages (Module 7 §7.9).

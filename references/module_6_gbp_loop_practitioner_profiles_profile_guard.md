@@ -233,3 +233,15 @@ This provides Google with an unambiguous semantic bridge between the web documen
 * **Exact Match (EMD) & Partial Match Domains (PMD):** The speakers report PMDs on a branded domain working well in Google local results, and that EMDs can lower CPC through better Quality Score. These are observations from their own accounts. Domain keywords do not change the GBP name rule below.
 * **Business Name Rule (unchanged from §6.3 and §6.8):** The GBP name must match the legal trading name exactly. Do not add service or city keywords to it, whatever the domain looks like. David Quaid's own "SEO" addition was a rare exception accepted only because he proved a real-world differentiator; do not use it as a template.
 * **Branded PPC Defense:** One speaker reports seeing ad campaigns where 95% of leads were branded, with little attribution going to generic keywords. That is an attribution warning, not a capture rate. Run at least some branded search advertising, and Local Services Ads where your vertical is eligible, so competitors cannot bid on your brand unopposed.
+
+---
+
+### **6.14 GBP Holiday Catalog Sync & Local Promotion Architecture**
+
+*Source: Edward Sturm Ep. 1206 (David Quaid, Harpreet Singh, Gagan Ghotra).*
+
+* **The Local Promotional Search Shift:** During Q4 holiday shopping and commercial sales events, queries on Google Maps and Google Ask Maps pivot aggressively toward physical inventory, promotional packages, and local store availability (*"Who has [Product] on sale near me today?"*). Businesses that rely solely on website banners fail to capture this high-intent local foot traffic.
+* **The GBP Product Catalog Protocol:**
+  1. **Pre-Event Catalog Upload:** Upload seasonal promotional SKUs, holiday gift bundles, and limited-time service packages directly into the native Google Business Profile "Products" editor at least 14 days before the promotional launch. Google Merchant Center and local product indexing pipelines typically require 3–7 days (practitioner observation) to review feeds and attach local "In-Store / On Sale" badges to Maps listings.
+  2. **Structured Product Card Specifications:** Author clear, 100–150 word product descriptions pairing the promotional pricing with the exact terms, strikethrough MSRP, and explicit coupon codes.
+  3. **Direct Deep-Linking to Discount Transparency Block:** Configure product card CTA buttons to point directly to landing page URLs containing persistent auto-apply discount query parameters (`/shop/[product]?promo=BF2026`) matching `../../kirby-text-first-cro/SKILL.md` §1.7. Zero-friction transitions from Google Maps to checkout prevent mobile drop-off.
