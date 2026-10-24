@@ -935,3 +935,24 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
    * Google restored clickable landing-page URL fields inside the GBP **Products** catalog (even for service-area businesses where the Products tab is enabled). Populate packaged service tiers as GBP Products with direct deep-links to their corresponding Core 30 service pages (Module 11) to capture high-intent card conversions.
 
 ---
+
+### **3.20 EXIF Metadata Reality Check & Local Context Saturation (Ep. 1191/1207 / The SEO Meta Study)**
+
+*Source: The SEO Meta Study (Krešimir Ćorluka; Zenodo DOI: 10.5281/zenodo.22768160) discussed in The Edward Show Ep. 1191 (audio release, Oct 8, 2026) / Ep. 1207 (video interview, Oct 24, 2026), citing empirical split testing by Jake Cundiff (Search Engine Journal).*
+
+1. **The EXIF Geotagging Myth vs. Empirical Reality**:
+   * **The Industry Superstition**: Thousands of local agencies waste hours modifying image EXIF/IPTC tags (injecting latitude/longitude coordinates, business keywords, and addresses into JPG headers), believing it pushes Google Maps local pack rankings.
+   * **The Controlled Measurement**: Controlled empirical split-testing (evaluated across tested cohorts in Jake Cundiff's Search Engine Journal experiments and documented in Ćorluka's 9,249-document review) confirms **no measurable ranking lift in core Google web search or standard Google Maps local pack rankings** from synthetic EXIF geotagging alone.
+   * **The Asset Pipeline Stripping Nuance**: Major hosting environments and optimization pipelines (e.g., Cloudflare with Polish/Mirage enabled, Next.js Image Optimization, Vercel edge compression, Shopify asset pipelines, and WordPress installations deploying image optimization plugins) automatically strip EXIF metadata during web delivery to minimize file size and protect privacy. In modern production stacks, web crawlers rarely receive EXIF payloads.
+   * **The Google Lens Exception (+90% Reported Lift)**: For visual search queries executed through **Google Lens**, retaining original camera metadata and descriptive filenames generated an as-reported **+90% appearance lift** in visual search matches (directional benchmark; visual search only, not local pack rankings).
+   * **Operational Mandate**: Ban billable time spent manually geotagging image EXIF headers for Map Pack rankings. Reallocate effort into uploading 50+ authentic in-situ operational photographs (§3.19 #4) directly into the Google Business Profile, where Google's Vision AI extracts real environmental proof (branded work vans, uniforms, specialized equipment) directly from pixel content.
+
+2. **Local Context Saturation for Google Ask Maps**:
+   * Google's conversational Ask Maps engine evaluates specific operational constraints before recommending local businesses in conversational threads (*"Find an emergency plumber near me with 24/7 callouts, transparent upfront pricing, and financing options"*).
+   * Businesses that fail to explicitly publish structured policies on their websites are silently disqualified by the LLM during conversational filtering (canonical framework lives in [`kirby-decision-engine-optimization`](../../kirby-decision-engine-optimization/SKILL.md) Module 7).
+   * **On-Page Implementation (Local-SEO Delta)**: Deploy an explicit **Local Context Saturation Table** on the website's homepage and location landing pages covering local-specific operational variables:
+     * **Emergency Response SLAs**: Guaranteed dispatch windows (*"On-site within 45 minutes for burst pipe emergencies"*).
+     * **Transparent Base Pricing**: Minimum call-out fee benchmarks and hourly rates (`../../kirby-text-first-cro/SKILL.md` §17).
+     * **Service Area Centroids**: Exact postal codes, counties, and suburb lists served.
+     * **Payment & Financing**: Accepted cards, checks, commercial invoicing terms, and consumer financing partnerships.
+     * **Accessibility & Amenities**: Off-street parking, wheelchair ramps, and pet accommodations.

@@ -3,7 +3,7 @@
 This skill handles Local AI Search & Review Engineering. 
 
 ## 📚 Module Index
-- **Module 3: Local AI Search & Review Engineering (Google Ask Maps)** -> Read `./module_3_local_ai_search_review_engineering_google_ask_maps.md`
+- **Module 3: Local AI Search & Review Engineering (Google Ask Maps, incl. §3.19 Whitespark 1.8M Study, §3.20 EXIF Reality & Local Context Saturation)** -> Read `./module_3_local_ai_search_review_engineering_google_ask_maps.md`
 - **Module 4: The 90-Day $100K Local SEO Sprint Execution (Edward Sturm Ep. 845 & Ep. 1169)** -> Read `./module_4_90_day_100k_local_seo_sprint_edward_sturm_ep_845.md`
 - **Module 5: Local Link Building via Community Sponsorship** -> Read `./module_5_local_links_community_sponsorship.md`
 - **Module 6: The GBP Loop, Practitioner Profiles, Profile Guard & Proximity Expansion (Mike Martin & Edward Sturm Ep. 1172, incl. §6.14 Holiday Catalog Sync)** -> Read `./module_6_gbp_loop_practitioner_profiles_profile_guard.md`
@@ -50,3 +50,4 @@ This skill handles Local AI Search & Review Engineering.
 - You are auditing Ask Maps SAB verification-address disclosure, deploying clickable links in GBP Products, or benchmarking against Whitespark's 1.8 Million GBP Study ranking correlations (Module 3 §3.19).
 - You are synchronizing seasonal promotional packages, holiday gift bundles, or local in-store product cards in Google Business Profile with deep-linked Discount Transparency Block URLs (Module 6 §6.14).
 - You are architecting promotional or holiday landing pages for a multi-location or SAB brand and must isolate campaigns into `/deals/` or `/offers/` silos to prevent keyword cannibalization against permanent core city pages (Module 7 §7.9).
+- You are auditing EXIF geotagging claims (0% Map Pack lift vs. +90% Google Lens visual search lift), preventing wasted billable hours on CDN-stripped metadata, or structuring on-page Local Context Saturation tables to prevent silent disqualification in Google Ask Maps (Module 3 §3.20).
