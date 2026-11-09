@@ -46,7 +46,7 @@ Google placed a direct **Report owner response** action link beneath every publi
 
 *Source: Caleb Ulku ("Google Is Deleting Your Reviews") & Whitespark E28.*
 
-Google’s automated spam algorithms evaluate the metadata, network origin, and velocity of every incoming review. Legitimate 5-star reviews are systematically deleted when businesses violate four algorithmic triggers:
+Google’s automated spam algorithms evaluate the metadata, network origin, and velocity of every incoming review. Legitimate 5-star reviews are systematically deleted when businesses violate five algorithmic triggers:
 
 1. **The On-Premise Wi-Fi / IP Collision Trigger**:
    - Never ask a customer to leave a Google review while connected to your business Wi-Fi network, or while your field technician is connected to the customer's corporate Wi-Fi managing the GBP dashboard from the same IP address.
@@ -59,6 +59,8 @@ Google’s automated spam algorithms evaluate the metadata, network origin, and 
    - Reviews containing URLs, email addresses, phone numbers, currency symbols (`£`, `$`), or all-caps exclamation strings are automatically held in pending moderation.
 4. **Zero-History Google Accounts**:
    - Reviews submitted from newly created Google accounts with zero prior Maps contributions carry a high rejection probability. Prioritize soliciting reviews from active Google Workspace users or established consumer accounts.
+5. **ChatGPT-Scripted & AI-Templated Review Text (Eric Velch, `7q6eVp8TAmE`)**:
+   - Providing customers with pre-written review templates or prompting review text through ChatGPT triggers Google's NLP synthetic-text classifiers, causing reviews to fail to stick or disappear during automated sweeps. Strictly ban pre-scripted AI review copy; use the natural two-variable prompt in Module 3 §3.1.1 D (*"mention the problem we fixed and your town in your own words"*).
 
 ---
 

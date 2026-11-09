@@ -53,6 +53,10 @@ Submitting an address change without pre-validating the target address in Google
    - Submit a *"Suggest an edit -> Moved / Permanently Closed"* on defunct prior-tenant listings and wait for removal before moving your profile.
 2. **Step 2: Pre-Seeding External Proof (14-Day Window)**:
    - Update your website footer, contact page, `LocalBusiness` JSON-LD schema, utility bills, and government registry with the new address at least 14 days prior to editing GBP (following the Module 9 §9.1 cadence and [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md) Module 20 §20.4).
+3. **Step 3: The Google Maps Red-Dotted Municipal Boundary Audit (Luc Durand / Ranking Academy, `5EMQPsowMhk`)**:
+   - Postal mailing addresses frequently diverge from what Google Maps considers the official municipal boundary. Search the target city name in Google Maps and inspect the **red-dotted boundary polygon**.
+   - **The Boundary Effect**: If a business's map pin sits even slightly outside Google's red-dotted city polygon, Google treats the entity as outside that municipality, suppressing local pack rankings for both `[service] + [city]` and generic head terms.
+   - **Strict Pin-Adjustment Compliance Guardrail**: In `GBP -> Edit Profile -> Location and areas`, only adjust the map pin if Google's geocoder inaccurately placed the pin outside the border on a property that legitimately straddles or sits inside the boundary. **Never** drag a map pin across streets or away from the actual physical premises—drastic or inaccurate pin moves trigger immediate video re-verification or profile suspension (Module 6 §6.9.1). If the physical premises sit genuinely outside the red-dotted polygon, establish a compliant presence inside the border via the Distributed Technician SAB model (Module 6 §6.8) or a staffed Satellite Office lease (Module 6 §6.11).
 
 ---
 

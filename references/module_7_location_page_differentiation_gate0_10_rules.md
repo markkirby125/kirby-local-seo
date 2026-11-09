@@ -44,6 +44,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 
 ### **7.6 Local Proof Vector SOPs**
 *   **Suburb + Job Review Harvesting (Rule 8):** After job completion, ask the review question that elicits both variables: "Would you mind mentioning the neighborhood and what we did?" Surface reviews on the matching location page only where both suburb AND service match. Never transplant a review onto a town where the job did not occur.
+*   **The 3-Job Localized Mini-Case-Study Slider (Rules 3 & 8 — Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`):** Embed a 3-job before/after slider on each area page documenting specific recent jobs completed in that town, using authentic camera photos with descriptive localized `alt` attributes and paired directly above the matching customer review from that job. *(Per Module 3 §3.20, Google's Vision AI and semantic parser reward the authentic pixel content, localized alt text, and surrounding case-study context — do not waste billable hours on synthetic EXIF coordinate injection).*
 *   **On-Site Short Video (Rule 9):** Film 15–30 seconds on site at job start/completion. Requirements: spoken suburb mention + on-screen text mention, platform geotag set to the suburb, 1–2 local hashtags. Embed the short on the corresponding location page or link it from the proof section. One video per page minimum; never re-use a video across towns.
 *   Template components implementing Rules 2, 4, 5, and 7 (polygon map embeds; travel-time + neighbor-linking blocks; JSON-LD generator): `../../kirby-scrappy-local-launch/SKILL.md` Module 1.
 
@@ -59,6 +60,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 3.  Layer schema, photos, maps, and proof vectors onto surviving pages.
 4.  Execute fixes only after the rollout is marked complete on status.search.google.com; mid-rollout changes cannot be evaluated.
 5.  Re-request indexing via GSC URL Inspection only after Rules 1–7 pass on the revised page.
+6.  **Post-Gate Rollout Cadence & Flat URL Taxonomy (Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`):** When restructuring deeply nested location paths (`/location/area/service-area/`) into clean location URLs that pass Gate 0 and Rule 1 (≥50% unique local copy researched via Perplexity), stage publication and indexing at **7 pages per week** to maintain clean Googlebot crawl throughput.
 
 ---
 

@@ -683,6 +683,7 @@ Publicly responding to all reviews signals active management to Google's ranking
 
 #### D. Physical In-Person Review QR Cards & Intentional Phrasing for "Ask Maps" Justifications
 While digital SMS automation delivers consistent baseline velocity, in-person physical review requests overcome message fatigue and convert at significantly higher rates:
+* **Channel Hierarchy (Harmonized with [`kirby-scrappy-local-launch`](../../kirby-scrappy-local-launch/SKILL.md) Phase 3 Step 6):** Physical in-person QR code scanning over **4G/5G cellular data** at the moment of job sign-off is the **primary, highest-converting solicitation channel** (exemplified in the Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`, where physical on-site QR cards paired with localized review display helped build an overall profile total of 147 five-star reviews in 11 months) while avoiding on-premise Wi-Fi IP collisions (Module 10 §10.2). The 2-touch SMS sequence (§3.1.1 B) functions as the **automated post-departure fallback** exclusively for customers who could not scan on-site.
 * **The Hand-Off QR Protocol:** Provide field technicians and on-site engineers with printed, branded review cards containing the exact GBP review QR code downloaded directly from the profile dashboard. The card is physically handed to the customer upon job sign-off.
 * **Intentional Review Phrasing Script:** Digital and physical review cards must prompt specific entity detail rather than generic compliments:
   > *"Loved our service? Help a neighbor find us! If you can, please mention in your review the specific problem we fixed and the town/area where we did it."*
@@ -933,6 +934,12 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
      * **#5 Linked Website Authority**: Domain authority and 1:1 topical alignment (Module 11 Core 30) function as the decisive tiebreaker in saturated markets.
 3. **Clickable Links Restored in GBP "Products" Module (Whitespark E44)**:
    * Google restored clickable landing-page URL fields inside the GBP **Products** catalog (even for service-area businesses where the Products tab is enabled). Populate packaged service tiers as GBP Products with direct deep-links to their corresponding Core 30 service pages (Module 11) to capture high-intent card conversions.
+4. **Whitespark 2026 Local Search Ranking Factors Survey & 7 Empirical Field Tests (Luc Durand / Ranking Academy, `5EMQPsowMhk`)**:
+   *Complementing the 1.8M profile dataset above, the Whitespark 2026 practitioner survey (187 factors scored by 47 experts) and Ranking Academy's 7 controlled field experiments establish the following operational thresholds:*
+   * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (the #1 ranking factor year after year) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (confirmed by Google end of 2023; hours-extension SLA in Module 6 §6.9.2) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
+   * **Primary Category Drift Hazard**: An HVAC client dropped out of the Local 3-Pack completely after switching its primary category from `Air Conditioning Repair Service` to `Air Conditioning Contractor`; reverting restored rankings within days.
+   * **30-Day Controlled SAB Address-Toggle Test**: Hiding the physical address on a top-3 ranking profile per Google's SAB prompt collapsed its geogrid from green to red within days; restoring the visible address and map pin recovered rankings within weeks.
+   * **The 9→10 Review Activation Cliff**: Crossing from **9 reviews to 10 reviews** triggers an initial algorithmic confidence unlock in Google Maps (aligning with the Module 4 §4.1 10-review launch sequence) before scaling toward triple-digit competitor parity (125–300+ reviews).
 
 ---
 
