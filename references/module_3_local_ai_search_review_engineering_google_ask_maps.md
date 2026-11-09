@@ -678,8 +678,8 @@ Publicly responding to all reviews signals active management to Google's ranking
 
 | Review Tier | Assigned Responder | Response SLA | Operational Protocol |
 | :---- | :---- | :---- | :---- |
-| **4–5 Stars (Positive)** | **Automated AI Review Agent** (Reviews AI / LLM) | $\le 24$ Hours | **Automated AI Resolution:** AI generates a bespoke, grateful reply addressing the customer by name. The agent automatically extracts and reinforces the specific service entity and location tokens mentioned (e.g., *"Thank you Sarah! Glad our team could resolve the Ascot office server downtime so quickly"*). Confirms operational authority to Googlebot. |
-| **1–3 Stars (Negative / Neutral)** | **STRICT HUMAN ESCALATION GATE** (Business Owner / Operations Director) | $\le 4$ Hours (Private Outreach) | **STRICT PROHIBITION ON AI AUTO-REPLIES:** Generic, robotic, or defensive AI responses to disgruntled customers inflame public disputes, accelerating negative NavBoost demotion signals. Negative reviews immediately trigger an urgent SMS/email alert to executive management for private telephone resolution and a bespoke, empathetic human reply. |
+| **4–5 Stars (Positive)** | **AI drafts, human approves** (LLM drafter; owner or manager publishes) | $\le 24$ Hours | **AI-Drafted, Human-Approved Reply:** AI drafts a bespoke, grateful reply (workflow in Module 6 §6.6; drafting rules in [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)) and a human approves it before anything is published. Address the reviewer by **first name only**, taken from their display handle; use no name if the handle is not a first name or looks like a surname (Module 10 §10.1). Echo only service and place terms the reviewer wrote themselves, **at most one service and one place per reply**, and never add terms the reviewer did not use (e.g., *"Thank you Sarah! Glad the Ascot server downtime was sorted so quickly"* when the reviewer mentioned both). Keyword-stuffed replies read as spam to prospects and to Google. |
+| **1–3 Stars (Negative / Neutral)** | **STRICT HUMAN ESCALATION GATE** (Business Owner / Operations Director) | $\le 4$ Hours (Private Outreach) | **NO AUTO-PUBLISHING:** AI may draft, but generic, robotic, or defensive replies to disgruntled customers inflame public disputes, accelerating negative NavBoost demotion signals. Negative reviews immediately trigger an urgent SMS/email alert to executive management for private telephone resolution first; the owner then edits and approves a bespoke, empathetic reply that follows the Module 10 §10.1 compliance structure. |
 
 #### D. Physical In-Person Review QR Cards & Intentional Phrasing for "Ask Maps" Justifications
 While digital SMS automation delivers consistent baseline velocity, in-person physical review requests overcome message fatigue and convert at significantly higher rates:
@@ -694,7 +694,7 @@ While digital SMS automation delivers consistent baseline velocity, in-person ph
 - [ ] Equip field technicians with physical in-person QR review cards featuring the intentional phrasing prompt.
 - [ ] Configure CRM webhook to trigger automated review SMS within 60 minutes of job completion.
 - [ ] Deploy dynamic personalized imagery and enforce the 72-hour single-reminder cap.
-- [ ] Configure AI Review Agent to auto-respond to $\ge 4$-star reviews, embedding specific service/location tokens.
+- [ ] Configure the AI drafter to produce a reply draft for every review, echoing only terms the reviewer wrote (max one service, one place); a human approves all publishing.
 - [ ] Implement strict Human Escalation Gate routing all $\le 3$-star reviews to management for private resolution.
 
 ---

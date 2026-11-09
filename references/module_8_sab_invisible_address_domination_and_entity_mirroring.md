@@ -31,7 +31,7 @@ This module codifies the exact 7 pillars used to overcome the invisible address 
    - **Operational Rule**: Take 1–2 authentic photos of every single completed customer project and upload them directly to GBP. Consistent photo velocity signals operational vitality to Google's neural vision models.
 2. **100% Review Response Protocol**:
    - Respond to every review (positive and negative) with personalized, detailed responses.
-   - **The Negative Review Conversion Script**: Never argue with a negative reviewer. Write an apologetic public response: *"I am so sorry this occurred. Please call [Direct Phone Number] so we can resolve this immediately."* The response is not written for the unhappy customer—it is proof for prospective callers that ownership takes accountability.
+   - **The Negative Review Conversion Script**: Never argue with a negative reviewer. Write an apologetic public response that takes accountability and moves the dispute offline, using the compliant structure in Module 10 §10.1 (wording, PII limits and the phone rule live there; drafting lives in [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)). The response is not written for the unhappy customer—it is proof for prospective callers that ownership takes accountability.
 3. **Clean GBP Services Configuration**:
    - Explicitly list distinct service entities (`Utility Shed`, `Custom Shed Building`, `Barn Design`) without keyword stuffing.
 4. **Header Phone & NAP Parity**:
