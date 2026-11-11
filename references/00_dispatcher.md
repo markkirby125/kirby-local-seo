@@ -7,7 +7,7 @@ This skill handles Local AI Search & Review Engineering.
 - **Module 4: The 90-Day $100K Local SEO Sprint Execution (Edward Sturm Ep. 845 & Ep. 1169)** -> Read `./module_4_90_day_100k_local_seo_sprint_edward_sturm_ep_845.md`
 - **Module 5: Local Link Building via Community Sponsorship** -> Read `./module_5_local_links_community_sponsorship.md`
 - **Module 6: The GBP Loop, Practitioner Profiles, Profile Guard & Proximity Expansion (Mike Martin & Edward Sturm Ep. 1172, incl. §6.14 Holiday Catalog Sync)** -> Read `./module_6_gbp_loop_practitioner_profiles_profile_guard.md`
-- **Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework (Sept 24, 2026 Spam Update, incl. §7.9 Seasonal Slug Architecture)** -> Read `./module_7_location_page_differentiation_gate0_10_rules.md`
+- **Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework (September 2026 spam update, incl. §7.9 Seasonal Slug Architecture)** -> Read `./module_7_location_page_differentiation_gate0_10_rules.md`
 - **Module 8: SAB Invisible Address Domination & Entity Mirroring (Caleb Ulku)** -> Read `./module_8_sab_invisible_address_domination_and_entity_mirroring.md`
 - **Module 9: The Whitespark Zero-Risk GBP Rebranding & Name Change Protocol (Darren Shaw)** -> Read `./module_9_zero_risk_gbp_rebranding_protocol.md`
 - **Module 10: The "Report Owner Response" Button & Review Disappearance Defense (Caleb Ulku & Whitespark)** -> Read `./module_10_report_owner_response_compliance_and_review_defense.md`
@@ -30,7 +30,7 @@ This skill handles Local AI Search & Review Engineering.
 - You are building a standalone `[Brand]Reviews.com` summary site for LLM review corroboration (Module 3 §3.17). Buyer-persona segmentation and decision-stage applications live in `kirby-decision-engine-optimization` Module 4.
 - You are choosing or changing a GBP primary category (niche-down one-way door) or assembling DBA name-verification evidence for Google's review sweeps (Module 3 §3.3.1; distinct from the Module 6 §6.8 distributed-van verification model).
 - You are digitizing an established (30–40-year) business's offline awards/testimonials/contracts into GBP/Yelp/Trustpilot/Clutch proof nodes (Module 3 §3.18 — customer-verification and GBP re-verification guardrails apply).
-- You are creating, auditing, or remediating programmatic location/city pages against the Sept 24, 2026 Spam Update: Gate 0 doorway defense, the 10-rule differentiation checklist, the Swap Test, and remediation order (Module 7 §7.3–§7.5, §7.8).
+- You are creating, auditing, or remediating programmatic location/city pages against the September 2026 spam update: Gate 0 doorway defense, the 10-rule differentiation checklist, the Swap Test, and remediation order (Module 7 §7.3–§7.5, §7.8).
 - You are harvesting suburb+job customer reviews or producing on-site TikTok/Reels proof videos for a location page (Module 7 §7.6).
 - You are diagnosing location pages stuck in `Crawled - currently not indexed` — classify as a differentiation deficit per Module 7 §7.7, then route the 7-phase GSC audit to `../../kirby-seo-telemetry/SKILL.md` Module 11.
 - You are optimizing for Google Ask Maps or local AI search (Module 3).

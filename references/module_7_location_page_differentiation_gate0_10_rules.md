@@ -1,9 +1,9 @@
 # Module 7: Location Page Differentiation — Gate 0 & The 10-Rule Framework
 
-*Source: Nico | AI Ranking — "Google Just Accidentally Created A HUGE OPPORTUNITY For Your Local Business SEO" (Sept 24, 2026 Spam Update + Oct 1, 2026 AI Content & Metadata Guidelines)*
+*Source: Nico | AI Ranking — "Google Just Accidentally Created A HUGE OPPORTUNITY For Your Local Business SEO" (September 2026 spam update + Oct 1, 2026 AI Content & Metadata Guidelines)*
 
 ### **7.1 Threat Model: Programmatic Location Sprawl**
-The September 24, 2026 Spam Update targets low-effort programmatic location pages — sites generating "one page per town/zip code" by spinning or swapping city names on a shared template. Google now treats template-identical location sets as **doorway pages**, demoting them algorithmically and stranding them in `Crawled - currently not indexed`. Pages sharing **>50% identical substance** are classified as duplicates regardless of how or when they were published.
+The September 2026 spam update targets low-effort programmatic location pages — sites generating "one page per town/zip code" by spinning or swapping city names on a shared template. Google now treats template-identical location sets as **doorway pages**, demoting them algorithmically and stranding them in `Crawled - currently not indexed`. Pages sharing **>50% identical substance** are classified as duplicates regardless of how or when they were published. Sources disagree on the exact start and end dates of this update, so this module cites the month only; the rules below do not depend on a date.
 
 ### **7.2 Algorithmic Realities (What Provides No Protection)**
 None of the following defenses work. Do not sell them, buy them, or build around them:
