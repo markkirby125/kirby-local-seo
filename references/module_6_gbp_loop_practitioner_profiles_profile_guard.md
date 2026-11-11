@@ -53,7 +53,7 @@ Leave dense keyword optimization to the associated website; the Google Business 
    * **Categories:** Primary category must align with the primary commercial service; secondary categories must match dedicated service pages on the website.
    * **Operating Hours:** Must match website footer, contact page, and schema 1:1. Working hours dynamically dictate live map rankings (§6.9.2).
    * **Products, Services & Pricing:** Mirror menu items, service definitions, and price floors published on the website.
-2. **The Darren Shaw Sitewide Crawl Trigger:** Crawl log analysis reveals that modifying an attribute on a GBP immediately triggers Googlebot to crawl **literally every page of the connected website** to verify the consistency of the change against on-page text and schema. Inconsistent site data delays or rejects the update.
+2. **The Darren Shaw Sitewide Crawl Trigger:** One practitioner's crawl log analysis (directional, single source, unverified) suggests that modifying an attribute on a GBP can trigger Googlebot to crawl many pages of the connected website to check the change against on-page text and schema. Inconsistent site data may delay or reject the update.
 3. **The External Citation Inconsistency Penalty (The Radius Killer):** External directory listings (Yelp, Yell, YellowPages, Chamber directories) that publish conflicting working hours or phone numbers introduce entity hesitation in Google's Knowledge Graph. Conflicting citations do not always cause suspensions—instead, Google algorithmically suppresses the profile's geographic radius, restricting visibility to searchers immediately adjacent to the pin.
 
 ---
@@ -172,7 +172,7 @@ Competitor sabotage on Google Business Profiles is trivial to execute and freque
 
 ### **6.10 Schema CID Disambiguation (`hasMap` & `sameAs`)**
 
-To cement the connection between on-page `LocalBusiness` structured data and the Google Knowledge Graph:
+To help Google match on-page `LocalBusiness` structured data to the Knowledge Graph entity with one consistent identifier. A single vendor study (unnamed, unverified, directional) found no measured ranking lift from `LocalBusiness` JSON-LD in Google results and no measured change in Gemini answers, so treat schema as an identifier and consistency aid, not a ranking lever:
 1. Extract the unique Google Maps **CID (Customer Identification)** integer for the verified listing.
 2. Construct the canonical Google Maps URL using the CID parameter:
    `https://maps.google.com/?cid=<UNIQUE_CID_INTEGER>`
@@ -201,7 +201,7 @@ To cement the connection between on-page `LocalBusiness` structured data and the
 }
 ```
 
-This provides Google with an unambiguous semantic bridge between the web document and the physical entity pin, accelerating the Darren Shaw sitewide crawl verification cycle (§6.3) while binding on-page entity data directly to the Google Knowledge Graph.
+This leaves the markup with one consistent identifier for the same entity pin, which supports the sitewide consistency check in §6.3 item 2; the markup does not accelerate or guarantee that crawl.
 
 ---
 
