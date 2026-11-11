@@ -103,6 +103,8 @@ Leave dense keyword optimization to the associated website; the Google Business 
 
 For professional services organizations (law firms, medical clinics, dental practices, accounting firms, wealth managers, real estate brokerages), individual practitioner profiles represent the single largest untapped local SEO asset.
 
+**Real-person rule:** every practitioner or team bio page names a real person with credentials the person can show (license or registration number, professional body, verifiable employer history), published only with the practitioner's consent and only the identifier the regulator itself publishes. Never publish an invented author, an AI-generated headshot or a credential nobody can check. A practitioner who has not supplied facts or a real photo gets no bio page and no dedicated practitioner listing until they do.
+
 ```
                   ┌─────────────────────────────────────┐
                   │    Practice Listing (Firm Hub)     │
@@ -202,6 +204,8 @@ To help Google match on-page `LocalBusiness` structured data to the Knowledge Gr
 ```
 
 This leaves the markup with one consistent identifier for the same entity pin, which supports the sitewide consistency check in §6.3 item 2; the markup does not accelerate or guarantee that crawl.
+
+**`sameAs` ownership rule:** besides the CID URL, list only profile URLs the business owns and can prove it controls, such as its claimed Apple Business Connect, Yelp or Houzz listing or its trade-registry entry, and only live, indexed ones. Never list a profile you cannot prove you control. The idea that extra verified profile links help entity matching comes from a single source about unranked microsites and is an unverified hypothesis, so add them for accuracy, not as a ranking tactic.
 
 ---
 
