@@ -18,6 +18,7 @@ Before creating ANY location page, pass the service-area truth test:
 *   **No phantom map pins.** Never claim a virtual office or co-address you do not staff.
 *   For non-dispatch professions (lawyers, accountants, consultants, realtors), the same test applies without vehicles: would you genuinely travel to serve a client there this week? The standard is real service capacity, not transportation.
 *   **Gate 0 failure = page does not get created.** There is no content-quality workaround for a Gate 0 failure; Rules 1–9 cannot compensate for a fake service area.
+*   **Existence Litmus Test (Nov 2026 core update):** If a location page couldn't exist without the town name in it, it probably shouldn't exist. A page that only becomes "about" a town because the name was inserted fails Gate 0 regardless of Rules 2–9.
 
 ### **7.4 The 10-Rule Differentiation Checklist**
 Score every location page against Rules 1–9 before publishing; **Rule 10 is post-publish monitoring** and cannot be scored pre-emptively. **Rule 1 is the load-bearing rule** — Rules 2–7 are the structural evidence vectors that prove it, Rules 8–9 the social-proof vectors, Rule 10 the indexation watchdog.
@@ -58,7 +59,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 1.  Eliminate Gate 0 failures first: prune or 301 pages for non-serviced towns into the nearest genuinely-serviced page.
 2.  Rewrite Rule 1 failures (substance variance) before touching Rules 2–9 — evidence vectors cannot rescue thin substance.
 3.  Layer schema, photos, maps, and proof vectors onto surviving pages.
-4.  Execute fixes only after the rollout is marked complete on status.search.google.com; mid-rollout changes cannot be evaluated.
+4.  Execute fixes only after the rollout is marked complete on status.search.google.com **plus at least 7 days** (Nov 2026 core update: Nov 10 – ~Nov 24; freeze through ~Dec 1; canonical freeze rule `../../kirby-seo-telemetry/SKILL.md` Module 16 §16.1–16.2, deploy interlock `../../kirby-seo-deployment/SKILL.md` Module 7 §7.6). Mid-rollout changes cannot be evaluated. This also pauses the item-6 weekly publication cadence.
 5.  Re-request indexing via GSC URL Inspection only after Rules 1–7 pass on the revised page.
 6.  **Post-Gate Rollout Cadence & Flat URL Taxonomy (Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`):** When restructuring deeply nested location paths (`/location/area/service-area/`) into clean location URLs that pass Gate 0 and Rule 1 (≥50% unique local copy researched via Perplexity), stage publication and indexing at **7 pages per week** to maintain clean Googlebot crawl throughput.
 
@@ -74,3 +75,12 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
   2. **Dedicated Offer Silo Isolation:** House all promotional discounts and seasonal campaigns under a dedicated `/deals/` or `/offers/` directory structure (e.g., `/deals/black-friday/` or `/offers/winter-furnace-tuneup/`). Never inject calendar years into live promotional slugs (`../../kirby-seo-deployment/SKILL.md` Module 7 §7.18).
   3. **Internal Linking & Canonical Discipline:** Point strict self-referential canonical tags to each specific promotional URL — never canonicalize promo child landers into the parent deals directory or core city pages. Feature contextual promotional banners on core city pages directing local visitors to the centralized deal page, rather than publishing duplicate local promo pages.
   4. **Post-Event Archiving & Redirect Policy:** When seasonal promotions conclude, retire temporary deal URLs cleanly or maintain the directory as an evergreen seasonal hub with the January canonical archival handoff per `../../kirby-seo-deployment/SKILL.md` Module 7 §7.18, preventing dead 404 links while preserving accumulated external link equity.
+
+---
+
+### **7.10 Existing-Estate Zero-Impression Audit (Index-Bloat Pass)**
+*Source: Nov 2026 core update audit (example: 140 of 319 location pages with 0 impressions; single-source, directional).*
+1. Export GSC per-URL impressions for `/locations/` (and any `{service}-{town}` slugs) over 90 days (snapshot during the freeze; do not prune yet).
+2. Flag URLs with 0 impressions. Apply the §7.3 Existence Litmus Test and §7.5 Swap Test to each.
+3. After the freeze (`../../kirby-seo-telemetry/SKILL.md` Module 16 §16.2): failures = prune per §7.8 (301 to nearest genuinely-served page, or 410 if no equivalent per `../../kirby-seo-deployment/SKILL.md` Module 7 §7.7); passes = rewrite via Rules 1–9. Zero impressions alone is a trigger for review, not proof of a bad page (new/seasonal pages exempt for 90 days).
+4. Rule 10 extension: sitewide drag from zero-impression pages is monitored alongside `Crawled - currently not indexed`.
