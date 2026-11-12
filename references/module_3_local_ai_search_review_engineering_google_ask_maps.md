@@ -155,7 +155,7 @@ Treat the Google Business Profile (GBP) as the primary conversion asset, not the
 
 ### **3.8 GBP Landing Page Routing Laws & Multilocation Authority Compounding**
 
-GBP URL routing must follow strict preservation laws to avoid NavBoost demotion. NavBoost demotion from a failed migration requires 3–6 months for full recovery.
+GBP URL routing must follow strict preservation laws to avoid NavBoost demotion. NavBoost demotion from a failed migration requires 3–6 months for full recovery. Likewise, do not rewrite the title or H1 of a page that is already ranking during its early indexation; change them only to fix a documented defect (directional, single-source, unverified; no fixed waiting period is implied). This does not override the initial title and H1 setup rules above for new pages.
 
 **The Homepage Preservation Law Decision Tree**
 1. Does the GBP currently link to the homepage?
