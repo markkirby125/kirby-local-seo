@@ -55,6 +55,14 @@ Leave dense keyword optimization to the associated website; the Google Business 
    * **Products, Services & Pricing:** Mirror menu items, service definitions, and price floors published on the website.
 2. **The Darren Shaw Sitewide Crawl Trigger:** One practitioner's crawl log analysis (directional, single source, unverified) suggests that modifying an attribute on a GBP can trigger Googlebot to crawl many pages of the connected website to check the change against on-page text and schema. Inconsistent site data may delay or reject the update.
 3. **The External Citation Inconsistency Penalty (The Radius Killer):** External directory listings (Yelp, Yell, YellowPages, Chamber directories) that publish conflicting working hours or phone numbers introduce entity hesitation in Google's Knowledge Graph. Conflicting citations do not always cause suspensions—instead, Google algorithmically suppresses the profile's geographic radius, restricting visibility to searchers immediately adjacent to the pin.
+4. **Unique Attribute-Led Directory Bio Template (Kasra Dash V3):** While core facts and NAP must be mathematically identical across every citation node, pasting the exact same verbatim paragraph bio across 30+ directories creates a duplicate boilerplate footprint and wastes semantic attribute coverage. Structure each directory bio using the **4-part attribute-led template**, rotating the opening attribute hook per directory while locking facts and NAP:
+   ```text
+   [Opening Hook: Specific Service Attribute + Target ICP + Concrete Outcome]
+   [1-Sentence Verifiable Proof: Years trading, jobs completed, accreditations, or SLA]
+   [Service Areas Covered: Primary city + core neighbourhoods/corridors]
+   [Identical NAP Block: Exact Legal Name, Address, Phone, Website URL & Hours]
+   ```
+   * **Rotation Rule:** Vary Sentence 1 across directories to seed distinct local AI search attributes (e.g., Directory A opens with *24/7 emergency response for commercial landlords*; Directory B opens with *fixed-price diagnostic repairs for residential homeowners*; Directory C opens with *certified heritage/specialist restoration*). Never alter the underlying facts, years in business, or NAP string.
 
 ---
 
@@ -91,10 +99,11 @@ Leave dense keyword optimization to the associated website; the Google Business 
 1. **Drip Distribution vs. Burst Spikes:**
    * **The Anti-Pattern:** Blasting 100 past customers simultaneously creates a sudden spike of 15 reviews in 48 hours followed by 60 days of complete silence. Google's spam algorithms flag review velocity bursts as inorganic incentivized campaigns, often placing incoming reviews in pending filter states.
    * **The Drip Protocol:** Ingest customer contact lists (phone and email) and drip review requests steadily across a rolling 30-day window (e.g., 2–3 automated requests per day). Steady review acquisition generates a natural, compounding velocity curve that continuously outranks burst-and-decay competitors.
+   * **Trailing 90-Day Competitive Velocity Benchmark & "Never Pause at #1" Guardrail (Kasra Dash V3):** Calibrate monthly drip targets against the **trailing 90-day review velocity and recency** of the top-3 Map Pack competitors (which carries higher algorithmic weight than lifetime review totals; see Module 3 §3.1.1 A & §3.13 B). Never pause or wind down the 30-day drip cadence after achieving rank #1—continuous review recency is required to hold the top slot against active challengers.
 2. **The 100% Review Response Mandate:** Every review (positive or negative) must receive a public response. Responses signal customer care to prospective searchers and entity activity to Google.
 3. **AI-Drafted, Human-Gated Review Response Workflow:**
    * Automated unmonitored AI responses generate generic, repetitive corporate slop (*"Thanks for your review, valued customer!"*), which repels real prospects.
-   * **The Protocol:** An LLM generates 3 distinct, contextual response variations referencing the specific service rendered and location mentioned in the customer's review.
+   * **The Protocol:** An LLM generates 3 distinct, contextual response variations referencing the specific service rendered and location mentioned in the customer's review (subject to the Module 10 §10.1 PII & Regulated-Sector Carve-Out: zero reviewer names and zero client/patient/case/visit confirmations for UK SRA/GDPR/medical/financial sectors; route drafting through [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)).
    * **The Gate:** A real human manager or client must select, review, customize, and approve the response before it is pushed to the GBP API. Zero automated publishing without human sign-off.
 
 ---

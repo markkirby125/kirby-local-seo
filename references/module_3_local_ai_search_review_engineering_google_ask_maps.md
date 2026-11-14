@@ -644,7 +644,7 @@ While acquiring unstructured keyword tokens (§3.1) establishes capability verif
 #### A. The 5-Point Review Health Diagnostic
 Before configuring automation, audit the Google Business Profile across five vulnerability markers:
 1. **Total Volume Deficit:** Review count gap relative to top 3 local pack competitors in the primary service category.
-2. **Velocity Stagnation:** Zero new reviews logged within the trailing 30–60 days.
+2. **Velocity Stagnation & Trailing 90-Day Competitive Benchmark (Kasra Dash V3):** Zero new reviews logged within the trailing 30–60 days, or falling behind the **trailing 90-day review count and days-since-last-review recency** of the top-3 Map Pack competitors. In algorithmic Map Pack and Ask Maps weighting, trailing 90-day review velocity and recency outweigh lifetime review totals (e.g., 12 fresh reviews in the last 90 days beats a stagnant profile sitting on 250 historical reviews). **Never Pause Reviews at #1:** Reaching Position #1 in the Local Pack is not a finish line—pausing review solicitation after hitting #1 allows active challengers to overtake the profile on trailing 90-day recency over subsequent ranking cycles (illustrative practitioner observation; exact timing varies by local market velocity).
 3. **Composite Rating Ceiling:** Overall star rating dropping below 4.8 (the critical consumer trust cliff).
 4. **Unanswered Negative Sentiment:** 1- to 3-star reviews sitting unanswered at the top of the default "Most Relevant" sorting view.
 5. **Operational Job Conversion Potential:** Mapping monthly completed invoice volume to establish a target of 10%–15% customer review conversion.
@@ -678,7 +678,7 @@ Publicly responding to all reviews signals active management to Google's ranking
 
 | Review Tier | Assigned Responder | Response SLA | Operational Protocol |
 | :---- | :---- | :---- | :---- |
-| **4–5 Stars (Positive)** | **AI drafts, human approves** (LLM drafter; owner or manager publishes) | $\le 24$ Hours | **AI-Drafted, Human-Approved Reply:** AI drafts a bespoke, grateful reply (workflow in Module 6 §6.6; drafting rules in [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)) and a human approves it before anything is published. Address the reviewer by **first name only**, taken from their display handle; use no name if the handle is not a first name or looks like a surname (Module 10 §10.1). Echo only service and place terms the reviewer wrote themselves, **at most one service and one place per reply**, and never add terms the reviewer did not use (e.g., *"Thank you Sarah! Glad the Ascot server downtime was sorted so quickly"* when the reviewer mentioned both). Keyword-stuffed replies read as spam to prospects and to Google. |
+| **4–5 Stars (Positive)** | **AI drafts, human approves** (LLM drafter; owner or manager publishes) | $\le 24$ Hours | **AI-Drafted, Human-Approved Reply:** AI drafts a bespoke, grateful reply (workflow in Module 6 §6.6; drafting rules in [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)) and a human approves it before anything is published. Address the reviewer by **first name only**, taken from their display handle; use no name if the handle is not a first name or looks like a surname (Module 10 §10.1); **in regulated sectors (UK SRA/GDPR/medical/financial), echo zero reviewer names and never confirm client, patient, case, or visit records**. Echo only service and place terms the reviewer wrote themselves, **at most one service and one place per reply**, and never add terms the reviewer did not use (e.g., *"Thank you Sarah! Glad the Ascot server downtime was sorted so quickly"* when the reviewer mentioned both). Keyword-stuffed replies read as spam to prospects and to Google. |
 | **1–3 Stars (Negative / Neutral)** | **STRICT HUMAN ESCALATION GATE** (Business Owner / Operations Director) | $\le 4$ Hours (Private Outreach) | **NO AUTO-PUBLISHING:** AI may draft, but generic, robotic, or defensive replies to disgruntled customers inflame public disputes, accelerating negative NavBoost demotion signals. Negative reviews immediately trigger an urgent SMS/email alert to executive management for private telephone resolution first; the owner then edits and approves a bespoke, empathetic reply that follows the Module 10 §10.1 compliance structure. |
 
 #### D. Physical In-Person Review QR Cards & Intentional Phrasing for "Ask Maps" Justifications
@@ -690,7 +690,7 @@ While digital SMS automation delivers consistent baseline velocity, in-person ph
 * **The "Review Justification" Algorithmic Engine:** Conversational search agents (Google "Ask Maps", Gemini, Perplexity) do not merely count stars; they parse unstructured review text for verified task and geographic entities. When a review explicitly notes *"replaced our circuit breaker in Matthews"* or *"recovered ransomware files in Ascot"*, Google surfaces that exact text snippet as a high-visibility **"Review Justification"** badge, directly justifying the business recommendation in conversational map searches.
 
 **Review Velocity & Response Checklist**
-- [ ] Audit Google Business Profile for velocity stagnation ($>30$ days without reviews) and rating thresholds.
+- [ ] Audit Google Business Profile for velocity stagnation ($>30$ days without reviews), trailing 90-day review velocity/recency vs. top-3 Map Pack competitors (never pausing at #1), and rating thresholds.
 - [ ] Equip field technicians with physical in-person QR review cards featuring the intentional phrasing prompt.
 - [ ] Configure CRM webhook to trigger automated review SMS within 60 minutes of job completion.
 - [ ] Deploy dynamic personalized imagery and enforce the 72-hour single-reminder cap.
@@ -854,6 +854,8 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 
 #### B. Extreme Review Velocity
 * The AI weighting system heavily penalizes stale profiles. Earning 50 reviews three years ago will lose to a competitor earning 2 reviews every week. 
+* **Trailing 90-Day Velocity & Recency Benchmark (> Lifetime Count):** Benchmark your profile's **trailing 90-day review count and recency** directly against the top-3 Map Pack competitors for your primary commercial query, rather than optimizing against lifetime review totals alone.
+* **The "Never Pause at #1" Guardrail:** Never pause or throttle review solicitation once the profile reaches Map Pack Position #1. Maintaining a continuous, week-over-week velocity margin over the #2 and #3 competitors is mandatory to defend both Local Pack rankings and Ask Maps AI recommendation share.
 * **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups) to ensure a constant, high-velocity stream of inbound reviews.
 
 *Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 §4.3**.*
