@@ -181,7 +181,7 @@ Competitor sabotage on Google Business Profiles is trivial to execute and freque
 
 ---
 
-### **6.10 Schema CID Disambiguation (`hasMap` & `sameAs`)**
+### **6.10 Schema CID Disambiguation (`hasMap` & `sameAs`) and Review/Price Markup Rule**
 
 To help Google match on-page `LocalBusiness` structured data to the Knowledge Graph entity with one consistent identifier. A single vendor study (unnamed, unverified, directional) found no measured ranking lift from `LocalBusiness` JSON-LD in Google results and no measured change in Gemini answers, so treat schema as an identifier and consistency aid, not a ranking lever:
 1. Extract the unique Google Maps **CID (Customer Identification)** integer for the verified listing.
@@ -215,6 +215,8 @@ To help Google match on-page `LocalBusiness` structured data to the Knowledge Gr
 This leaves the markup with one consistent identifier for the same entity pin, which supports the sitewide consistency check in §6.3 item 2; the markup does not accelerate or guarantee that crawl.
 
 **`sameAs` ownership rule:** besides the CID URL, list only profile URLs the business owns and can prove it controls, such as its claimed Apple Business Connect, Yelp or Houzz listing or its trade-registry entry, and only live, indexed ones. Never list a profile you cannot prove you control. The idea that extra verified profile links help entity matching comes from a single source about unranked microsites and is an unverified hypothesis, so add them for accuracy, not as a ranking tactic.
+
+**Review and price markup rule:** never emit `AggregateRating` or `Review` markup for the business's own reviews, or `AggregateOffer` markup for its prices, on the homepage and location landing pages that item 3 above marks up, and do not hand-add any of it around the live review embed (Module 8 §8.1 item 5). Google's guideline also covers markup injected by an embedded third-party review widget, so check the rendered page source and confirm the widget adds no `AggregateRating` or `Review` JSON-LD. Google's review snippet documentation allows `LocalBusiness` and `Organization` review markup only for sites that capture reviews about other businesses (its self-serving reviews guideline), and its structured-data policies say misleading markup, or markup that does not represent the page's visible content, can draw a manual action. That action removes rich-result eligibility; Google states it does not change web ranking. The `AggregateOffer` ban is a house guardrail, not a Google rule. Keep prices as visible page text (Module 8 §8.1 item 6).
 
 ---
 

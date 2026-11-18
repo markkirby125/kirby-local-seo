@@ -19,7 +19,7 @@ This skill handles Local AI Search & Review Engineering.
 - You are structuring Practitioner Profiles for high-ticket professional firms (lawyers, doctors, dentists, accountants, realtors) to dominate multiple spots in the Local Pack and diversify primary categories (Module 6 §6.7).
 - You are classifying Storefront vs. Service Area Businesses (SAB) or executing the Distributed Technician Van-Verification multi-city expansion model (Module 6 §6.8).
 - You are defending a GBP against "Suggest an edit" sabotage, dynamic hour-based ranking collapse, or expired domain hijacking (Module 6 §6.9; measurement and diff alerts are in `../../kirby-seo-telemetry/SKILL.md` Module 10).
-- You are integrating Google Maps CID disambiguation into `LocalBusiness` JSON-LD schema (Module 6 §6.10).
+- You are integrating Google Maps CID disambiguation into `LocalBusiness` JSON-LD schema, or checking the review and price markup ban (`AggregateRating`, `Review`, `AggregateOffer`) (Module 6 §6.10).
 - You are evaluating a 2026 Satellite Office Strategy ($400–$1,000/mo physical leases) as an optional location strategy (Module 6 §6.11).
 - You are configuring review acquisition while safeguarding against Yelp solicitation filters (Module 6 §6.12).
 - You are leveraging Partial Match Domains (PMDs) and branded PPC defense against local lead siphoning (Module 6 §6.13).
