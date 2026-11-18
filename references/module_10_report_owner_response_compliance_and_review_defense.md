@@ -4,7 +4,7 @@
 
 Google has introduced two aggressive enforcement mechanisms across the Google Business Profile review ecosystem: a public **"Report owner response"** button beneath every business reply, and an AI-driven review spam filter that routinely deletes legitimate 5-star customer reviews.
 
-This module establishes the mandatory compliance guardrails for owner responses and the technical solicitation protocol that prevents legitimate reviews from being quarantined. It also cross-references the review markup ban in Module 6 §6.10: never mark up the business's own reviews as `AggregateRating` or `Review` schema on the pages that section covers (this does not touch product review markup).
+This module establishes the mandatory compliance guardrails for owner responses and the technical solicitation protocol that prevents legitimate reviews from being quarantined. It also cross-references the review markup ban in Module 6 §6.10: never mark up reviews about the business as `AggregateRating` or `Review` schema on any page of its site (this does not touch product review markup).
 
 ---
 

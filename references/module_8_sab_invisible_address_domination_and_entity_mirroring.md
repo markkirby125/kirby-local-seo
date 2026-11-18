@@ -37,7 +37,7 @@ This module codifies the exact 7 pillars used to overcome the invisible address 
 4. **Header Phone & NAP Parity**:
    - The phone number displayed in the website header must match the primary GBP phone number digit-for-digit (`556-0290`). Phone discrepancies trigger Knowledge Graph entity hesitation.
 5. **Live Google Review Embeds**:
-   - Embed Google's live review widget directly on the homepage above the fold. Do not rely on copy-pasted static text testimonials, which carry near-zero trust with prospective buyers and AI algorithms. Use the embed instead of `AggregateRating` or `Review` markup; the ban on `AggregateRating`, `Review` and `AggregateOffer` markup is in Module 6 §6.10. The embed gives trust, not review stars in search.
+   - Embed Google's live review widget directly on the homepage above the fold. Do not rely on copy-pasted static text testimonials, which carry near-zero trust with prospective buyers and AI algorithms. Use the embed instead of `AggregateRating` or `Review` markup; the sitewide ban on that markup for the business's own reviews and prices is in Module 6 §6.10. The embed gives trust, not review stars in search.
 6. **Transparent Base Pricing & Cost Drivers (Crucial for AI Overviews)**:
    - Publish base price tiers and upgrade cost drivers on-page per [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §17.
    - **Why Pricing Captures Local AI Overviews**: When searchers ask conversational local queries (*"How much does it cost to build a shed in Cleveland?"*), Google pulls direct answers from the only local website featuring explicit pricing tables, citing the business directly in AI Overviews and Google Ask Maps.
