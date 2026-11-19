@@ -39,7 +39,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 ### **7.5 The Swap Test (Rule 1 Verification Procedure)**
 1.  Swap the town name with an adjacent town you also serve.
 2.  If the page still reads coherently, it contains no area-specific substance — **it fails**.
-3.  Area-specific substance means content that cannot be transplanted: local housing stock (age, construction type), specific local water/soil/climate issues, municipal regulations and permit regimes, named infrastructure, real job histories in that town.
+3.  Area-specific substance means content that cannot be transplanted: local housing stock (age, construction type), specific local water/soil/climate issues, municipal regulations and permit regimes (including council permit lead-times and utility constraints), named infrastructure, real job histories in that town.
 4.  Quantify: if less than 50% of the substantive body is transplant-resistant, rewrite before publishing. Bulk enforcement of this test is automated pre-deployment: `../../kirby-seo-deployment/SKILL.md` Module 19.
 5.  Threshold reconciliation: §7.1's ">50% identical substance" is Google's enforcement classifier (shared template boilerplate counts toward identical substance); this §7.5 variance test is your authoring standard. Because boilerplate inflates the identical-substance ratio above the area-specific ratio, author to a clear majority of area-specific substance and treat 50% as the floor, never the target.
 
