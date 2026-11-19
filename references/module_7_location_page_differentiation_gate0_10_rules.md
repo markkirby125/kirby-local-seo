@@ -26,7 +26,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 | # | Rule | Pass Criterion |
 |---|---|---|
 | 1 | 50% Substance Variance | ≥50% of body content is area-specific; passes the Swap Test (§7.5) |
-| 2 | Unique Per-Page Schema | Distinct `Service` JSON-LD per page: this page's `serviceType`, `areaServed` = this town, `url` = this page, `provider` → single canonical entity `@id`. Validates clean on validator.schema.org |
+| 2 | Unique Per-Page Schema | Distinct `Service` JSON-LD per page: this page's `serviceType`, `areaServed` = this town, `url` = this page, `provider` → single canonical entity `@id` (`{site}/#organization`, typed `LocalBusiness` or a subtype such as `Locksmith`); that entity node is identical on every page (same `@id`, site-root `url`, `name`, `telephone`, `hasMap` and `sameAs` per Module 6 §6.10, and, where the business publishes them, `address` (with `geo` only alongside it; omit both for a service-area business that hides its address, Module 6 §6.8) and `openingHoursSpecification`), with no per-locality value on any property: a site-wide `areaServed` is fine, a per-town one is not. Validates clean on validator.schema.org |
 | 3 | Unique Geo-Photographs | Genuine on-site job photos per location (e.g. `round-rock-water-heater-install.jpg`); alt text describes the actual image honestly — never label stock/AI photos as "our team" |
 | 4 | Area-Specific Polygon Map | Lazy-loaded map embed for the target suburb/town polygon — never the same central-office pin repeated |
 | 5 | Real Transit/Travel Commitments | Exact drive times from HQ with operational commitments ("20 minutes from Round Rock via I-35; same-day service if called before 2 PM") |
