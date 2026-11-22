@@ -61,7 +61,7 @@ Score every location page against Rules 1–9 before publishing; **Rule 10 is po
 3.  Layer schema, photos, maps, and proof vectors onto surviving pages.
 4.  Execute fixes only after the rollout is marked complete on status.search.google.com **plus at least 7 days** (Nov 2026 core update: Nov 10 – ~Nov 24; freeze through ~Dec 1; canonical freeze rule `../../kirby-seo-telemetry/SKILL.md` Module 16 §16.1–16.2, deploy interlock `../../kirby-seo-deployment/SKILL.md` Module 7 §7.6). Mid-rollout changes cannot be evaluated. This also pauses the item-6 weekly publication cadence.
 5.  Re-request indexing via GSC URL Inspection only after Rules 1–7 pass on the revised page.
-6.  **Post-Gate Rollout Cadence & Flat URL Taxonomy (Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`):** When restructuring deeply nested location paths (`/location/area/service-area/`) into clean location URLs that pass Gate 0 and Rule 1 (≥50% unique local copy researched via Perplexity), stage publication and indexing at **7 pages per week** to maintain clean Googlebot crawl throughput.
+6.  **Post-Gate Rollout Cadence & Flat URL Taxonomy (Steven Fudge case study on Nico | AI Ranking, `ZAQH2Gd1i9E`):** When restructuring deeply nested location paths (`/location/area/service-area/`) into clean location URLs that pass Gate 0 and Rule 1 (≥50% unique local copy researched via Perplexity), stage publication and indexing in batches sized by human editorial review capacity (the case study's **7 pages per week** was one observed pace, not a target; see [`kirby-zero-to-100-seo`](../../kirby-zero-to-100-seo/SKILL.md) Module 2) to maintain clean Googlebot crawl throughput.
 
 ---
 

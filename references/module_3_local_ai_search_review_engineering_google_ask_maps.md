@@ -1,6 +1,5 @@
 # Module 3: Local AI Search & Review Engineering (Google Ask Maps)
 
-### 
 
 ### **3.1 Unstructured Review Token Acquisition**
 
@@ -14,7 +13,6 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 * **Target Token Distribution:** Solicit reviews containing concrete nouns (e.g., *"Windows 11 upgrade"*, *"M365 Entra ID migration"*, *"Artex skim"*), operating systems, hardware models, and local postcodes/districts.
 * **Anonymous Review Solicitation:** Google allows anonymous reviews on GBP, lowering the friction for clients to leave reviews, especially in sensitive niches (e.g., divorce law, addiction rehab). Educate clients on this feature to increase review velocity.
 
-### 
 
 ### **3.2 Defensive Baseline Auditing & Geogrid Tracking**
 
@@ -26,7 +24,6 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 * **Weekly Audit Logging:** Log and screenshot review volume, individual ratings, and timestamps every Monday.  
 * **Spam-Purge Appeal Readiness:** Maintain an off-platform customer service register to dispute automated spam false-positive review purges.
 
-### 
 
 ### **3.3 Atomic GBP Catalog & Conversational Q\&A**
 
@@ -46,7 +43,6 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
   * Display verified, direct tradesperson phone numbers, business entity licenses, and physical local depot addresses rather than generic lead-harvesting gates.
   * Feature authentic, unedited project photographs and transparent, direct pricing benchmarks rather than opaque contact walls.
 
-##
 
 ### **3.3.1 GBP Configuration Hygiene & Rolling Maintenance Protocol**
 
@@ -58,12 +54,12 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
   * Every service entry must represent a genuinely distinct, discrete entity or business procedure.
 * **Q&A Module Seeding:** Pre-populate the GBP Q&A module with conversational sub-queries aligned to emergency SLAs, call-out policies, and service scope exclusions.
 * **Opening Date & "Years in Business" Trust Badge:** Populate the official business opening/start date in profile settings without exception. Google extracts this temporal attribute directly into local 3-pack search snippets as a prominent trust badge (e.g., *"10+ years in business"* or *"45 years in business"*). Listings displaying verified longevity capture substantially higher organic click-through rates (CTR) and inbound call volume than non-badged competitors.
-* **Business Title Keyword Strategy & Legal DBA Workaround:** While commercial keyword presence within the GBP business title is an acknowledged high-weight local ranking factor, arbitrary keyword stuffing risks automated name reversions or catastrophic profile suspension.
-  * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US) or **Registered Business Name (RBN)** (IE/AU) matching that exact string. Use this legally verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties.
-  * **The Compliant Entity Workaround:** If incorporating target commercial keywords without an EMD (e.g., *"[Brand] Plumbers & Heating"*), ensure the DBA/RBN is registered before altering the GBP name.
-  * **Proof Documentation:** Maintain official corporate registration certificates and utility bills under the DBA name to survive human manual reviews or automated entity verification sweeps. Never alter the profile name without corresponding legal documentation.
+* **Business Title Keyword Strategy & Legal DBA Route:** While commercial keyword presence within the GBP business title is an acknowledged high-weight local ranking factor, arbitrary keyword stuffing risks automated name reversions or catastrophic profile suspension.
+  * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US) or **Registered Business Name (RBN)** (IE/AU) matching that exact string. Use this legally verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties, but only when the DBA is the name the business genuinely trades under; a DBA filed only to carry keywords still breaks Google's business-name guidelines (see Guideline Caution below).
+  * **The Compliant Entity Route:** If incorporating target commercial keywords without an EMD (e.g., *"[Brand] Plumbers & Heating"*), ensure the DBA/RBN is registered before altering the GBP name.
+  * **Proof Documentation:** Maintain official corporate registration certificates and utility bills under the DBA name to satisfy Google's manual review and entity verification. Never alter the profile name without corresponding legal documentation.
   * **Video-Verification Readiness:** Google's video verification inspections match the registered name against the physical premises. Keep ready in the same name as the filing: commercial lease, utility bills, office signage, and vehicle signage (for SAB/van models). A keyword-rich DBA that cannot be shown physically on signage invites suspension despite valid paperwork.
-  * **Guideline Caution:** Even with a registered DBA, a keyword-heavy trading name can still be judged to violate Google's business-name representation guidelines in manual review outcomes — the DBA makes the name *legal*, not automatically *policy-compliant*. This does not override the EMD-to-DBA pipeline above: match the registered string exactly, and simply avoid stacking *additional* city/keyword tokens beyond what is filed. Filings carry ongoing state renewal costs; factor them into the arbitrage.
+  * **Guideline Caution:** Even with a registered DBA, a keyword-heavy trading name can still be judged to violate Google's business-name representation guidelines in manual review outcomes — the DBA makes the name *legal*, not automatically *policy-compliant*. Where the DBA is not the genuine trading name, the EMD-to-DBA pipeline above does not apply. Where it is, match the registered string exactly, and simply avoid stacking *additional* city/keyword tokens beyond what is filed. Filings carry ongoing state renewal costs; factor them into the arbitrage.
 * **Rolling 60–90 Day Holiday Hours Maintenance:** Google restricts holiday hour pre-scheduling to only the next 2–3 upcoming holidays. Profiles failing to proactively update these fields display a *"Hours may differ"* warning during holiday periods, suppressing click-through on high-value commercial dates. Enforce a calendar-triggered review every 60–90 days.
 
 **Operational Checklist:**
@@ -600,9 +596,9 @@ Rather than guessing local search intent, reverse-engineer the exact GBP taxonom
    * Open Google Maps and locate the #1 ranking competitor for the target service category.
    * Run the **`GMB Everywhere`** browser extension $\rightarrow$ select **Basic Audit**.
    * Export the competitor’s complete entity configuration: Primary Category, up to 9 Secondary Categories, and their exhaustive internal list of custom and pre-defined services.
-2. **Screaming Frog WAF Bypass (List Mode):**
-   * Many modern service websites block automated crawlers via Cloudflare or firewall bot defenses.
-   * **Bypass Protocol:** In Screaming Frog, switch from `Mode: Spider` to **`Mode: List`**.
+2. **Screaming Frog List Mode (sitemap-only crawl):**
+   * Some service websites rate-limit or block full spider crawls.
+   * **List Mode Protocol:** In Screaming Frog, switch from `Mode: Spider` to **`Mode: List`**. It fetches only the public URLs you supply and is not a way past a site's bot protection; if the crawl is still blocked, stop and use public sources.
    * Retrieve the site’s raw XML sitemap (`domain.com/sitemap.xml`) and input the verified URL list directly.
    * Export `internal_all.csv` and `inlinks.csv` to map existing architecture.
 3. **Screaming Frog + LLM Automated Gap Audit Protocol:**
@@ -629,7 +625,7 @@ Launching 30 internal pages with zero external validation risks crawl-demand sta
 - [ ] Claim and verify profile on Bing Places for Business (ChatGPT search database).
 - [ ] Claim and sync automotive navigation data via HERE Technologies and TomTom.
 - [ ] Audit top 3 competitors on Google Maps using `GMB Everywhere` and extract full category/service taxonomies.
-- [ ] Crawl client site in Screaming Frog `Mode: List` via `/sitemap.xml` to bypass WAF blocks.
+- [ ] Crawl client site in Screaming Frog `Mode: List` via `/sitemap.xml` for a sitemap-only crawl; it does not bypass WAF or bot protection (if still blocked, use public sources).
 - [ ] Invert all Core 30 title tags: replace vendor classification with high-intent consumer problem keywords.
 - [ ] Anchor every Core 30 category hub with at least 1 external local backlink or chamber sponsorship.
 
@@ -670,7 +666,7 @@ Initial SMS (T+60 Min) ──> Includes Direct Review Link + Dynamic Image
 
 1. **Initial Dispatch (T+60 Minutes):** Automatically dispatched within 1 hour of service delivery while customer satisfaction is highest.
    * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name] today! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]"*.
-2. **Dynamic Personalized Media Overlay:** Where possible, utilize dynamic image APIs (e.g., Nifty Images) to overlay the customer's first name onto a photograph of the technician, fleet vehicle, or completed project. Personalized dynamic imagery yields an empirical **10%–15% lift in review completion**.
+2. **Dynamic Personalized Media Overlay:** Where possible, utilize dynamic image APIs (e.g., Nifty Images) to overlay the customer's first name onto a photograph of the technician, fleet vehicle, or completed project. Personalized dynamic imagery is reported to lift review completion by **10%–15%** (single-source, unverified; test before relying on it).
 3. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder. Strict rule: never exceed 2 total SMS touches to prevent customer irritation and unsubscribes.
 
 #### C. The Star-Gated Review Response Protocol (AI vs. Human Escalation)
@@ -687,6 +683,7 @@ While digital SMS automation delivers consistent baseline velocity, in-person ph
 * **The Hand-Off QR Protocol:** Provide field technicians and on-site engineers with printed, branded review cards containing the exact GBP review QR code downloaded directly from the profile dashboard. The card is physically handed to the customer upon job sign-off.
 * **Intentional Review Phrasing Script:** Digital and physical review cards must prompt specific entity detail rather than generic compliments:
   > *"Loved our service? Help a neighbor find us! If you can, please mention in your review the specific problem we fixed and the town/area where we did it."*
+  Prompt for specifics only and never supply review text for the customer to copy, per the honest-specificity prompting rule in [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md).
 * **The "Review Justification" Algorithmic Engine:** Conversational search agents (Google "Ask Maps", Gemini, Perplexity) do not merely count stars; they parse unstructured review text for verified task and geographic entities. When a review explicitly notes *"replaced our circuit breaker in Matthews"* or *"recovered ransomware files in Ascot"*, Google surfaces that exact text snippet as a high-visibility **"Review Justification"** badge, directly justifying the business recommendation in conversational map searches.
 
 **Review Velocity & Response Checklist**
@@ -929,7 +926,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
    * **Operational Implication**: Never verify an SAB at a fake or out-of-market residential address expecting the hidden-address toggle to conceal the location from Google's AI ranking models—Ask Maps explicitly weights the underlying coordinate centroid when generating local recommendations.
 2. **Whitespark 1.8 Million Google Business Profile Study Correlations**:
    * Empirical analysis of **1.8 million profiles** confirms the statistical hierarchy of local pack ranking drivers:
-     * **#1 Keyword Presence in Business Title**: Remains the strongest individual ranking correlation (must be legally anchored via DBA/trading name registration per §3.3.1 and Module 9).
+     * **#1 Keyword Presence in Business Title** (by correlation in the 1.8M-profile dataset): Remains the strongest individual ranking correlation (must be legally anchored via DBA/trading name registration per §3.3.1 and Module 9).
      * **#2 Primary Category Precision**: Carries more ranking weight than all secondary categories combined.
      * **#3 Review Volume & Velocity**: Top-3 Local Pack profiles maintain **2.4x higher total review volume** and **3x faster monthly review velocity** than profiles ranked #4–#10.
      * **#4 The 50+ Authentic Photo Threshold**: Profiles exceeding 50 authentic in-situ operational photographs consistently outrank profiles with <10 images.
@@ -938,7 +935,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
    * Google restored clickable landing-page URL fields inside the GBP **Products** catalog (even for service-area businesses where the Products tab is enabled). Populate packaged service tiers as GBP Products with direct deep-links to their corresponding Core 30 service pages (Module 11) to capture high-intent card conversions.
 4. **Whitespark 2026 Local Search Ranking Factors Survey & 7 Empirical Field Tests (Luc Durand / Ranking Academy, `5EMQPsowMhk`)**:
    *Complementing the 1.8M profile dataset above, the Whitespark 2026 practitioner survey (187 factors scored by 47 experts) and Ranking Academy's 7 controlled field experiments establish the following operational thresholds:*
-   * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (the #1 ranking factor year after year) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (confirmed by Google end of 2023; hours-extension SLA in Module 6 §6.9.2) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
+   * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (#1 in the practitioner survey year after year; a different measure from the correlation ranking in item 2 above) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (confirmed by Google end of 2023; hours-extension SLA in Module 6 §6.9.2) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
    * **Primary Category Drift Hazard**: An HVAC client dropped out of the Local 3-Pack completely after switching its primary category from `Air Conditioning Repair Service` to `Air Conditioning Contractor`; reverting restored rankings within days.
    * **30-Day Controlled SAB Address-Toggle Test**: Hiding the physical address on a top-3 ranking profile per Google's SAB prompt collapsed its geogrid from green to red within days; restoring the visible address and map pin recovered rankings within weeks.
    * **The 9→10 Review Activation Cliff**: Crossing from **9 reviews to 10 reviews** triggers an initial algorithmic confidence unlock in Google Maps (aligning with the Module 4 §4.1 10-review launch sequence) before scaling toward triple-digit competitor parity (125–300+ reviews).
