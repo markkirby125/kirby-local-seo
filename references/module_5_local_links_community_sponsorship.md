@@ -11,7 +11,7 @@ Traditional digital PR and generic guest posting have diminishing returns for lo
 
 ### **5.3 Financials & Execution Parameters**
 *   **Budget Alignment:** Expect to spend between $350 and $500 per placement. Sponsorship is not traditional ad placement; you are buying hyper-local entity validation.
-*   **The Baseline Volume:** Start with a target of 5–10 local links. Data shows that 83% of businesses securing 10+ local sponsorships experience major visibility lifts in the map pack.
+*   **The Baseline Volume:** Start with a target of 5–10 local links. One practitioner reports that 83% of businesses securing 10+ local sponsorships saw major visibility lifts in the map pack (reported, single-source, unverified; no denominator given).
 *   **Value Bundling:** Negotiate bundled perks alongside the backlink: inclusion in the organization's email newsletter, social media shoutouts, physical banners, and offering a "coupon for good" (referral offer for members).
 
 ### **5.4 Technical Link Architecture**

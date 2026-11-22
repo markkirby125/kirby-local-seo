@@ -11,7 +11,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 > 
 
 * **Target Token Distribution:** Solicit reviews containing concrete nouns (e.g., *"Windows 11 upgrade"*, *"M365 Entra ID migration"*, *"Artex skim"*), operating systems, hardware models, and local postcodes/districts.
-* **Anonymous Review Solicitation:** Google allows anonymous reviews on GBP, lowering the friction for clients to leave reviews, especially in sensitive niches (e.g., divorce law, addiction rehab). Educate clients on this feature to increase review velocity.
+* **Sensitive-Niche Review Friction:** Google reviews show the reviewer's Google account display name; do not solicit anonymous reviews. In sensitive niches (e.g., divorce law, addiction rehab), tell clients they may use a display name that does not identify them.
 
 
 ### **3.2 Defensive Baseline Auditing & Geogrid Tracking**
@@ -28,12 +28,12 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 ### **3.3 Atomic GBP Catalog & Conversational Q\&A**
 
 * **Atomic Services:** Populate the Google Business Profile service catalog with 100–150 word factual, BLUF descriptions featuring hard numeric pricing and SLAs.  
-* **Pre-Seeded Conversational Q\&A:** Populate the profile Q\&A module with conversational sub-queries addressing emergency SLAs, call-out fee policies, and service scope.
+* **Conversational Q\&A:** Answer genuine customer questions only; put emergency SLA, call-out fee and service-scope answers in website FAQ copy (§3.3.1 Q&A Module Seeding).
 * **24-Hour Availability Configuration:** Setting GBP hours to "Open 24 hours" provides a ranking lift. However, only enable this if you can reliably answer the phone during off-hours, as missed calls to voicemail will negatively impact rankings.
 
 ### **3.4 Local Friction Injection & Multi-Platform Review Defense**
 
-* **Map-Pack Call Button Removal:** Google removed direct call buttons from organic 3-pack listings ("friction injection"), requiring users to click into the profile first. Profiles must "earn the second click" through high-impact hero photography, responsive Google Business Messages, and rich service catalogs.
+* **Map-Pack Call Button Removal:** Google reportedly removed direct call buttons from organic 3-pack listings ("friction injection"; reported, single-source, unverified), requiring users to click into the profile first. Profiles must "earn the second click" through high-impact hero photography, responsive Google Business Messages, and rich service catalogs.
 * **Multi-Platform Review Consensus:** Local Google AI Overviews pull and cross-reference reviews beyond Google Business Profiles. Maintain active, verified review profiles across secondary directories (Trustpilot, Yell, Yelp, industry-specific trade registers) to satisfy multi-engine consensus models.
 
 ### **3.5 Mitigation of Local Aggregator "Middleman" Demotion Signals**
@@ -46,13 +46,13 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 
 ### **3.3.1 GBP Configuration Hygiene & Rolling Maintenance Protocol**
 
-* **Secondary Categories Maximisation:** Google allows up to 10 total categories (1 primary + up to 9 secondary). The theory that adding secondary categories dilutes primary category ranking power is demonstrably false. Empirical agency testing consistently proves neutral-to-positive ranking outcomes when maximising legitimate secondary classifications. Populate all valid secondary categories without hesitation.
+* **Secondary Categories Maximisation:** Google allows up to 10 total categories (1 primary + up to 9 secondary). The theory that adding secondary categories dilutes primary category ranking power is contradicted by agency testing (reported, single-source, unverified), which found neutral-to-positive ranking outcomes when maximising legitimate secondary classifications. Populate all valid secondary categories without hesitation.
 * **Primary Category Niche-Down Multiplier (One-Way Door):** Switching the *primary* category from broad to specific (e.g., *Restaurant* → *Sushi Restaurant*) improved rankings by an average **+3.4 positions** in one split test; a separate revert test (specific back to broad) lost **30 positions** — far beyond the gain, i.e., documented hysteresis rather than a symmetric swap (source: 9,249 validated case-study meta-analysis, Edward Sturm Ep. 1191). Treat niche-down as effectively irreversible on a live profile: research the specific category matching the core revenue service before committing, keep the displaced broad category among the nine secondaries (Secondary Categories Maximisation bullet — this preserves broad query coverage), and never A/B test reverting on a production GBP.
 * **Entity-Level Service Taxonomy:** Google Maps and Search operate exclusively on semantic entity recognition, not keyword permutation matching.
   * Do not deploy repetitive keyword-stuffed service name variants (e.g., *"car accident lawyer"*, *"car wreck attorney"*, *"auto accident attorney"*).
   * Redundant service naming provides zero additional entity signal and risks automated keyword-stuffing classification.
   * Every service entry must represent a genuinely distinct, discrete entity or business procedure.
-* **Q&A Module Seeding:** Pre-populate the GBP Q&A module with conversational sub-queries aligned to emergency SLAs, call-out policies, and service scope exclusions.
+* **Q&A Module Seeding:** Owners may answer questions customers have asked, but must not post questions posing as customers (fake engagement under Google's Maps user-generated content policy). Draft the sub-queries (emergency SLAs, call-out policies, service scope exclusions) as FAQ copy on the website instead.
 * **Opening Date & "Years in Business" Trust Badge:** Populate the official business opening/start date in profile settings without exception. Google extracts this temporal attribute directly into local 3-pack search snippets as a prominent trust badge (e.g., *"10+ years in business"* or *"45 years in business"*). Listings displaying verified longevity capture substantially higher organic click-through rates (CTR) and inbound call volume than non-badged competitors.
 * **Business Title Keyword Strategy & Legal DBA Route:** While commercial keyword presence within the GBP business title is an acknowledged high-weight local ranking factor, arbitrary keyword stuffing risks automated name reversions or catastrophic profile suspension.
   * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US) or **Registered Business Name (RBN)** (IE/AU) matching that exact string. Use this legally verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties, but only when the DBA is the name the business genuinely trades under; a DBA filed only to carry keywords still breaks Google's business-name guidelines (see Guideline Caution below).
@@ -69,7 +69,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 - [ ] If deploying target keywords in business name (via EMD-to-DBA or standard entity workaround), ensure verified legal DBA/RBN documentation is active before altering the GBP name.
 - [ ] Assemble DBA video-verification evidence in the filed name: lease, utility bills, office signage, vehicle signage.
 - [ ] Scrub existing GBP service menus of all redundant keyword permutations.
-- [ ] Seed Q&A module with SLA, call-out, and procedural exclusion data.
+- [ ] Publish SLA, call-out, and procedural exclusion answers as website FAQ copy; answer only genuine customer Q&A on the profile.
 - [ ] Schedule a recurring calendar-triggered workflow every 60–90 days to pre-load the next available holiday operating hours window.
 
 ---
@@ -78,7 +78,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 
 Treat the Google Business Profile as an active, dynamic social channel rather than a static directory listing. Allowing a profile to sit inactive causes steady ranking decay in competitive local packs.
 
-* **The 52-Post Pre-Scheduled Annual Batch:**
+* **The 52-Post Pre-Scheduled Annual Batch (a human approves each post before it is queued, as with review replies):**
   * Pre-generate a full year of 52 weekly profile updates in a single operational batch, eliminating ongoing manual friction.
   * Structure the calendar across four rotating post archetypes (13 posts each):
     1. **Promotional (25%):** Specific seasonal service discounts, fixed-price diagnostic offers, and emergency call-out promotions.
@@ -89,7 +89,7 @@ Treat the Google Business Profile as an active, dynamic social channel rather th
 * **AI Middleware Automation Architecture (Windsor.ai / PostProxy):**
   * Connect the GBP API to LLM orchestration layers via integration middleware (such as Windsor.ai or PostProxy).
   * **Review Response Webhook:** Configure a daily 08:00 notification trigger scanning for newly posted customer feedback. The LLM automatically drafts an entity-rich response embedding specific service and location tokens for 1-click human owner review.
-  * **Scheduled Post Queuing:** Feed the 52-week calendar into an automated scheduling engine (e.g., LeadSnap) set to publish on an immutable weekly cadence and repeat on an annual loop.
+  * **Scheduled Post Queuing:** Feed the 52-week calendar into an automated scheduling engine (e.g., LeadSnap) set to publish human-approved posts weekly; re-approve each post before any annual repeat.
 
 ---
 
@@ -126,7 +126,7 @@ Treat the Google Business Profile (GBP) as the primary conversion asset, not the
 
 ### **3.7 Google Places API Landmark Extraction & Anti-Deindexing Geo-Content Pipeline**
 
-* **Trigger Condition:** Deploy this pipeline strictly after the Topical Relevance Threshold (Module 5.9) has been met. Identify specific geo-grid coordinates registering positions 4, 5, or 6 for the target service entity — these designate priority geo-expansion zones.
+* **Trigger Condition:** Deploy this pipeline strictly after the Topical Relevance Threshold ([`kirby-seo-telemetry`](../../kirby-seo-telemetry/SKILL.md) Module 5 §5.9) has been met. Identify specific geo-grid coordinates registering positions 4, 5, or 6 for the target service entity; these designate priority geo-expansion zones.
 * **Landmark Selection via Google Places API:** Query the Google Places API (`places/v1/places:searchNearby` or legacy `findplacefromtext`) to extract verified regional landmarks (lakes, parks, civic centres, colleges, major highway junctions, notable estates) surrounding each rank deficit zone. Utilising landmarks explicitly recognised within Google's Knowledge Graph eliminates the risk of referencing locations Google cannot algorithmically resolve.
 * **Content Informational Additivity Requirement:** Google's 2025 de-indexing actions specifically targeted geo-content representing *"the average of what already exists."* Geo-pages must introduce genuinely new, non-redundant information detailing why executing the target service entity in that specific micro-area differs from adjacent locales. Intra-domain same-spec volume: `kirby-aiseo-skill` §2.8. Indexed-then-pulled geo URLs: rewrite via §3.6.2 C; do not slug-reset first (`kirby-aiseo-skill` §1.16).
 * **Approved Data Sources for Authentic Localisation:**
@@ -618,7 +618,7 @@ Rather than guessing local search intent, reverse-engineer the exact GBP taxonom
 
 #### D. The 1-Backlink Per Core 30 Hub Standard
 Launching 30 internal pages with zero external validation risks crawl-demand stagnation (`Discovered - currently not indexed`). Keep-verdicts on already-fetched URLs are `kirby-aiseo-skill` §1.16, not a backlink gap.
-* Ensure that each Core 30 secondary category hub is anchored by **at least 1 verified external backlink**—such as a local Chamber of Commerce directory listing (§4.3.1), a municipal festival sponsorship, or an official manufacturer accreditation link.
+* Ensure that each Core 30 secondary category hub is anchored by **at least 1 verified external backlink**, such as a local Chamber of Commerce directory listing (Module 5 §5.2), a municipal festival sponsorship, or an official manufacturer accreditation link.
 
 **Super Citations & Core 30 Audit Checklist**
 - [ ] Claim and verify business profile on Apple Business Connect (Apple Maps / Apple Intelligence).
@@ -667,7 +667,8 @@ Initial SMS (T+60 Min) ──> Includes Direct Review Link + Dynamic Image
 1. **Initial Dispatch (T+60 Minutes):** Automatically dispatched within 1 hour of service delivery while customer satisfaction is highest.
    * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name] today! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]"*.
 2. **Dynamic Personalized Media Overlay:** Where possible, utilize dynamic image APIs (e.g., Nifty Images) to overlay the customer's first name onto a photograph of the technician, fleet vehicle, or completed project. Personalized dynamic imagery is reported to lift review completion by **10%–15%** (single-source, unverified; test before relying on it).
-3. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder. Strict rule: never exceed 2 total SMS touches to prevent customer irritation and unsubscribes.
+3. **Consent Rule (review requests by SMS or email):** send only to customers who have given consent to be contacted, identify the sender (business name) in every message, and include a working opt-out (reply STOP for SMS, unsubscribe link for email); honour opt-outs immediately.
+4. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder. Strict rule: never exceed 2 total SMS touches to prevent customer irritation and unsubscribes.
 
 #### C. The Star-Gated Review Response Protocol (AI vs. Human Escalation)
 Publicly responding to all reviews signals active management to Google's ranking algorithms. However, unconstrained automated AI replies to negative reviews create catastrophic public relations liabilities.
@@ -689,7 +690,7 @@ While digital SMS automation delivers consistent baseline velocity, in-person ph
 **Review Velocity & Response Checklist**
 - [ ] Audit Google Business Profile for velocity stagnation ($>30$ days without reviews), trailing 90-day review velocity/recency vs. top-3 Map Pack competitors (never pausing at #1), and rating thresholds.
 - [ ] Equip field technicians with physical in-person QR review cards featuring the intentional phrasing prompt.
-- [ ] Configure CRM webhook to trigger automated review SMS within 60 minutes of job completion.
+- [ ] Configure CRM webhook to trigger automated review SMS within 60 minutes of job completion, only for customers who pass the Consent Rule (§3.1.1 B).
 - [ ] Deploy dynamic personalized imagery and enforce the 72-hour single-reminder cap.
 - [ ] Configure the AI drafter to produce a reply draft for every review, echoing only terms the reviewer wrote (max one service, one place); a human approves all publishing.
 - [ ] Implement strict Human Escalation Gate routing all $\le 3$-star reviews to management for private resolution.
@@ -744,7 +745,7 @@ Deploying multiple regional sites introduces severe algorithmic penalty risks if
   * Specific municipal landmarks, local transport junctions, and verified postal codes.
   * Local structural variations (e.g., lime plaster in Victorian masonry vs. modern gypsum in newer housing estates).
   * Unique case studies and pricing floors matching regional economic realities.
-* **Isolated Operational Telephony:** Assign dedicated, tracked local virtual phone numbers per market (e.g., via Twilio) paired with AI voice receptionists to record, transcribe, and route calls without creating cross-site digital footprints.
+* **Isolated Operational Telephony:** Assign dedicated, tracked local virtual phone numbers per market (e.g., via Twilio) paired with AI voice receptionists to record, transcribe, and route calls without creating cross-site digital footprints. Call recording or transcription requires a notice at call start and consent where the law requires it.
 
 #### E. Service Area Business (SAB) Paradox & Hierarchical Pyramid URL Architecture
 Service Area Businesses (SABs) that operate without a public physical storefront face unique algorithmic constraints:
@@ -761,14 +762,14 @@ Service Area Businesses (SABs) that operate without a public physical storefront
 * **The "Net New Local Data Test" (50% Differentiation Rule):** Publishing 20 templated pages with programmatically swapped city names triggers Google's Scaled Content Abuse classifiers, resulting in sitewide de-indexing.
   * Every location page must demonstrate **at least 50% unique copy**.
   * If you cannot write genuinely unique, non-duplicable details about serving that specific town—local infrastructure nuances, estate names, authentic job references—**do not publish the page**.
-* **Neighborhood landing-page copy:** Do not specify H1, Instant-Yes/BLUF openings, or localized FAQ blocks here. Those rules live in **Module 4 §4.3**.
+* **Neighborhood landing-page copy:** Do not specify H1 or localized FAQ blocks here. Those rules live in **Module 11 §11.3** (title and H1 parity, conversational FAQ); location differentiation lives in **Module 7 §7.4**.
 
 **Secondary-City & Edge Architecture Checklist**
 - [ ] Identify secondary and tertiary regional cities with high commercial demand and fragmented competition.
 - [ ] Deploy the Star Method: rank the central secondary hub before launching radial satellite pages.
 - [ ] Implement Hierarchical Pyramid URLs (`/service/city/`) for all Service Area Business satellite pages.
 - [ ] Enforce the Net New Local Data Test: verify $\ge 50\%$ unique copy and genuine local proof before publishing.
-- [ ] Structure neighborhood pages per Module 4 §4.3 (exact-match H1 and Instant-Yes opening live there).
+- [ ] Structure neighborhood pages per Module 11 §11.3 (H1 and FAQ) and Module 4 §4.3 (neighborhood content).
 - [ ] Build static flat HTML sites deployed on Cloudflare Pages for sub-50ms TTFB and perfect Core Web Vitals.
 - [ ] Enforce complete domain isolation: strictly zero inter-domain linking between regional properties.
 
@@ -853,7 +854,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 * The AI weighting system heavily penalizes stale profiles. Earning 50 reviews three years ago will lose to a competitor earning 2 reviews every week. 
 * **Trailing 90-Day Velocity & Recency Benchmark (> Lifetime Count):** Benchmark your profile's **trailing 90-day review count and recency** directly against the top-3 Map Pack competitors for your primary commercial query, rather than optimizing against lifetime review totals alone.
 * **The "Never Pause at #1" Guardrail:** Never pause or throttle review solicitation once the profile reaches Map Pack Position #1. Maintaining a continuous, week-over-week velocity margin over the #2 and #3 competitors is mandatory to defend both Local Pack rankings and Ask Maps AI recommendation share.
-* **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups) to ensure a constant, high-velocity stream of inbound reviews.
+* **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups; Consent Rule, §3.1.1 B) to ensure a constant, high-velocity stream of inbound reviews.
 
 *Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 §4.3**.*
 

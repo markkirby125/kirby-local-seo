@@ -2,7 +2,7 @@
 
 *Source: Caleb Ulku ("STOP Creating Google Business Profile Wrong! (2025)" & "Google Business Address Change DENIED? (Quick Fix)") and Whitespark Local Update E41 & E50. October 2026.*
 
-Google’s automated verification algorithms reject over 60% of initial profile verifications and routinely deny address updates, trapping unprepared business owners in suspension loops. Furthermore, Google updated its official terms to penalize aggressive or repetitive support ticket submissions.
+Practitioners report that Google’s automated verification rejects over 60% of initial profile verifications (reported, single-source, unverified) and routinely denies address updates, trapping unprepared business owners in suspension loops. Furthermore, Google updated its official terms to penalize aggressive or repetitive support ticket submissions.
 
 This module is the **single canonical source of truth** for the 3-phase continuous-take video verification script, address change pre-checks, SAB centroid defense, and Google Support escalation hygiene.
 
