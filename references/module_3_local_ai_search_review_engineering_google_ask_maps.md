@@ -29,7 +29,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 ### **3.3 Atomic GBP Catalog & Conversational Q\&A**
 
 * **Atomic Services:** Populate the Google Business Profile service catalog with 100–150 word factual, BLUF descriptions featuring hard numeric pricing and SLAs.  
-* **Conversational Q\&A:** Answer genuine customer questions only; put emergency SLA, call-out fee and service-scope answers in website FAQ copy (§3.3.1 Q&A Module Seeding).
+* **Conversational Q\&A:** Answer genuine customer questions only (if profile Q&A is still live; see the status caveat in §3.3.1); put emergency SLA, call-out fee and service-scope answers in website FAQ copy (§3.3.1 Q&A Module Seeding).
 * **24-Hour Availability Configuration:** Setting GBP hours to "Open 24 hours" is reported to give a ranking lift (reported, single-source; not confirmed by Google; Module 6 §6.9). Only enable it if you can reliably answer the phone during off-hours; missed calls provoke 1-star reviews.
 
 ### **3.4 Local Friction Injection & Multi-Platform Review Defense**
@@ -53,7 +53,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
   * Do not deploy repetitive keyword-stuffed service name variants (e.g., *"car accident lawyer"*, *"car wreck attorney"*, *"auto accident attorney"*).
   * Redundant service naming provides zero additional entity signal and risks automated keyword-stuffing classification.
   * Every service entry must represent a genuinely distinct, discrete entity or business procedure.
-* **Q&A Module Seeding:** Owners may answer questions customers have asked, but must not post questions posing as customers (fake engagement under Google's Maps user-generated content policy). Draft the sub-queries (emergency SLAs, call-out policies, service scope exclusions) as FAQ copy on the website instead.
+* **Q&A Module Seeding:** Owners may answer questions customers have asked, but must not post questions posing as customers (fake engagement under Google's Maps user-generated content policy). Status caveat: Google discontinued the My Business Q&A API on 2025-11-03 and says it is updating Q&A functionality and UX (https://developers.google.com/my-business/content/qanda/change-log, checked 2026-11-23); the consumer-facing Q&A status is not confirmed, so confirm on Google's current Business Profile Help before relying on profile Q&A. Draft the sub-queries (emergency SLAs, call-out policies, service scope exclusions) as FAQ copy on the website instead.
 * **Opening Date & "Years in Business" Trust Badge:** Populate the official business opening/start date in profile settings without exception. Google extracts this temporal attribute directly into local 3-pack search snippets as a prominent trust badge (e.g., *"10+ years in business"* or *"45 years in business"*). Listings displaying verified longevity capture substantially higher organic click-through rates (CTR) and inbound call volume than non-badged competitors.
 * **Business Title Keyword Strategy & Legal DBA Route:** While commercial keyword presence within the GBP business title is an acknowledged high-weight local ranking factor, arbitrary keyword stuffing risks automated name reversions or catastrophic profile suspension.
   * **The EMD-to-DBA Pipeline:** To lock in an Exact/Partial Match Domain (EMD/PMD) advantage, purchase the target domain first (e.g., `EscapeWebDesignNYC.com`), then register a legal **DBA** (US) or **Registered Business Name (RBN)** (IE/AU) matching that exact string. Use this legally verified name on the GBP. This establishes a compliant entity bridge between the web domain and the Map Pack to minimize the risk of keyword-stuffing penalties, but only when the DBA is the name the business genuinely trades under; a DBA filed only to carry keywords still breaks Google's business-name guidelines (see Guideline Caution below).
@@ -70,7 +70,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 - [ ] If deploying target keywords in business name (via EMD-to-DBA or standard entity workaround), ensure verified legal DBA/RBN documentation is active before altering the GBP name.
 - [ ] Assemble DBA video-verification evidence in the filed name: lease, utility bills, office signage, vehicle signage.
 - [ ] Scrub existing GBP service menus of all redundant keyword permutations.
-- [ ] Publish SLA, call-out, and procedural exclusion answers as website FAQ copy; answer only genuine customer Q&A on the profile.
+- [ ] Publish SLA, call-out, and procedural exclusion answers as website FAQ copy; answer only genuine customer Q&A on the profile (if still available; confirm per §3.3.1).
 - [ ] Schedule a recurring calendar-triggered workflow every 60–90 days to pre-load the next available holiday operating hours window.
 
 ---
