@@ -84,7 +84,7 @@ Treat the Google Business Profile as an active, dynamic social channel rather th
   * Structure the calendar across four rotating post archetypes (13 posts each):
     1. **Promotional (25%):** Specific seasonal service discounts, fixed-price diagnostic offers, and emergency call-out promotions.
     2. **Educational (25%):** Practical homeowner/business maintenance tips, diagnostic checklists, and common failure prevention.
-    3. **Engagement & Social Proof (25%):** Recent project highlights, before-and-after photo narratives, and customer testimonial quotes.
+    3. **Engagement & Social Proof (25%):** Recent project highlights, before-and-after photo narratives (client consent on file, no identifying details), and customer testimonial quotes (only with the customer's recorded consent to be quoted, names and personal details removed, never reworded into a stronger claim).
     4. **Seasonal & Proactive (25%):** Weather-triggered operational readiness (e.g., winter pipe freeze alerts, summer storm power surge protection).
 * **Targeted Child URL Routing Mandate:** Every GBP post must include a clear Call to Action (CTA) linking directly to the specific, relevant child service landing page (e.g., `/drain-cleaning/concord/` or `/wifi-setup/ascot/`) rather than the root homepage. This routes contextual link equity directly to the target service entity.
 * **AI Middleware Automation Architecture (Windsor.ai / PostProxy):**

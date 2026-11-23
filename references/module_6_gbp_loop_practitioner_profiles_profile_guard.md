@@ -103,7 +103,7 @@ Leave dense keyword optimization to the associated website; the Google Business 
 2. **The 100% Review Response Mandate:** Every review (positive or negative) must receive a public response. Responses signal customer care to prospective searchers and entity activity to Google.
 3. **AI-Drafted, Human-Gated Review Response Workflow:**
    * Automated unmonitored AI responses generate generic, repetitive corporate slop (*"Thanks for your review, valued customer!"*), which repels real prospects.
-   * **The Protocol:** An LLM generates 3 distinct, contextual response variations referencing the specific service rendered and location mentioned in the customer's review (subject to the Module 10 §10.1 PII & Regulated-Sector Carve-Out: zero reviewer names and zero client/patient/case/visit confirmations for UK SRA/GDPR/medical/financial sectors; route drafting through [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)).
+   * **The Protocol:** An LLM generates 3 distinct, contextual response variations referencing the specific service rendered and location mentioned in the customer's review (subject to the Module 10 §10.1 PII & Regulated-Sector Carve-Out: zero reviewer names, no service or place echoed, and zero client/patient/case/visit confirmations for UK SRA/GDPR/medical/financial sectors; route drafting through [`kirby-gbp-review-replies`](../../kirby-gbp-review-replies/SKILL.md)).
    * **The Gate:** A real human manager or client must select, review, customize, and approve the response before it is pushed to the GBP API. Zero automated publishing without human sign-off.
 
 ---
