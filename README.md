@@ -15,7 +15,7 @@ By ignoring AI attribute matching, you are silently bleeding high-intent, hyper-
 - **§3.14** Star-rating math: the baseline-dependent offset ratio `x=(a−1)/(5−a)` (7:1 at 4.5 → 79:1 at 4.95) and the illegitimate-review removal SOP (4-removal map-pack unfreeze benchmark)
 - **§3.15** The GBP "super-link" effect — verified GBP → city landing page, gated by the §3.8 routing tree
 - **§3.16** Review gating marked compliance-restricted (Google policy + FTC 16 CFR 465) with the policy-safe unconditional-survey alternative
-- **§3.17** Standalone brand review summary sites (`[Brand]Reviews.com`) for LLM review corroboration (canonical twin shipped in `kirby-decision-engine-optimization` Module 4)
+- **§3.17** Standalone brand review summary sites (`[Brand]Reviews.com`) for LLM review corroboration (brand-owned, see the §3.17 disclosure rule; canonical twin shipped in `kirby-decision-engine-optimization` Module 4)
 - **§3.18** Offline-asset digitization for established 30–40 year businesses into verified review/proof nodes
 - **§3.19** Ask Maps SAB address revelation, restored GBP Product links & Whitespark 1.8M Study correlations
 - **§3.20** EXIF metadata reality check (no measurable Map Pack lift vs. +90% Lens visual search appearance) & Local Context Saturation for Google Ask Maps (The SEO Meta Study / Ep. 1191/1207)
