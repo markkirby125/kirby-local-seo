@@ -235,7 +235,7 @@ This leaves the markup with one consistent identifier for the same entity pin, w
 
 *Source: The David Quaid SEO Show, Ep. 8 (Jake Hanley × David Quaid). Speaker-reported behaviour; Yelp does not publish the filter mechanics.*
 
-* **Solicitation Ban (per speaker):** The speaker states that Yelp's rules prohibit soliciting reviews, including simply asking customers for one. Confirm against Yelp's current content guidelines.
+* **Solicitation Ban:** Yelp's content guidelines state "Businesses should never ask customers to write reviews" (yelp.com/guidelines, checked 2026-11-23). The speaker in the source makes the same claim, including simply asking customers for one.
 * **Reported Filter Behaviour:** The speaker describes Yelp asking the reviewer at the end of the submission flow whether they were asked to leave the review. If they answer "yes", the review is reported to be hidden at the bottom of the listing and excluded from the star rating. Treat this as a practitioner observation.
 * **Operational Rule:** Direct all automated review drip campaigns (SMS/Email) exclusively to Google Business Profiles or open platforms (§6.6). Keep Yelp review growth organic and unsolicited.
 
