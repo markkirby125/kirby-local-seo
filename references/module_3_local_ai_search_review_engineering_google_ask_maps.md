@@ -29,7 +29,7 @@ Conversational search interfaces (e.g., Ask Maps) index customer reviews as unst
 
 * **Atomic Services:** Populate the Google Business Profile service catalog with 100–150 word factual, BLUF descriptions featuring hard numeric pricing and SLAs.  
 * **Conversational Q\&A:** Answer genuine customer questions only; put emergency SLA, call-out fee and service-scope answers in website FAQ copy (§3.3.1 Q&A Module Seeding).
-* **24-Hour Availability Configuration:** Setting GBP hours to "Open 24 hours" provides a ranking lift. However, only enable this if you can reliably answer the phone during off-hours, as missed calls to voicemail will negatively impact rankings.
+* **24-Hour Availability Configuration:** Setting GBP hours to "Open 24 hours" is reported to give a ranking lift (reported, single-source; not confirmed by Google; Module 6 §6.9). Only enable it if you can reliably answer the phone during off-hours; missed calls provoke 1-star reviews.
 
 ### **3.4 Local Friction Injection & Multi-Platform Review Defense**
 
@@ -646,26 +646,26 @@ Before configuring automation, audit the Google Business Profile across five vul
 5. **Operational Job Conversion Potential:** Mapping monthly completed invoice volume to establish a target of 10%–15% customer review conversion.
 
 #### B. The 3-Day SMS Automation Cadence & Personalized Dynamic Media
-Manual review solicitation suffers from employee forgetfulness. Review requests must be programmatically triggered by CRM pipeline stage transitions upon job completion:
+Manual review solicitation suffers from employee forgetfulness. Review requests must be programmatically triggered by CRM pipeline stage transitions. Send the first request only after the technician has left the premises and the customer is off the business network: default 24–48 hours after departure (Module 10 §10.2). Exception: jobs completed remotely, with no shared-network risk, may be sent on completion.
 
 ```
-[Job Completed in CRM]
+[Technician Departed in CRM]
           │
           ▼
-Initial SMS (T+60 Min) ──> Includes Direct Review Link + Dynamic Image
+Initial SMS (24–48 Hours) ──> Includes Direct Review Link + Dynamic Image
           │
      (Reviewed?)
      ├── Yes ──> Process Complete (Routes to AI Response)
      └── No  ──> Wait 72 Hours
                    │
                    ▼
-          Follow-Up SMS (T+72 Hours) ──> Polite 1-Touch Reminder
+          Follow-Up SMS (+72 Hours) ──> Polite 1-Touch Reminder
                    │
               (Terminates: Maximum 2 Total Touches)
 ```
 
-1. **Initial Dispatch (T+60 Minutes):** Automatically dispatched within 1 hour of service delivery while customer satisfaction is highest.
-   * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name] today! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]. Reply STOP to opt out."* Send only to customers covered by the Consent Rule (step 3).
+1. **Initial Dispatch (24–48 Hours After Departure):** Automatically dispatched per the timing rule above.
+   * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name]! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]. Reply STOP to opt out."* Send only to customers covered by the Consent Rule (step 3).
 2. **Dynamic Personalized Media Overlay:** Where possible, utilize dynamic image APIs (e.g., Nifty Images) to overlay the customer's first name onto a photograph of the technician, fleet vehicle, or completed project. Personalized dynamic imagery is reported to lift review completion by **10%–15%** (single-source, unverified; test before relying on it).
 3. **Consent Rule (review requests by SMS or email):** send only to customers who have given consent to be contacted, identify the sender (business name) in every message, and include a working opt-out (reply STOP for SMS, unsubscribe link for email); honour opt-outs immediately.
 4. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder, under the same Consent Rule (step 3).
@@ -692,7 +692,7 @@ While digital SMS automation delivers consistent baseline velocity, in-person ph
 **Review Velocity & Response Checklist**
 - [ ] Audit Google Business Profile for velocity stagnation ($>30$ days without reviews), trailing 90-day review velocity/recency vs. top-3 Map Pack competitors (never pausing at #1), and rating thresholds.
 - [ ] Equip field technicians with physical in-person QR review cards featuring the intentional phrasing prompt.
-- [ ] Configure CRM webhook to trigger automated review SMS within 60 minutes of job completion, only for customers who pass the Consent Rule (§3.1.1 B).
+- [ ] Configure CRM webhook to trigger automated review SMS 24–48 hours after the technician departs (remote jobs: on completion), only for customers who pass the Consent Rule (§3.1.1 B).
 - [ ] Deploy dynamic personalized imagery and enforce the 72-hour single-reminder cap.
 - [ ] Configure the AI drafter to produce a reply draft for every review, echoing only terms the reviewer wrote (max one service, one place); a human approves all publishing.
 - [ ] Implement strict Human Escalation Gate routing all $\le 3$-star reviews to management for private resolution.
@@ -857,12 +857,12 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
 * The AI weighting system heavily penalizes stale profiles. Earning 50 reviews three years ago will lose to a competitor earning 2 reviews every week. 
 * **Trailing 90-Day Velocity & Recency Benchmark (> Lifetime Count):** Benchmark your profile's **trailing 90-day review count and recency** directly against the top-3 Map Pack competitors for your primary commercial query, rather than optimizing against lifetime review totals alone.
 * **The "Never Pause at #1" Guardrail:** Never pause or throttle review solicitation once the profile reaches Map Pack Position #1. Maintaining a continuous, week-over-week velocity margin over the #2 and #3 competitors is mandatory to defend both Local Pack rankings and Ask Maps AI recommendation share.
-* **The Velocity Mandate:** Establish automated systems (SMS at the point of service, email follow-ups; Consent Rule, §3.1.1 B) to ensure a constant, high-velocity stream of inbound reviews.
+* **The Velocity Mandate:** Establish automated systems (SMS 24–48 hours after the technician departs, email follow-ups; Consent Rule and timing rule, §3.1.1 B) to ensure a constant, high-velocity stream of inbound reviews.
 
 *Note: For rules on building the attached localized landing pages necessary to corroborate these reviews, refer to **Module 4 §4.3**.*
 
 **Ask Maps Optimization Checklist**
-- [ ] Implement point-of-sale or immediate post-service SMS review requests to maintain high review velocity.
+- [ ] Implement automated SMS review requests 24–48 hours after the technician departs (§3.1.1 B) to maintain high review velocity.
 - [ ] Audit recent reviews to ensure customers are naturally mentioning specific services and neighborhoods.
 
 ---
@@ -939,7 +939,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
    * Google restored clickable landing-page URL fields inside the GBP **Products** catalog (even for service-area businesses where the Products tab is enabled). Populate packaged service tiers as GBP Products with direct deep-links to their corresponding Core 30 service pages (Module 11) to capture high-intent card conversions.
 4. **Whitespark 2026 Local Search Ranking Factors Survey & 7 Empirical Field Tests (Luc Durand / Ranking Academy, `5EMQPsowMhk`)**:
    *Complementing the 1.8M profile dataset above, the Whitespark 2026 practitioner survey (187 factors scored by 47 experts) and Ranking Academy's 7 controlled field experiments establish the following operational thresholds:*
-   * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (#1 in the practitioner survey year after year; a different measure from the correlation ranking in item 2 above) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (confirmed by Google end of 2023; hours-extension SLA in Module 6 §6.9.2) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
+   * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (#1 in the practitioner survey year after year; a different measure from the correlation ranking in item 2 above) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (reported, single-source; not confirmed by Google; hours hygiene in Module 6 §6.9) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
    * **Primary Category Drift Hazard**: An HVAC client dropped out of the Local 3-Pack completely after switching its primary category from `Air Conditioning Repair Service` to `Air Conditioning Contractor`; reverting restored rankings within days.
    * **30-Day Controlled SAB Address-Toggle Test**: Hiding the physical address on a top-3 ranking profile per Google's SAB prompt collapsed its geogrid from green to red within days; restoring the visible address and map pin recovered rankings within weeks.
    * **The 9→10 Review Activation Cliff**: In one practitioner survey, crossing from **9 reviews to 10 reviews** was observed to coincide with a visibility step-up in Google Maps (reported, unconfirmed mechanism; aligns with the Module 4 §4.1 10-review launch sequence) before scaling toward triple-digit competitor parity (125–300+ reviews).

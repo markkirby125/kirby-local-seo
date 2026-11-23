@@ -6,7 +6,7 @@ When acquiring, renaming, or rebranding a local business (e.g., transitioning fr
 
 This module codifies a 5-phase sequence for a genuine rebrand of an existing Google Business Profile. Its goal is to produce corroborating evidence (legal records, website, citations) before each GBP edit so Google can verify the change. It lowers, but does not remove, the risk of suspension, video reverification, or review loss.
 
-**Eligibility gate — ownership continuity (run before any phase):** Proceed only if the §9.3 Legitimate Rebrand test holds: same core category, same market, same core services, continuous ownership or management. If ownership or concept has changed, stop: this protocol does not apply, and the change follows Google's Identity Change Policy (§9.3).
+**Eligibility gate — ownership continuity (run before any phase):** Proceed only if the §9.3 Legitimate Rebrand test holds: same primary category, same market, same core services, continuous ownership or management. If ownership or concept has changed, stop: this protocol does not apply, and the change follows Google's Identity Change Policy (§9.3).
 
 ---
 
@@ -39,7 +39,7 @@ Never touch the Google Business Profile dashboard as the first step of a rebrand
 │          - Execute strictly one sensitive field change per week:        │
 │            * Week 1: Website URL                                        │
 │            * Week 2: Business Name                                      │
-│            * Week 3: Primary Category / Phone Number                    │
+│            * Week 3: Phone Number (only if it changes)                  │
 │                                                                         │
 │ Phase 5: Media Cleanse & Secondary Citation Sweep                       │
 │          - Delete obsolete logos, old signage, and former staff photos  │
@@ -74,7 +74,8 @@ The source reports that changing several sensitive fields at once resembles a pr
    - **Recommended Cutover Sequence**:
      - *Day 1 (Post 14-Day Buffer)*: Update the **Website URL** field on GBP (linking to the updated domain or redirected landing page). Wait 7 days.
      - *Day 8*: Update the **Business Name** field to the new legal trading name. Wait 7 days.
-     - *Day 15*: Update the **Phone Number** or **Primary Category** (only if required).
+     - *Day 15*: Update the **Phone Number** (only if it changes).
+   - *Note*: Do not change the Primary Category in a rebrand; a category change fails the eligibility gate (§9.3).
    - *Note*: Never change the physical address and the business name at the same time. For domain-level redirect and migration timing benchmarks, cross-reference [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md) Module 20 §20.4.
 
 ---

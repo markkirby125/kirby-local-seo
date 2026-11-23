@@ -87,7 +87,7 @@ Studying businesses ranking at #4–#10 reveals the common failure patterns that
 1. **The Gated Pricing Barrier & Rotating Hero Sliders**:
    - Violating [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §17 (gating pricing behind multi-field forms) and §1.5 (auto-rotating hero carousels) spikes pogo-sticking and degrades behavioral ranking signals.
 2. **Closing Hour Ranking Suppression**:
-   - Practitioner observation: listings closing at 5:00 PM rank lower during evening search queries (e.g., at 8:00 PM), in favor of 24/7 or open operators (Module 6 §6.9.2).
+   - Practitioner observation (reported, single-source; not confirmed by Google): listings closing at 5:00 PM rank lower during evening search queries (e.g., at 8:00 PM), in favor of 24/7 or open operators (Module 6 §6.9).
 3. **Diluted Internal Link Equity (Navbar Bloat)**:
    - Websites featuring 100+ navigation links divide PageRank equity across every link. Editorial service links receive fractional equity, starving target service entities of ranking power.
 4. **Unbranded Email Footprint**:
