@@ -743,11 +743,12 @@ Traditional WordPress architectures introduce severe liabilities for high-perfor
 #### D. Strict Anti-PBN & Scaled Content Abuse Governance
 Deploying multiple regional sites introduces severe algorithmic penalty risks if handled carelessly:
 * **The PBN De-Indexing Trap:** Never interlink independent local microsites together, and never use satellite sites to pass artificial PageRank back to a central master domain. Google’s link spam algorithms classify cross-linked networks as Private Blog Networks (PBNs), triggering total manual network de-indexing.
+* **Ownership Disclosure:** Each regional site must be a genuine standalone property disclosed as yours; do not build a network, and do not vary hosting, templates or markup to mask common ownership.
 * **The Dynamic City-Swapping Ban:** Every regional page must contain authentic, additive local information:
   * Specific municipal landmarks, local transport junctions, and verified postal codes.
   * Local structural variations (e.g., lime plaster in Victorian masonry vs. modern gypsum in newer housing estates).
   * Unique case studies and pricing floors matching regional economic realities.
-* **Isolated Operational Telephony:** Assign dedicated, tracked local virtual phone numbers per market (e.g., via Twilio) paired with AI voice receptionists to record, transcribe, and route calls without creating cross-site digital footprints. Call recording or transcription requires a notice at call start and consent where the law requires it.
+* **Per-Market Operational Telephony:** Assign dedicated, tracked local virtual phone numbers per market (e.g., via Twilio) paired with AI voice receptionists to record, transcribe, and route calls. The AI receptionist must tell callers at the start that they are speaking to an automated assistant. Call recording or transcription requires a notice at call start and consent where the law requires it.
 
 #### E. Service Area Business (SAB) Paradox & Hierarchical Pyramid URL Architecture
 Service Area Businesses (SABs) that operate without a public physical storefront face unique algorithmic constraints:
@@ -773,7 +774,7 @@ Service Area Businesses (SABs) that operate without a public physical storefront
 - [ ] Enforce the Net New Local Data Test: verify $\ge 50\%$ unique copy and genuine local proof before publishing.
 - [ ] Structure neighborhood pages per Module 11 §11.3 (H1 and FAQ) and Module 4 §4.3 (neighborhood content).
 - [ ] Build static flat HTML sites deployed on Cloudflare Pages for sub-50ms TTFB and perfect Core Web Vitals.
-- [ ] Enforce complete domain isolation: strictly zero inter-domain linking between regional properties.
+- [ ] No cross-linking between regional properties (§3.11 D); disclose common ownership on each site.
 
 ---
 

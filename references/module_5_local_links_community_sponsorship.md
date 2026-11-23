@@ -10,15 +10,16 @@ Traditional digital PR and generic guest posting have diminishing returns for lo
 *   **Outreach Strategy:** Perform manual, individual outreach via phone or personalized email. Volunteer-run organizations respond exceptionally well to genuine, non-salesy support. Expect up to 10 touches to close.
 
 ### **5.3 Financials & Execution Parameters**
-*   **Budget Alignment:** Expect to spend between $350 and $500 per placement. Sponsorship is not traditional ad placement; you are buying hyper-local entity validation.
+*   **Budget Alignment:** The source reports sponsorships of $350–$500 each (reported, single-source). The fee pays for the sponsorship, not for a link; any link it earns follows the §5.4 disclosure guardrail.
 *   **The Baseline Volume:** Start with a target of 5–10 local links. One practitioner reports that 83% of businesses securing 10+ local sponsorships saw major visibility lifts in the map pack (reported, single-source, unverified; no denominator given).
-*   **Value Bundling:** Negotiate bundled perks alongside the backlink: inclusion in the organization's email newsletter, social media shoutouts, physical banners, and offering a "coupon for good" (referral offer for members).
+*   **Value Bundling:** Negotiate bundled perks alongside the sponsor listing: inclusion in the organization's email newsletter, social media shoutouts, physical banners, and offering a "coupon for good" (referral offer for members).
 
 ### **5.4 Technical Link Architecture**
 *   **Target Pages:** Do not point all sponsorship links at the homepage. Direct them to the specific city + state location or service pages.
 *   **Anchor Text:** Ensure the anchor text is a natural service phrase embedded within a descriptive sentence, rather than an exact-match keyword dump.
-*   **Link Qualification:** Verify that the organization links out using standard `do-follow` links on their primary domain. Avoid placements on third-party subdomains (e.g., runsignup.com), `nofollow` directories, or PBNs.
-*   **Reciprocity:** Publish an "Organizations We Support" page on your own domain providing outbound `do-follow` links to your sponsored partners, completing the local entity loop.
+*   **Link Qualification:** Verify that the sponsor listing sits on the organization's own primary domain. Avoid placements on third-party subdomains (e.g., runsignup.com) or PBNs.
+*   **⚠️ Disclosure guardrail (non-negotiable):** Paid placements must carry `nofollow`/`sponsored` attributes and clear sponsorship disclosure — Google link-spam policy and FTC endorsement guides both apply ([`kirby-off-page-seo`](../../kirby-off-page-seo/SKILL.md) Module 12 §12.7). Never make the sponsorship conditional on a followed link.
+*   **Reciprocity:** Publish an "Organizations We Support" page on your own domain providing outbound links to your sponsored partners, completing the local entity loop.
 
 ### **5.5 Measurement & AI Visibility**
 Track the ROI not just through standard rank tracking, but by measuring the influx of new keywords and brand mentions in AI answers (e.g., tracking a Dial One HVAC franchise jump from 43 links to +86 newly ranked keywords and +9 average position).

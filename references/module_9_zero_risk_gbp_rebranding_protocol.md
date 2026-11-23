@@ -1,20 +1,24 @@
-# Module 9: The Whitespark Zero-Risk GBP Rebranding & Name Change Protocol
+# Module 9: The Whitespark GBP Rebranding & Name Change Protocol
 
 *Source: Darren Shaw / Whitespark ("What Google Won't Tell You About Rebranding Your Business Profile" & E28 "Disappearing Reviews, New Business Name Policy"). October 2026.*
 
-When acquiring, renaming, or rebranding a local business (e.g., transitioning from a regional umbrella name to a city-focused trading name), following Google’s official documentation is a catastrophic trap. Google’s documentation instructs owners to mark the existing profile as *"Permanently Closed"* and create a brand-new profile. **Doing so permanently destroys all accumulated review equity, historical longevity badges, and local ranking momentum.**
+When acquiring, renaming, or rebranding a local business (e.g., transitioning from a regional umbrella name to a city-focused trading name), the source's reported view is that the route in Google's documentation is costly: per the source, it instructs owners to mark the existing profile as *"Permanently Closed"* and create a brand-new profile, which the source reports loses accumulated reviews, longevity badges, and local ranking momentum.
 
-This module codifies the exact 5-phase operational sequence to rebrand an existing Google Business Profile safely without triggering algorithmic suspensions, forced video reverifications, or review stripping.
+This module codifies a 5-phase sequence for a genuine rebrand of an existing Google Business Profile. Its goal is to produce corroborating evidence (legal records, website, citations) before each GBP edit so Google can verify the change. It lowers, but does not remove, the risk of suspension, video reverification, or review loss.
+
+**Eligibility gate — ownership continuity (run before any phase):** Proceed only if the §9.3 Legitimate Rebrand test holds: same core category, same market, same core services, continuous ownership or management. If ownership or concept has changed, stop: this protocol does not apply, and the change follows Google's Identity Change Policy (§9.3).
 
 ---
 
 ### **9.1 The "Update the Web First" Doctrine & Sitewide Crawl Trigger**
 
-Never touch the Google Business Profile dashboard as the first step of a rebrand. Whenever a sensitive field is modified on a GBP, Google immediately dispatches automated verification bots to crawl the linked website and cross-reference third-party data aggregators. If the GBP displays the new business name while the linked website, schema, and social directories still display the old identity, Google flags the edit as an unauthorized profile hijacking and suspends the listing.
+Never touch the Google Business Profile dashboard as the first step of a rebrand. The source reports that a sensitive-field edit prompts Google to check the linked website and third-party data aggregators. If the GBP shows the new name while the website, schema, and directories still show the old identity, the edit lacks corroboration and the source reports it can be rejected or the listing suspended.
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│              ZERO-RISK GBP REBRANDING OPERATING SEQUENCE                │
+│                  GBP REBRANDING OPERATING SEQUENCE                      │
+├─────────────────────────────────────────────────────────────────────────┤
+│ Eligibility gate: §9.3 ownership-continuity test passed (else stop)     │
 ├─────────────────────────────────────────────────────────────────────────┤
 │ Phase 1: Real-World Legal Entity & Document Preparation                 │
 │          - Register legal trading name / DBA / Companies House          │
@@ -45,20 +49,20 @@ Never touch the Google Business Profile dashboard as the first step of a rebrand
 
 1. **Website & Schema Modernization (Priority #1)**:
    - Update the visible business name, address, and phone number (NAP) across the header, footer, and contact page of the linked website.
-   - **Critical Schema Check**: Audit the page source for `LocalBusiness` JSON-LD structured data. Forgetting to update the `name` and `url` properties inside the JSON-LD schema while updating visible HTML text causes instant verification rejection during Google's sitewide crawl.
+   - **Critical Schema Check**: Audit the page source for `LocalBusiness` JSON-LD structured data. Forgetting to update the `name` and `url` properties inside the JSON-LD schema while updating visible HTML text can cause verification rejection (source's reported view).
 2. **The Facebook & Tier-1 Directory Cross-Check**:
    - Google heavily weights the **Facebook Business Page**, **Yelp**, **Better Business Bureau (BBB)** / UK equivalents (**Yell.com**, **Scoot**, **Companies House**), and primary data aggregators (**Data Axle**, **Neustar Localeze**, **Foursquare**) as external trust anchors. Update all Tier-1 profiles to match the new brand identity before touching GBP.
 3. **The Mandatory 14-Day Indexing Buffer**:
-   - After updating the website and Tier-1 directories, **wait a minimum of 14 days**. This allows Googlebot to recrawl the web ecosystem and update its internal entity graph so that when the GBP edit is submitted, Google’s automated check finds 100% corroboration across the web.
+   - After updating the website and Tier-1 directories, **wait a minimum of 14 days**. This allows Googlebot to recrawl the web ecosystem and update its internal entity graph so that when the GBP edit is submitted, Google's check finds the new identity corroborated across the web.
 
 ---
 
 ### **9.2 The Staggered Sensitive Field Cadence (1 Field Per Week)**
 
-Submitting wholesale changes across multiple GBP fields simultaneously triggers Google's anti-hijacking fraud filters (designed to stop spammers from converting abandoned coffee shop profiles into locksmith listings).
+The source reports that changing several sensitive fields at once resembles a profile takeover, which Google's checks exist to stop (e.g., spammers converting an abandoned coffee shop profile into a locksmith listing). One change per week lets each edit be verified against the §9.1 evidence.
 
 1. **The Primary Owner Account Mandate**:
-   - Always submit rebranding edits while logged into the Google account designated as the **Primary Owner** of the profile. Edits submitted by accounts with *"Manager"* permissions face significantly higher automated rejection and suspension rates.
+   - Always submit rebranding edits while logged into the Google account designated as the **Primary Owner** of the profile. Edits submitted by accounts with *"Manager"* permissions face higher rejection and suspension rates (source's reported view).
 2. **The 5 Sensitive Fields**:
    - Business Name
    - Primary Category
@@ -82,5 +86,5 @@ Submitting wholesale changes across multiple GBP fields simultaneously triggers 
 Google’s official **Identity Change Policy** (`support.google.com/business/answer/13762416`) governs whether a business is legally permitted to keep its historical reviews during a name change:
 
 * **When Reviews Are Stripped (Concept/Ownership Reset)**: If a business changes its fundamental industry category, operational concept, or ownership without continuity (e.g., an Italian restaurant rebrands into a Mexican cantina, or a retail computer shop converts into a digital marketing agency), Google classifies it as a new business entity and strips all historical reviews.
-* **The Legitimate Rebrand Exemption (100% Review Retention)**: If the business maintains the same core operational category, serves the same geographic market, and delivers the same core services under continuous management (e.g., *Berkshire IT Services* rebranding to *Ascot IT Services* while keeping `Computer Support and Services` as its primary category), the rebrand is fully policy-compliant and retains 100% of its historical reviews.
-* **Visual Media Purge**: Immediately after the business name edit is approved, purge the GBP Photos tab of all legacy logos, old vehicle signwriting, and outdated premises signage. Upload 15–20 fresh, authentic operational photos showing the new brand identity. Photo additions and deletions do not trigger reverification flags.
+* **The Legitimate Rebrand Exemption (Review Retention)**: If the business maintains the same core operational category, serves the same geographic market, and delivers the same core services under continuous management (e.g., *Berkshire IT Services* rebranding to *Ascot IT Services* while keeping `Computer Support and Services` as its primary category), the rebrand fits the policy and is expected to keep its historical reviews.
+* **Visual Media Purge**: Immediately after the business name edit is approved, purge the GBP Photos tab of all legacy logos, old vehicle signwriting, and outdated premises signage. Upload 15–20 fresh, authentic operational photos showing the new brand identity. The source reports that photo changes are not sensitive-field edits (reported, single-source, unverified).
