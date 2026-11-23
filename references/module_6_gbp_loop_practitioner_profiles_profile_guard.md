@@ -9,7 +9,7 @@ This module codifies the operational local SEO systems developed by Mike Martin 
 ### **6.1 The Proximity Expansion Mechanism & The 53-Mile Radius Reality**
 
 * **The Proximity Paradox:** Conventional local SEO dogma asserts that geographic proximity to the searcher is an impassable algorithmic ceiling, confining Google Map Pack visibility to a 2-to-5-mile radius around the verified business pin.
-* **The Empirical Counter-Proof:** A single Google Business Profile can achieve and hold rank #1 for high-competition commercial head terms (e.g., `"business coaching"`, `"emergency locksmith"`) across a 25-mile radius (50-mile diameter), expanding up to 53 miles in specific search corridors without holding physical addresses in distant towns.
+* **The Empirical Counter-Proof (practitioner-reported, single-source; not confirmed by Google):** The source reports a single Google Business Profile achieving and holding rank #1 for high-competition commercial head terms (e.g., `"business coaching"`, `"emergency locksmith"`) across a 25-mile radius (50-mile diameter), expanding up to 53 miles in specific search corridors without holding physical addresses in distant towns.
 * **The Expansion Mechanism:** Proximity functions as the dominant tiebreaker **only** when competing profiles exhibit identical levels of incomplete data, stagnant activity, and low review velocity. When an entity executes the **GBP Loop** with uninterrupted monthly consistency, Google's neural matching and semantic trust algorithms expand the geographic boundary within which the profile is served to searchers.
 
 ---
@@ -224,7 +224,7 @@ This leaves the markup with one consistent identifier for the same entity pin, w
 
 *Source: The David Quaid SEO Show, Ep. 8, "Local SEO News: How has it changed in 2026?" (Jake Hanley × David Quaid). Agency practitioner opinion, not Google documentation.*
 
-* **The Satellite Office Option:** The speakers recommend opening an office to rank higher within roughly 30 miles of it, at $400–$1,000/month in rent plus a signed lease. §6.1 shows one profile can also hold rankings out to 25–53 miles via the GBP Loop (§6.2), so treat a leased office as an option for specific high-value corridors, not a default. The legitimate no-lease alternative is the technician-based SAB model in §6.8.
+* **The Satellite Office Option:** The speakers recommend opening an office to rank higher within roughly 30 miles of it, at $400–$1,000/month in rent plus a signed lease. §6.1 reports that one profile can also hold rankings out to 25–53 miles via the GBP Loop (§6.2), so treat a leased office as an option for specific high-value corridors, not a default. The legitimate no-lease alternative is the technician-based SAB model in §6.8.
   1. **Eligibility:** A satellite location must be a real, staffed, customer-facing premises during its listed hours, as in the Storefront definition in §6.8. Check Google's current Business Profile guidelines before signing a lease.
   2. **Virtual Office Ban:** Unstaffed virtual offices, co-working mailboxes, and shared PO boxes risk video re-verification failure and suspension (§6.8).
   3. **Trade-off:** A pin close to the searcher helps nearby, and the speakers note it ranks less well far outside that area than an SAB would.

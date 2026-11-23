@@ -57,7 +57,7 @@ Google’s automated spam algorithms evaluate the metadata, network origin, and 
    - **Operational Mandate**: Invite customers to review from their own device via a follow-up SMS/email 24–48 hours after the technician has left the premises (subject to the Consent Rule in Module 3).
 2. **The Velocity Burst Filter**:
    - Exporting a CSV of 200 past clients and blasting them simultaneously produces 15–20 reviews in 48 hours followed by months of zero activity. Google’s anomaly detector flags sudden spikes above historical baseline velocity and purges the entire batch.
-   - **Operational Mandate**: Use the rolling 30-day drip cadence (1–3 requests per day/week) established in Module 6 §6.6.
+   - **Operational Mandate**: Use the rolling 30-day drip cadence (e.g., 2–3 requests per day) established in Module 6 §6.6.
 3. **Formatting & Link Quarantine Triggers**:
    - Reviews containing URLs, email addresses, phone numbers, currency symbols (`£`, `$`), or all-caps exclamation strings are automatically held in pending moderation.
 4. **Zero-History Google Accounts**:
