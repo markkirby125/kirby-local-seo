@@ -54,7 +54,7 @@ Google’s automated spam algorithms evaluate the metadata, network origin, and 
 1. **The On-Premise Wi-Fi / IP Collision Trigger**:
    - Never have a customer leave a review on your own device or network, and never manage the GBP dashboard from the customer's premises while they review.
    - Matching IP subnets or identical GPS device clusters between the GBP administrator and the reviewer are reported (directional, single-source) to look like self-review and can lead to review quarantine; the point is that a genuine review comes from the customer's own device and connection.
-   - **Operational Mandate**: Invite customers to review from their own device via a follow-up SMS/email 24–48 hours after the technician has left the premises (subject to the Consent Rule in Module 3).
+   - **Operational Mandate**: Invite customers to review from their own device via a follow-up SMS/email 24–48 hours after the technician has left the premises (subject to the Consent Rule in Module 3); the in-person own-device QR hand-off at sign-off (Module 3 §3.1.1 D) is unaffected by this timing.
 2. **The Velocity Burst Filter**:
    - Exporting a CSV of 200 past clients and blasting them simultaneously produces 15–20 reviews in 48 hours followed by months of zero activity. Google’s anomaly detector flags sudden spikes above historical baseline velocity and purges the entire batch.
    - **Operational Mandate**: Use the rolling 30-day drip cadence (e.g., 2–3 requests per day) established in Module 6 §6.6.
