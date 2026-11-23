@@ -2,11 +2,11 @@
 
 *Source: Darren Shaw / Whitespark ("What Google Won't Tell You About Rebranding Your Business Profile" & E28 "Disappearing Reviews, New Business Name Policy"). October 2026.*
 
-When acquiring, renaming, or rebranding a local business (e.g., transitioning from a regional umbrella name to a city-focused trading name), the source's reported view is that the route in Google's documentation is costly: per the source, it instructs owners to mark the existing profile as *"Permanently Closed"* and create a brand-new profile, which the source reports loses accumulated reviews, longevity badges, and local ranking momentum.
+When renaming or rebranding a local business, including one acquired with its existing management kept in place (e.g., transitioning from a regional umbrella name to a city-focused trading name), the source's reported view is that the route in Google's documentation is costly: per the source, it instructs owners to mark the existing profile as *"Permanently Closed"* and create a brand-new profile, which the source reports loses accumulated reviews, longevity badges, and local ranking momentum.
 
 This module codifies a 5-phase sequence for a genuine rebrand of an existing Google Business Profile. Its goal is to produce corroborating evidence (legal records, website, citations) before each GBP edit so Google can verify the change. It lowers, but does not remove, the risk of suspension, video reverification, or review loss.
 
-**Eligibility gate — ownership continuity (run before any phase):** Proceed only if the §9.3 Legitimate Rebrand test holds: same primary category, same market, same core services, continuous ownership or management. If ownership or concept has changed, stop: this protocol does not apply, and the change follows Google's Identity Change Policy (§9.3).
+**Eligibility gate — ownership continuity (run before any phase):** Proceed only if the §9.3 Legitimate Rebrand test holds: same primary category, same market, same core services, and continuity of operation (the same owner, or a new owner with the existing management still running the business). If the concept has changed, or ownership has changed with no continuing management, stop: this protocol does not apply, and the change follows Google's Identity Change Policy (§9.3).
 
 ---
 
