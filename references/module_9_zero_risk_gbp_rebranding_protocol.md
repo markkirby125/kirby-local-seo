@@ -75,6 +75,7 @@ The source reports that changing several sensitive fields at once resembles a pr
      - *Day 1 (Post 14-Day Buffer)*: Update the **Website URL** field on GBP (linking to the updated domain or redirected landing page). Wait 7 days.
      - *Day 8*: Update the **Business Name** field to the new legal trading name. Wait 7 days.
      - *Day 15*: Update the **Phone Number** (only if it changes).
+   - *Owner confirmation*: Before each sensitive-field edit, show the business owner the exact old and new value and get their explicit confirmation. Do not submit on inferred consent (Owner Confirmation Gate in `00_dispatcher.md`).
    - *Note*: Do not change the Primary Category in a rebrand; a category change fails the eligibility gate (§9.3).
    - *Note*: Never change the physical address and the business name at the same time. For domain-level redirect and migration timing benchmarks, cross-reference [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md) Module 20 §20.4.
 

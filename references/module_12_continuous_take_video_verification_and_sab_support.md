@@ -50,7 +50,7 @@ Submitting an address change without pre-validating the target address in Google
 1. **Step 1: The Google Maps Ghost-Listing Audit**:
    - Before touching your GBP address field, search the exact target street address on Google Maps.
    - Check whether a previous tenant, defunct company, or duplicate business listing still occupies that address pin (especially in the same primary category). If an active or suspended profile shares your category at that coordinate, Google's duplicate-collision filter will deny your update or suspend your profile.
-   - Submit a *"Suggest an edit -> Moved / Permanently Closed"* on defunct prior-tenant listings and wait for removal before moving your profile.
+   - Only when you hold evidence that the prior tenant has left (e.g., the client's signed lease for the unit, dated photos of the current frontage and signage, or confirmation from the landlord or the former business), and the business owner has signed off on the specific listing, submit a *"Suggest an edit -> Moved / Permanently Closed"* on that defunct prior-tenant listing and wait for removal before moving your profile. Never suggest closure for a business that is still trading; if the evidence is unclear, stop and ask the owner.
 2. **Step 2: Pre-Seeding External Proof (14-Day Window)**:
    - Update your website footer, contact page, `LocalBusiness` JSON-LD schema, utility bills, and government registry with the new address at least 14 days prior to editing GBP (following the Module 9 §9.1 cadence and [`kirby-seo-deployment`](../../kirby-seo-deployment/SKILL.md) Module 20 §20.4).
 3. **Step 3: The Google Maps Red-Dotted Municipal Boundary Audit (Luc Durand / Ranking Academy, `5EMQPsowMhk`)**:

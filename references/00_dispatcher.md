@@ -14,6 +14,9 @@ This skill handles Local AI Search & Review Engineering.
 - **Module 11: The Core 30 Website Architecture & Entity Sitemap Blueprint (Caleb Ulku)** -> Read `./module_11_core_30_website_architecture_and_entity_mirroring.md`
 - **Module 12: Continuous-Take Video Verification, Address Denial Recovery & Support Governance** -> Read `./module_12_continuous_take_video_verification_and_sab_support.md`
 
+## Owner Confirmation Gate
+Before submitting any edit that is hard to undo on a live Google Business Profile (business name, primary category, address or map pin, primary phone number, website URL, or a "Moved" / "Permanently Closed" suggestion on any listing), show the business owner the exact old and new value and get their explicit confirmation. Do not submit on inferred consent. Restoring an owner-approved value after an unauthorised third-party edit (Module 6 §6.9) needs no new confirmation.
+
 ## When to Use
 - You are optimizing a Google Business Profile (GBP) or establishing a monthly recurring operating loop `(4P × C)` to expand ranking radius up to 25–53 miles (Module 6 §6.1–§6.6).
 - You are structuring Practitioner Profiles for high-ticket professional firms (lawyers, doctors, dentists, accountants, realtors) to dominate multiple spots in the Local Pack and diversify primary categories (Module 6 §6.7).
