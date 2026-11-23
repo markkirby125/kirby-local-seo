@@ -665,10 +665,12 @@ Initial SMS (T+60 Min) ──> Includes Direct Review Link + Dynamic Image
 ```
 
 1. **Initial Dispatch (T+60 Minutes):** Automatically dispatched within 1 hour of service delivery while customer satisfaction is highest.
-   * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name] today! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]"*.
+   * *Copy Template:* *"Hey [First Name], thank you for choosing [Business Name] today! Would you mind sharing a quick 30-second review of your experience? It really helps our local team: [Direct Google Review Shortlink]. Reply STOP to opt out."* Send only to customers covered by the Consent Rule (step 3).
 2. **Dynamic Personalized Media Overlay:** Where possible, utilize dynamic image APIs (e.g., Nifty Images) to overlay the customer's first name onto a photograph of the technician, fleet vehicle, or completed project. Personalized dynamic imagery is reported to lift review completion by **10%–15%** (single-source, unverified; test before relying on it).
 3. **Consent Rule (review requests by SMS or email):** send only to customers who have given consent to be contacted, identify the sender (business name) in every message, and include a working opt-out (reply STOP for SMS, unsubscribe link for email); honour opt-outs immediately.
-4. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder. Strict rule: never exceed 2 total SMS touches to prevent customer irritation and unsubscribes.
+4. **The 72-Hour Respectful Follow-Up Gate:** If the shortlink remains unclicked after 3 days, trigger exactly one respectful reminder, under the same Consent Rule (step 3).
+   * *Copy Template:* *"Hi [First Name], [Business Name] here with one quick reminder: if you have a moment, a short review would help us: [Direct Google Review Shortlink]. Reply STOP to opt out."*
+   * Strict rule: never exceed 2 total SMS touches to prevent customer irritation and unsubscribes.
 
 #### C. The Star-Gated Review Response Protocol (AI vs. Human Escalation)
 Publicly responding to all reviews signals active management to Google's ranking algorithms. However, unconstrained automated AI replies to negative reviews create catastrophic public relations liabilities.
@@ -939,7 +941,7 @@ Google Maps is undergoing a fundamental algorithmic shift from proximity-based r
    * **The 7 Core Local Pack Drivers (`5EMQPsowMhk`)**: **#1 Primary GBP Category** (#1 in the practitioner survey year after year; a different measure from the correlation ranking in item 2 above) · **#2 Proximity of Business to Searcher** · **#3 Keywords in GBP Business Title** (via legal DBA/trading name registration per §3.3.1 & Module 9) · **#4 Physical Address Inside Google's Red-Dotted Municipal Boundary** (Module 12 §12.2 Step 3) · **#5 Operational "Openness" at Time of Search** (confirmed by Google end of 2023; hours-extension SLA in Module 6 §6.9.2) · **#6 The 9→10 Review Activation Cliff** · **#7 Visible Physical Address & Map Pin vs. Hidden SAB Address**.
    * **Primary Category Drift Hazard**: An HVAC client dropped out of the Local 3-Pack completely after switching its primary category from `Air Conditioning Repair Service` to `Air Conditioning Contractor`; reverting restored rankings within days.
    * **30-Day Controlled SAB Address-Toggle Test**: Hiding the physical address on a top-3 ranking profile per Google's SAB prompt collapsed its geogrid from green to red within days; restoring the visible address and map pin recovered rankings within weeks.
-   * **The 9→10 Review Activation Cliff**: Crossing from **9 reviews to 10 reviews** triggers an initial algorithmic confidence unlock in Google Maps (aligning with the Module 4 §4.1 10-review launch sequence) before scaling toward triple-digit competitor parity (125–300+ reviews).
+   * **The 9→10 Review Activation Cliff**: In one practitioner survey, crossing from **9 reviews to 10 reviews** was observed to coincide with a visibility step-up in Google Maps (reported, unconfirmed mechanism; aligns with the Module 4 §4.1 10-review launch sequence) before scaling toward triple-digit competitor parity (125–300+ reviews).
 
 ---
 

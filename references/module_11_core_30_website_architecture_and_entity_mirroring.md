@@ -2,7 +2,7 @@
 
 *Source: Caleb Ulku ("How to Rank #1 on Google Maps (Core 30 Method)", "OWN Your City in a MONTH with This SEO Guide") & Edward Sturm ("The 30-Page Local SEO Hack Google's AI Is Already Rewarding"). October 2026.*
 
-The traditional agency practice of publishing weekly informational blog posts (*"5 Signs Your Boiler Needs Repair"*, *"Why Backup Matters for Small Business"*) is completely obsolete for local SEO. Informational fluff pages receive zero local traffic, dilute sitewide helpfulness metrics, and pass zero geographic relevance to the Google Business Profile.
+The traditional agency practice of publishing weekly informational blog posts (*"5 Signs Your Boiler Needs Repair"*, *"Why Backup Matters for Small Business"*) is, per the sources above, a poor first investment for a local SMB whose commercial service pages are not yet built: generic informational posts tend to win little local-intent traffic and pass little geographic relevance to the Google Business Profile. Build the commercial pages first (Module 4 §4.2); useful, practitioner-led blog posts can follow ([`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §21.2).
 
 This module is the **single canonical home** for Caleb Ulku’s **Core 30 Architecture**: a surgical 30-to-38-page commercial sitemap that mirrors every GBP category, sub-service, and regional hub 1:1.
 

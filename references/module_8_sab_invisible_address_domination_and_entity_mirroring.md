@@ -76,7 +76,7 @@ This module codifies the exact 7 pillars used to overcome the reported invisible
 2. **Structural Linking Parity**:
    - Link internal service pages together in the exact same parent-child hierarchy established within the GBP service menu. (For the full 30-page commercial sitemap architecture, see Module 11).
 3. **The 10.8% Topic Entity Visibility Lift (Aimee Jurenka / Whitespark E28 Case Study)**:
-   - Empirical field testing demonstrates that restructuring on-page entity taxonomy to mirror GBP service categories 1:1 increased local AI search and organic visibility by **10.8%** within 30 days without building a single additional backlink.
+   - In a single reported case study (directional, unverified), restructuring on-page entity taxonomy to mirror GBP service categories 1:1 increased local AI search and organic visibility by **10.8%** within 30 days without building a single additional backlink.
 
 ---
 
@@ -87,7 +87,7 @@ Studying businesses ranking at #4–#10 reveals the common failure patterns that
 1. **The Gated Pricing Barrier & Rotating Hero Sliders**:
    - Violating [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §17 (gating pricing behind multi-field forms) and §1.5 (auto-rotating hero carousels) spikes pogo-sticking and degrades behavioral ranking signals.
 2. **Closing Hour Ranking Suppression**:
-   - Businesses listing hours as closing at 5:00 PM are dynamically suppressed by Google's real-time ranking algorithm during evening search queries (e.g., at 8:00 PM), in favor of 24/7 or open operators.
+   - Practitioner observation: listings closing at 5:00 PM rank lower during evening search queries (e.g., at 8:00 PM), in favor of 24/7 or open operators (Module 6 §6.9.2).
 3. **Diluted Internal Link Equity (Navbar Bloat)**:
    - Websites featuring 100+ navigation links divide PageRank equity across every link. Editorial service links receive fractional equity, starving target service entities of ranking power.
 4. **Unbranded Email Footprint**:
