@@ -52,16 +52,16 @@ Google placed a direct **Report owner response** action link beneath every publi
 Google’s automated spam algorithms evaluate the metadata, network origin, and velocity of every incoming review. Legitimate 5-star reviews are systematically deleted when businesses violate five algorithmic triggers:
 
 1. **The On-Premise Wi-Fi / IP Collision Trigger**:
-   - Never ask a customer to leave a Google review while connected to your business Wi-Fi network, or while your field technician is connected to the customer's corporate Wi-Fi managing the GBP dashboard from the same IP address.
+   - Never have a customer leave a review on your own device or network, and never manage the GBP dashboard from the customer's premises while they review.
    - Matching IP subnets or identical GPS device clusters between the GBP administrator and the reviewer are reported (directional, single-source) to look like self-review and can lead to review quarantine; the point is that a genuine review comes from the customer's own device and connection.
-   - **Operational Mandate**: Instruct customers to submit reviews from their mobile device over cellular data (**4G/5G**) or via a follow-up SMS/email 24–48 hours after the technician has left the premises.
+   - **Operational Mandate**: Invite customers to review from their own device via a follow-up SMS/email 24–48 hours after the technician has left the premises (subject to the Consent Rule in Module 3).
 2. **The Velocity Burst Filter**:
    - Exporting a CSV of 200 past clients and blasting them simultaneously produces 15–20 reviews in 48 hours followed by months of zero activity. Google’s anomaly detector flags sudden spikes above historical baseline velocity and purges the entire batch.
    - **Operational Mandate**: Use the rolling 30-day drip cadence (1–3 requests per day/week) established in Module 6 §6.6.
 3. **Formatting & Link Quarantine Triggers**:
    - Reviews containing URLs, email addresses, phone numbers, currency symbols (`£`, `$`), or all-caps exclamation strings are automatically held in pending moderation.
 4. **Zero-History Google Accounts**:
-   - Reviews submitted from newly created Google accounts with zero prior Maps contributions carry a high rejection probability. Prioritize soliciting reviews from active Google Workspace users or established consumer accounts.
+   - Reviews from newly created Google accounts with zero prior Maps contributions are reported (directional, single-source) to be filtered more often. This changes nothing about who is asked: ask every genuine customer (Module 3 §3.16), and never pick or skip customers by how likely their account is to survive the filter.
 5. **ChatGPT-Scripted & AI-Templated Review Text (Eric Velch, `7q6eVp8TAmE`)**:
    - Providing customers with pre-written review templates or prompting review text through ChatGPT triggers Google's NLP synthetic-text classifiers, causing reviews to fail to stick or disappear during automated sweeps. Strictly ban pre-scripted AI review copy; use the natural two-variable prompt in Module 3 §3.1.1 D (*"mention the problem we fixed and your town in your own words"*).
 

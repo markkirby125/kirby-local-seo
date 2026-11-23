@@ -3,14 +3,14 @@
 *Source: Caleb Ulku ("Can A Service Area Business Rank #1 On Google?"). October 2026.*
 
 When a local business owner sets up a Google Business Profile (GBP) without a physical commercial storefront, Google instructs them to select **Service Area Business (SAB)** and hide their physical address. 
-- **The Penalty**: Google algorithmically debits SABs. Hiding the address incurs a severe proximity and ranking penalty compared to competitors with visible physical storefronts.
-- **The Empirical Counter-Proof**: *Shed Shuttle* in Cleveland, Ohio achieves and holds **#1 in the Google 3-Pack and #1 organically**, despite operating as an SAB with **no visible address** and no "Directions" button on its profile.
+- **The Reported Penalty**: Practitioners report (directional, single-source) that hiding the address can cost proximity and ranking against competitors with visible physical storefronts.
+- **The Counter-Example (one case)**: *Shed Shuttle* in Cleveland, Ohio achieves and holds **#1 in the Google 3-Pack and #1 organically**, despite operating as an SAB with **no visible address** and no "Directions" button on its profile.
 
-This module codifies the exact 7 pillars used to overcome the invisible address debit, Caleb Ulku's "Mirror Image" Entity Law, and the pricing transparency framework that captures local AI Overviews.
+This module codifies the exact 7 pillars used to overcome the reported invisible address debit, Caleb Ulku's "Mirror Image" Entity Law, and the pricing transparency framework that captures local AI Overviews.
 
 ---
 
-### **8.1 The 7 Pillars Overcoming the SAB Address Debit**
+### **8.1 The 7 Pillars Overcoming the Reported SAB Address Debit**
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
