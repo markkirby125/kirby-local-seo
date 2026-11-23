@@ -648,7 +648,7 @@ Before configuring automation, audit the Google Business Profile across five vul
 5. **Operational Job Conversion Potential:** Mapping monthly completed invoice volume to establish a target of 10%–15% customer review conversion.
 
 #### B. The 3-Day SMS Automation Cadence & Personalized Dynamic Media
-Manual review solicitation suffers from employee forgetfulness. Review requests must be programmatically triggered by CRM pipeline stage transitions. Send the first request only after the technician has left the premises and the customer is off the business network: default 24–48 hours after departure (Module 10 §10.2). Exception: jobs completed remotely, with no shared-network risk, may be sent on completion.
+Manual review solicitation suffers from employee forgetfulness. Review requests must be programmatically triggered by CRM pipeline stage transitions. Send the first automated SMS/email request only after the technician has left the premises and the customer is off the business network: default 24–48 hours after departure (Module 10 §10.2). The in-person QR hand-off at job sign-off (§3.1.1 D) is unaffected by this timing rule. Exception: jobs completed remotely, with no shared-network risk, may be sent on completion.
 
 ```
 [Technician Departed in CRM]
