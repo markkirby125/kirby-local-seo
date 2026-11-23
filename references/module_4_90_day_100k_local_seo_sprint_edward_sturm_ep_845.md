@@ -6,7 +6,7 @@ This module outlines the aggressive 90-day local SEO sprint designed to rapidly 
 
 ### **4.1 The Immediate GBP Authority Injection**
 Most businesses treat the Google Business Profile (GBP) as an afterthought. It must be optimized before any website work begins.
-* **The 10-Review Launch Sequence:** Email past clients (Consent Rule, Module 3 §3.1.1 B) to secure 10+ reviews, pacing requests per Module 6's drip protocol with no first-week burst. This establishes the initial trust threshold required to appear in the map pack.
+* **The 10-Review Launch Sequence:** Email past clients (Consent Rule, Module 3 §3.1.1 B) to invite a review from every consenting client (roughly 10 responses is a forecast, not a quota), pacing requests per Module 6's drip protocol with no first-week burst. This establishes the initial trust threshold required to appear in the map pack.
 * **Freshness & Completeness:** Upload real, authentic images (zero stock photography), fill out all categories and hours, and commit to weekly profile updates. Google algorithms heavily reward fresh data.
 
 ### **4.2 The Five-Page Lean Site Architecture (The Kylie Murphy Blueprint - Ep. 845 & Ep. 1169)**

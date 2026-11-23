@@ -23,7 +23,7 @@ By ignoring AI attribute matching, you are silently bleeding high-intent, hyper-
 
 ## 🆕 October 2026 — Location-Page Differentiation (September 2026 Spam Update)
 
-- **Module 7** Gate 0 Doorway Defense (service-area truth test for dispatch and non-dispatch professions alike) + the 10-Rule Differentiation Checklist: 50% Substance Variance with the Swap Test, per-page Service JSON-LD (`areaServed`/canonical `@id`), geo-photographs with honest alt text, polygon map embeds, transit-time commitments, landmark weaving, hyperlocal neighbor linking, suburb+job review harvesting, on-site short-video proof, and GSC indexation hygiene
+- **Module 7** Gate 0 Doorway Defense (service-area truth test for dispatch and non-dispatch professions alike) + the 10-Rule Differentiation Checklist: 50% Substance Variance with the Swap Test, per-page Service JSON-LD (`areaServed`/canonical `@id`), geo-photographs with honest alt text, polygon map embeds, transit-time commitments, landmark weaving, hyperlocal neighbor linking, suburb+job review selection, on-site short-video proof, and GSC indexation hygiene
 - Cross-routes: 7-phase spam-update audit in `kirby-seo-telemetry` Module 11; metadata fact-check + SRA boundaries in `kirby-aiseo-skill` Module 15; pre-deploy Swap-Test lint gate in `kirby-seo-deployment` Module 19; Astro templates in `kirby-scrappy-local-launch` Module 1
 
 ## 🪄 The Magic Prompt

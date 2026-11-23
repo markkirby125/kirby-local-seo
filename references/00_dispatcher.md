@@ -35,7 +35,7 @@ Before submitting any edit that is hard to undo on a live Google Business Profil
 - You are digitizing an established (30–40-year) business's offline awards/testimonials/contracts into GBP/Yelp/Trustpilot/Clutch proof nodes (earned reviews only, Yelp never solicited; Module 3 §3.18 — customer-verification and GBP re-verification guardrails apply).
 - You are creating, auditing, or remediating programmatic location/city pages against the September 2026 spam update: Gate 0 doorway defense, the 10-rule differentiation checklist, the Swap Test, remediation order, and the Existing-Estate Zero-Impression Audit (Module 7 §7.3–§7.5, §7.8, §7.10).
 - You are verifying local-SEO conversion layout deltas (zip/postcode checker + neighbor links, Rule 3 job photos + Rule 8 suburb/service reviews, regulator-published credential identifiers, schema prohibition) alongside the **10-Point Service Page Blueprint**: read Module 7 §7.11 and route full wireframe execution to [`kirby-text-first-cro`](../../kirby-text-first-cro/SKILL.md) §21.1.
-- You are harvesting suburb+job customer reviews or producing on-site TikTok/Reels proof videos for a location page (Module 7 §7.6).
+- You are selecting suburb+job customer reviews or producing on-site TikTok/Reels proof videos for a location page (Module 7 §7.6).
 - You are diagnosing location pages stuck in `Crawled - currently not indexed` — classify as a differentiation deficit per Module 7 §7.7, then route the 7-phase GSC audit to `../../kirby-seo-telemetry/SKILL.md` Module 11.
 - You are optimizing for Google Ask Maps or local AI search (Module 3).
 - You are deploying the Five-Page Lean Site Architecture (Homepage, Money Page 1, Money Page 2, About/Trust, Contact) for local lead generation (Module 4 §4.2).
