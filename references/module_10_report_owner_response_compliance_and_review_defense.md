@@ -63,7 +63,7 @@ Google’s automated spam algorithms evaluate the metadata, network origin, and 
 4. **Zero-History Google Accounts**:
    - Reviews from newly created Google accounts with zero prior Maps contributions are reported (directional, single-source) to be filtered more often. This changes nothing about who is asked: ask every genuine customer (Module 3 §3.16), and never pick or skip customers by how likely their account is to survive the filter.
 5. **ChatGPT-Scripted & AI-Templated Review Text (Eric Velch, `7q6eVp8TAmE`)**:
-   - Providing customers with pre-written review templates or prompting review text through ChatGPT triggers Google's NLP synthetic-text classifiers, causing reviews to fail to stick or disappear during automated sweeps. Strictly ban pre-scripted AI review copy; use the natural two-variable prompt in Module 3 §3.1.1 D (*"mention the problem we fixed and your town in your own words"*).
+   - Providing customers with pre-written review templates or prompting review text through ChatGPT triggers Google's NLP synthetic-text classifiers, causing reviews to fail to stick or disappear during automated sweeps. Strictly ban pre-scripted AI review copy; use the neutral invitation in Module 3 §3.1.1 D (*"share your honest experience in your own words"*), never a request for specific content.
 
 ---
 
